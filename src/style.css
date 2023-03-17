@@ -1,0 +1,65 @@
+.splash {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('splash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.splash p:first-child {
+  font-size: 2.5vw;
+  margin: 20px;
+}
+
+.splash p:nth-child(2) {
+  font-size: 1.2vw;
+  margin: 20px;
+}
+
+.splash p:last-child {
+  font-size: 1vw;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+button {
+  font-size: 1.2vw;
+  padding: 18px 40px;
+  background-color: #87CEFA;
+  border-radius: 50px;
+  height: 80px;
+  border: none;
+  text-transform: uppercase;
+}
+
+button > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ADD8E6;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container.text-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  max-width: 800px;
+  margin: 10vh auto;
+  height: 60vh;
+}

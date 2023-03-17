@@ -1,20 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Home from './home';
-import Claims from './claims';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Header from './components/nav/Header.js';
+import ClaimTypes from './claimtypes.js';
+import './style.css'
+import { Link } from 'react-router-dom';
 
-function App() {
+export default function Home() {
   return (
-    <BrowserRouter>
-      <Routes>
-          <Route path="/" element={<Home/> }/>
-          <Route path="/claim" element={<Claims />} />
-          <Route path="/about-us" element={<About />} />
-      </Routes>
-    </BrowserRouter>
-  )
-}
+    <div>
+      <Header />
+        <div className="splash">
+        <div className="container text-center">
+          <p>Are you struggling with your insurance claim?</p>
+          <p>With our simple intake process, getting started is easy. Just fill out the form, 
+          and we will review your file to make sure you are a good fit for a Public Adjuster.
+           From start to finish, we keep you informed and updated every step of the way.</p>
+          <button><Link to="/claim">Get Guardian</Link></button>
+          <p>Let Guardian Claims be your protector and defender against unjust insurance practices. We're here to shield your claim and fight for your right to fair compensation.</p>
+        </div>
+      </div>
+      <div className="content">
 
-export default App;
+      </div>
+      <ClaimTypes />
+    </div>
+  );
+}
