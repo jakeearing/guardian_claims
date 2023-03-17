@@ -3,7 +3,6 @@ import './App.css';
 import React from 'react';
 import Home from './home';
 import Claims from './claims';
-import About from './about';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
