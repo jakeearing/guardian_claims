@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
   position: fixed;
   top: 0;
   left: 0;
@@ -17,7 +16,7 @@
   align-items: center;
   width: 80%;
   max-width: 1200px;
-  height: 60px;
+  height: 65px;
   list-style: none;
 }
 
@@ -33,6 +32,10 @@
 
 .header.solid nav a {
   color: black;
+}
+
+nav {
+  padding-top: 0px;
 }
 
 nav ul {
@@ -74,7 +77,9 @@ nav li:hover::before {
 }
 
 .logo img {
-  height: 70px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  height: 55px;
 }
 
 @media (max-width: 768px) {
