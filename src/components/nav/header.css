@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 5px;
   position: fixed;
   top: 0;
   left: 0;
@@ -17,6 +17,8 @@
   align-items: center;
   width: 80%;
   max-width: 1200px;
+  height: 60px;
+  list-style: none;
 }
 
 .header.transparent {
@@ -43,6 +45,7 @@ nav ul {
 nav li {
   margin-right: 20px;
   position: relative;
+  font-size: 20px;
 }
 
 nav li:last-child {
@@ -71,7 +74,7 @@ nav li:hover::before {
 }
 
 .logo img {
-  height: 40px;
+  height: 70px;
 }
 
 @media (max-width: 768px) {

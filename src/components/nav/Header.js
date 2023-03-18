@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './header.css';
+import logo from './logo-header.png'
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -18,7 +19,9 @@ function Header() {
     <header className={isScrolled ? 'header solid' : 'header transparent'}>
       <div className="header-content">
         <div className="logo">
-          <img src="logo.png" alt="Logo" />
+        <li><Link to="/">
+        <img src={logo}/>
+        </Link></li>
         </div>
         <nav>
           <ul>
