@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Header from './components/nav/Header.js';
+import Footer from './components/nav/Footer.js';
 import ClaimTypes from './claimtypes.js';
 import './style.css'
 import { Link } from 'react-router-dom';
@@ -24,6 +25,7 @@ export default function Home() {
 
       </div>
       <ClaimTypes />
+      <Footer />
     </div>
   );
 }

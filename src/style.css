@@ -5,8 +5,8 @@
   color: white;
   background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
     ),
     url('splash.jpg');
   background-size: cover;
@@ -31,11 +31,11 @@
 }
 
 button {
-  font-size: 1.2vw;
-  padding: 18px 40px;
+  font-size: 1vw;
+  padding: 16px 38px;
   background-color: #87CEFA;
   border-radius: 50px;
-  height: 80px;
+  height: 70px;
   border: none;
   text-transform: uppercase;
 }
