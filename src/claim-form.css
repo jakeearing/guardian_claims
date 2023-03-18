@@ -84,24 +84,13 @@
     margin-bottom: 0.25rem;
     text-align: center;
     width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .form-group.description .above {
-    display: block;
-    margin-bottom: 0.25rem;
-    text-align: left;
-  }
-  
-  .form-group.description .above + textarea {
-    margin-top: 0.25rem;
   }
   
   .form-group.description textarea {
     display: block;
     margin-top: 0.25rem;
     resize: vertical;
+    max-width: 100%;
   }
   
   .submitButton {
