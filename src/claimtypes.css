@@ -1,3 +1,7 @@
+.claim-types-container {
+  height: 100vh;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));

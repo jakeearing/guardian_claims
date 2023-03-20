@@ -71,7 +71,10 @@ export default function ClaimForm() {
     };
 
     return (
+        <div class="page-container">
+            <p>Submit your claim for review!</p>
         <div class="form-container">
+        
             <form>
                 <div className="form-group">
                     <label htmlFor="first-name">First Name:</label>
@@ -192,11 +195,18 @@ export default function ClaimForm() {
                     <label htmlFor="description" class="above">Description of claim</label>
                     <textarea id="description" value={description} onChange={handleDescriptionChange} />
                 </div>
+
+                <div class="form-group fileUpload">
+                    <label for="fileUpload">Upload Files</label>
+                    <input type="file" id="fileUpload" name="fileUpload" multiple/>
+                </div>
+
                 <div className="submitButton">
-                <button type="submit">Submit</button>
+                    <button type="submit">Submit</button>
                 </div>
 
             </form>
         </div>
+    </div>
     )
 }

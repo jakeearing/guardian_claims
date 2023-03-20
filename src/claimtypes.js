@@ -1,11 +1,10 @@
 import './App.css';
 import React from 'react';
-import './style.css'
+import './claimtypes.css'
 
 export default function claimtypes() {
   return (
-    <div>
-
+    <div class="claim-types-container">
     </div>
   );
 }
