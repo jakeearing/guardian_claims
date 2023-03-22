@@ -1,11 +1,10 @@
-import './style/app.css';
 import React from 'react';
-import Home from './components/Home';
-import Claims from './components/Claims';
-import About from './components/About';
+import Home from './Home';
+import Claims from './Claims';
+import About from './About';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -17,4 +16,3 @@ function App() {
   )
 }
 
-export default App;
