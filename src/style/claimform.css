@@ -6,7 +6,7 @@
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.75),
             rgba(0, 0, 0, 0.75)),
-        url('splash2.jpg');
+        url('../../public/images/claims-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

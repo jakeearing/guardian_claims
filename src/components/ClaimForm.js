@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './claim-form.css';
+import '../style/claimform.css';
 
 export default function ClaimForm() {
     const [alreadyFiledClaim, setAlreadyFiledClaim] = useState('no');

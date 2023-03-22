@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import './header.css';
-import logo from './logo-header.png'
+import '../../style/header.css';
 
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -20,7 +19,7 @@ function Header() {
       <div className="header-content">
         <div className="logo">
         <li><Link to="/">
-        <img src={logo}/>
+        <img src={process.env.PUBLIC_URL + '/images/logos/logo-header.png'} alt="Guardian Claim Logo" />
         </Link></li>
         </div>
         <nav>

@@ -1,6 +1,5 @@
-import './App.css';
 import React from 'react';
-import './claimtypes.css'
+import '../style/claimtypes.css'
 
 export default function claimtypes() {
   return (

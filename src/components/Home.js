@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
-import Header from './components/nav/Header.js';
-import Footer from './components/nav/Footer.js';
-import ClaimTypes from './claimtypes.js';
-import './style.css'
+import Header from './nav/Header.js';
+import Footer from './nav/Footer.js';
+import ClaimTypes from './ClaimTypes.js';
+import '../style/style.css'
 import { Link } from 'react-router-dom';
 
 export default function Home() {
