@@ -19,7 +19,7 @@ function Header() {
       <div className="header-content">
         <div className="logo">
         <li><Link to="/">
-        <img src={process.env.PUBLIC_URL + '/images/logos/logo-header.png'} alt="Guardian Claim Logo" />
+        <img src={process.env.PUBLIC_URL + '/images/logos/logo-left.png'} alt="Guardian Claim Logo" />
         </Link></li>
         </div>
         <nav>

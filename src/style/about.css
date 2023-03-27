@@ -1,0 +1,50 @@
+.page-container {
+    position: relative;
+    height: fit-content;
+    overflow: hidden;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../../public/images/claims-background.jpg') no-repeat center / cover;
+    padding-bottom: 10vh;
+    text-align: center;
+    }
+    
+    .about-section, .profile-section {
+    margin-top: 120px;
+    }
+    
+    .about-section p {
+    font-size: 3vh;
+    margin: 100px auto 20px;
+    text-align: center;
+    width: 55%;
+    }
+    
+    .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    }
+    
+    .profile {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    color: black;
+    }
+    
+    .profile p {
+    margin: 0;
+    margin-bottom: 10px;
+    }
+    
+    .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    }

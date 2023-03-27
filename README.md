@@ -1,2 +1,2 @@
-# Guardian Claim Website
-Web Application for Guardian Claim
+# Guardian Claims Website
+Web Application for Guardian Claims

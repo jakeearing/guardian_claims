@@ -77,13 +77,7 @@ nav li:hover::before {
 }
 
 .logo img {
-  padding-top: 17px;
-  padding-bottom: 15px;
-  height: 55px;
-}
-
-@media (max-width: 768px) {
-  nav {
-    display: none;
-  }
+  padding-top: 8px;
+  padding-bottom: 7px;
+  height: 45px;
 }
