@@ -61,21 +61,6 @@ nav a {
   padding: 10px;
 }
 
-nav a:hover {
-  background-color: grey;
-}
-
-nav li:hover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #f2f2f2;
-  z-index: -1;
-}
-
 .logo img {
   padding-top: 8px;
   padding-bottom: 7px;

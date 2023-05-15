@@ -1,13 +1,15 @@
+.container {
+  text-align: center;
+}
+
 .splash {
   position: relative;
   height: 100vh;
   overflow: hidden;
   color: white;
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.55)
-    ),
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)),
     url('../../public/images/home-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,16 +33,16 @@
 }
 
 button {
-  font-size: 2vh;
+  font-size: 1.5vh;
   padding: 16px 38px;
   background-color: #87CEFA;
   border-radius: 50px;
-  height: 70px;
+  height: 50px;
   border: none;
   text-transform: uppercase;
 }
 
-button > a {
+button>a {
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -62,6 +64,108 @@ button:hover {
   max-width: 800px;
   margin: 10vh auto;
   height: 60vh;
+}
+
+.wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 1rem;
+}
+
+.claim-types-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.claim-types-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.claims-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 5px solid;
+  border-image: linear-gradient(to bottom, gray, #4287f5);
+  border-image-slice: 1;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.claims-box img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  aspect-ratio: 1/1;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.claims-box:hover img {
+  filter: none;
+}
+
+.claims-box .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.claims-box:hover .overlay {
+  opacity: 1;
+}
+
+.claims-box h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (max-width: 768px) {
