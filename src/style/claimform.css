@@ -1,148 +1,48 @@
-.page-container {
-    position: relative;
-    overflow: hidden;
-    color: white;
-    background-image:
-      linear-gradient(rgba(0, 0, 0, 0.75),
-        rgba(0, 0, 0, 0.75)),
-      url('../../public/images/claims-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-.page-container p {
-    font-size: 1.2vw;
-    margin: 20px;
-    margin-top: 100px;
-    text-align: center;
-}
-
 .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.form-wrapper {
-    margin-top: 80px;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.5rem;
-}
-
-label {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-right: 0.5rem;
-    width: 200px;
-    text-align: left;
-    align-self: flex-start;
-}
-
-select {
-    color: white;
-}
-
-select option {
-    color: black;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="date"],
-select,
-textarea {
-    padding: 0.5rem;
-    font-size: 1.1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
     width: 100%;
-    max-width: 250px;
-    margin-bottom: 0.5rem;
-    box-sizing: border-box;
-}
-
-select {
-    appearance: none;
-    /* remove default arrow */
-    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M0 0l5 6 5-6z'/%3E%3C/svg%3E") no-repeat;
-    background-position: right 0.5rem center;
-    background-size: 10px 6px;
-    padding-right: 1.5rem;
-    /* reserve space for arrow */
-}
-
-textarea {
-    height: 100px;
-    resize: none;
-}
-
-input[type="submit"] {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 0.5rem;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.2rem;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 1rem;
-}
-
-input[type="submit"]:hover {
-    background-color: #3e8e41;
-}
-
-.form-group.description {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+  }
+  
+  .form-row {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.form-group.description label {
-    margin-bottom: 0.25rem;
-    text-align: center;
-    width: 100%;
-}
-
-.form-group.description textarea {
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .form-column {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
     display: block;
-    margin-top: 0.25rem;
-    resize: vertical;
-    max-width: 100%;
-}
-
-.form-group.fileUpload {
-    flex-direction: column;
-    text-align: center;
-}
-
-.form-group.fileUpload label {
-    align-self: center;
-    margin-bottom: 0.5rem;
-    display: inline-block;
-    width: auto;
-    margin-right: 0;
-}
-
-.form-group.fileUpload input[type="file"] {
-    align-self: center;
-    margin-bottom: 0.5rem;
-    width: 200px;
-}
-
-.submitButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ddd;
+  }
+  
