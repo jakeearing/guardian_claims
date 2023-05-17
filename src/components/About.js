@@ -10,6 +10,7 @@ export default function About() {
       <div className="page-container">
         <div className="about-section">
           <h1>About Us</h1>
+          <h2>Who We Are</h2>
           <p>Founded by Josh Dalli and Phil Mascolo, Guardian Claims is a public adjusting firm based in Charlotte,
             NC serving North Carolina and South Carolina. With over 8 years of combined industry experience,
             we have witnessed the frustrations and disappointments that can come with filing an insurance claim.
@@ -35,10 +36,10 @@ export default function About() {
         </div>
 
         <div className="profile-section">
-        <h1>Meet The Team</h1>
+        <h2>Meet The Team</h2>
           <div className="profile-container">
             <div className="profile">
-              <img src={process.env.PUBLIC_URL + '/images/team-pictures/josh-dalli.PNG'} alt="Josh Dalli" />
+              <img src={process.env.PUBLIC_URL + '/images/team-pictures/josh-dalli.jpg'} alt="Josh Dalli" />
               <h2>Josh Dalli</h2>
               <p>Phone: 123-456-7890</p>
               <p>Email: josh.dalli@roofsitup.com</p>

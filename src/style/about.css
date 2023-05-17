@@ -2,49 +2,60 @@
     position: relative;
     height: fit-content;
     overflow: hidden;
-    color: white;
-    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../../public/images/claims-background.jpg') no-repeat center / cover;
+    color: black;
     padding-bottom: 10vh;
     text-align: center;
-    }
-    
-    .about-section, .profile-section {
-    margin-top: 120px;
-    }
-    
-    .about-section p {
-    font-size: 3vh;
-    margin: 100px auto 20px;
-    text-align: center;
+    margin-top: 55px;
+}
+
+.about-section h1 {
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+h2 {
+    margin-top: 60px;
+    font-weight: 600;
+}
+
+.about-section p {
+    font-size: 2vh;
+    margin: 0px auto 20px;
+    text-align: left;
     width: 55%;
-    }
-    
-    .profile-container {
+}
+
+.profile-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    }
-    
-    .profile {
+}
+
+.profile {
     width: 300px;
     margin: 20px;
     text-align: center;
-    background-color: whitesmoke;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    color: black;
-    }
-    
-    .profile p {
+    background-image: linear-gradient(to bottom, #333333, #008FDA);
+    color: white;
+}
+
+.profile p {
     margin: 0;
     margin-bottom: 10px;
-    }
-    
-    .profile img {
+}
+
+.profile img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    }
+}
+
+  header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from './Home';
-import Claims from './Claims';
+import Claims from './ClaimPage';
 import About from './About';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 

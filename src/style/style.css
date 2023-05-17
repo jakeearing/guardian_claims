@@ -1,8 +1,8 @@
 .container {
   text-align: center;
-  }
-  
-  .splash {
+}
+
+.splash {
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -11,25 +11,25 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  }
-  
-  .splash p:first-child {
+}
+
+.splash p:first-child {
   font-size: 5.5vh;
   margin: 20px;
-  }
-  
-  .splash p:nth-child(2) {
+}
+
+.splash p:nth-child(2) {
   font-size: 2.3vh;
   margin: 20px;
-  }
-  
-  .splash p:last-child {
+}
+
+.splash p:last-child {
   font-size: 2vh;
   margin-top: 40px;
   margin-bottom: 0;
-  }
-  
-  button {
+}
+
+button {
   font-size: 1.8vh;
   padding: 16px 38px;
   background-color: #008FDA;
@@ -39,21 +39,21 @@
   text-transform: uppercase;
   color: white;
   font-weight: bold;
-  }
-  
-  button > a {
+}
+
+button>a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-  }
-  
-  button:hover {
+}
+
+button:hover {
   background-color: #87CEFA;
   cursor: pointer;
   text-decoration: none;
-  }
-  
-  .container.text-center {
+}
+
+.container.text-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,27 +63,27 @@
   max-width: 800px;
   margin: 10vh auto;
   height: 60vh;
-  }
+}
 
-  .background {
-    background-image: linear-gradient(to bottom, #FFFFFF, #008FDA);
-    height: fit-content;
-    padding-bottom: 40px;
-  }
-  
-  .wrapper {
+.background {
+  background-image: linear-gradient(to bottom, #FFFFFF, #008FDA);
+  height: fit-content;
+  padding-bottom: 40px;
+}
+
+.wrapper {
   max-width: 60%;
   margin: 0 auto;
   padding: 20px;
-  }
-  
-  .content {
+}
+
+.content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  }
-  
-  .box {
+}
+
+.box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,66 +93,68 @@
   border-radius: 20px;
   padding: 20px;
   margin-bottom: 40px;
-  }
-  
-  .box img {
+}
+
+.box img {
   max-width: 98%;
   height: auto;
   margin-bottom: 10px;
   border-radius: 20px;
-  }
-  
-  .box h2 {
+}
+
+.box h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 
-  }
-  
-  .box p {
+}
+
+.box p {
   font-size: 1.3rem;
-  }
+}
 
-  .box button {
-    margin-top: 5px;
-    background-color: YE;
-  }
+.box button {
+  margin-top: 5px;
+  background-color: YE;
+}
 
-  .thin {
-    font-weight: lighter;
-  }
+.thin {
+  font-weight: lighter;
+}
 
-  .claim-types-background, .background {
-    border-top: solid;
-    border-width: 5px;
-  }
-  
-  .claim-types-wrapper {
+.claim-types-background,
+.background {
+  border-top: solid;
+  border-width: 5px;
+}
+
+.claim-types-wrapper {
   max-width: 60%;
   margin: 0 auto;
   padding: 20px;
-  }
+}
 
-  .wrapper h1 {
-    color: #000F3C;
-    font-weight: 400;
-  }
+.wrapper h1 {
+  color: #000F3C;
+  font-weight: 400;
+}
 
-  .bold{
-    font-weight: bold;
-  }
+.bold {
+  font-weight: bold;
+}
 
-  .claim-types-wrapper h3, .wrapper h3 {
-    color: #000F3C;
-    font-weight: 400;
-  }
+.claim-types-wrapper h3,
+.wrapper h3 {
+  color: #000F3C;
+  font-weight: 400;
+}
 
-  .claim-types-content {
+.claim-types-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  }
-  
-  .claims-box {
+}
+
+.claims-box {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -164,9 +166,9 @@
   padding: 0;
   margin: 0;
   overflow: hidden;
-  }
-  
-  .claims-box img {
+}
+
+.claims-box img {
   max-width: 100%;
   height: 100%;
   object-fit: cover;
@@ -174,11 +176,11 @@
   aspect-ratio: 1/1;
   filter: grayscale(100%);
   transition: filter 0.3s ease;
-  }
-  
-  .claims-box:hover img {
+}
+
+.claims-box:hover img {
   filter: none;
-  }
+}
 
 .claims-box .overlay {
   position: absolute;
