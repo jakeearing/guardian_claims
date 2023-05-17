@@ -1,5 +1,6 @@
 .footer-container {
   border-top: 2px solid black;
+  overflow: hidden;
 }
 
 .footer {
@@ -12,6 +13,7 @@
   color: white;
   margin: 0 auto;
   width: 60%;
+  overflow: hidden;
 }
 
 .left-nav {

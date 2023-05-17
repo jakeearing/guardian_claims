@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <div class="container">
       <Header />
-      <div className="splash">
-        <div className="container text-center">
+      <div className="splash-container">
+        <div className="splash-content">
           <p>Are you struggling with your insurance claim?</p>
           <p>With our simple intake process, getting started is easy. Just fill out the form,
             and we will review your file to make sure you are a good fit for a Public Adjuster.
