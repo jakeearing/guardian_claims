@@ -1,13 +1,41 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../pages/Home';
 import Claims from '../pages/Claims';
 import About from '../pages/About';
 import TermsOfUse from '../pages/TermsOfUse';
 import PrivacyPolicy from '../pages/PrivacyPolicy';
 import ScrollToTop from '../components/ScrollToTop';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-export default function App() {
+
+const ScrollToTopButton = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      setIsVisible(scrollTop > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  return (
+    <button
+      className={`scroll-to-top-button ${isVisible ? 'show' : ''}`}
+      onClick={scrollToTop}
+    >
+      Top
+    </button>
+  );
+};
+
+const App = () => {
   return (
     <BrowserRouter>
       <ScrollToTop>
@@ -18,7 +46,10 @@ export default function App() {
           <Route path="/terms-of-use" element={<TermsOfUse />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Routes>
+        <ScrollToTopButton />
       </ScrollToTop>
     </BrowserRouter>
   );
-}
+};
+
+export default App;
