@@ -123,8 +123,7 @@ button:hover {
 
 .claim-types-background,
 .background {
-  border-top: solid;
-  border-width: 5px;
+  border-top: 5px solid;
 }
 
 .claim-types-wrapper {

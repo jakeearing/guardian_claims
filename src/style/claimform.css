@@ -5,6 +5,7 @@
     padding: 20px;
     background-color: white;
     border-radius: 20px;
+    border: 1px solid black;
   }
   
   .form-row {
@@ -15,7 +16,7 @@
   
   .form-column {
     flex: 1;
-    margin-right: 10px;
+    margin: 0 10px;
   }
   
   .form-group {
@@ -45,4 +46,6 @@
   button[type="submit"]:hover {
     background-color: #ddd;
   }
+
+
   

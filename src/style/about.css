@@ -6,6 +6,8 @@
     padding-bottom: 10vh;
     text-align: center;
     margin-top: 55px;
+    border-top: 2px solid black;
+    background-color: whitesmoke;
 }
 
 .about-section h1 {
@@ -56,6 +58,4 @@ h2 {
     object-fit: cover;
 }
 
-  header {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+ 

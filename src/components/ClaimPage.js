@@ -9,6 +9,7 @@ export default function Claims() {
     <div>
       <Header />
       <div className="claims-form">
+      <h1>Fill out this form to get in touch about your claim!</h1>
       <ClaimForm />
       </div>
       <Footer />
