@@ -12,6 +12,30 @@ code {
     monospace;
 }
 
+button {
+  font-size: 1.8vh;
+  padding: 16px 38px;
+  background-color: #008FDA;
+  border-radius: 50px;
+  height: 70px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+button>a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #87CEFA;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .scroll-to-top-button {
   position: fixed;
   bottom: 20px;
@@ -30,4 +54,12 @@ code {
 .scroll-to-top-button.show {
   opacity: 1;
   visibility: visible;
+}
+
+.thin {
+  font-weight: lighter;
+}
+
+.bold {
+  font-weight: bold;
 }
