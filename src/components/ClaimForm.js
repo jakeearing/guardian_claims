@@ -25,13 +25,13 @@ export default function ClaimForm() {
           <div className="form-column">
             <div className="form-group">
               <label htmlFor="first-name">First Name:</label>
-              <input type="text" id="first-name" />
+              <input type="text" id="first-name" required/>
             </div>
           </div>
           <div className="form-column">
             <div className="form-group">
               <label htmlFor="last-name">Last Name:</label>
-              <input type="text" id="last-name" />
+              <input type="text" id="last-name" required/>
             </div>
           </div>
         </div>
@@ -40,13 +40,13 @@ export default function ClaimForm() {
           <div className="form-column">
             <div className="form-group">
               <label htmlFor="email">Email Address:</label>
-              <input type="email" id="email" />
+              <input type="email" id="email" required/>
             </div>
           </div>
           <div className="form-column">
             <div className="form-group">
               <label htmlFor="phone">Phone Number:</label>
-              <input type="tel" id="phone" />
+              <input type="tel" id="phone" required/>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function ClaimForm() {
                 type="text"
                 id="zip-code"
                 value={zipCode}
-                onChange={handleZipCodeChange}
+                onChange={handleZipCodeChange} required
               />
             </div>
           </div>
@@ -69,7 +69,7 @@ export default function ClaimForm() {
               <select
                 id="claim-type"
                 value={claimType}
-                onChange={handleClaimTypeChange}
+                onChange={handleClaimTypeChange} required
               >
                 <option value="">Select Claim Type</option>
                 <option value="home">Home</option>
@@ -88,9 +88,9 @@ export default function ClaimForm() {
               <select
                 id="claim-status"
                 value={claimStatus}
-                onChange={handleClaimStatusChange}
+                onChange={handleClaimStatusChange} required
               >
-                <option value="">Select damage type</option>
+                <option value="">Select Claim Status</option>
                 <option value="open">I have an open claim</option>
                 <option value="notFiled">I have not filed a claim</option>
                 <option value="denied">I have a denied claim</option>
