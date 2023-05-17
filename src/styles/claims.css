@@ -1,7 +1,6 @@
 .claims-form {
   margin-top: 55px;
-  border-top: 2px solid black;
-  height: calc(100vh - 57px - 102px);
+  height: calc(100vh - 55px - 102px);
   background-color: whitesmoke;
 }
 

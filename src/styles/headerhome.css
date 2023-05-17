@@ -11,6 +11,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 100;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .header-content {
@@ -21,6 +22,11 @@ body {
   max-width: 1200px;
   height: 55px;
   list-style: none;
+}
+
+.header.transparent {
+  background-color: transparent;
+  box-shadow: none;
 }
 
 .header.solid {
@@ -51,6 +57,12 @@ nav li {
 
 nav li:last-child {
   margin-right: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
 }
 
 .logo img {

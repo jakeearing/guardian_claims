@@ -4,7 +4,7 @@ import '../styles/claimtypes.css'
 export default function ClaimTypes() {   
   return (
     <div className="claim-types-wrapper">
-      <h1><span class="thin">Your situation is unique,</span> We process all types of claims daily.</h1>
+      <h1><span className="thin">Your situation is unique,</span> We process all types of claims daily.</h1>
       <h3>Minor damage, major losses, emergency services,
         and planned restoration projects</h3>
       <div className="claim-types-content">

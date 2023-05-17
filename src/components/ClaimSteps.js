@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function ClaimSteps() {
     return (
         <div className="wrapper">
-            <h1>At <span class="bold">GuardianClaims</span>, we are here to help you navigate through the complicated and confusing insurance claims process.</h1>
+            <h1>At <span className="bold">GuardianClaims</span>, we are here to help you navigate through the complicated and confusing insurance claims process.</h1>
             <h3>
                 Our services cover a wide range of losses, including hail/wind damage, water damage, fire damage, mold damage, loss of income, and more. We offer a FREE consultation to assess the extent of the damage and determine the best course of action.
             </h3>
@@ -33,7 +33,7 @@ export default function ClaimSteps() {
                         in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
             </div>
-            <h1><span class="bold">Contact us today!</span></h1>
+            <h1><span className="bold">Contact us today!</span></h1>
             <ClaimForm />
         </div>
     );

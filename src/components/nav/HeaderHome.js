@@ -3,8 +3,19 @@ import { Link } from 'react-router-dom';
 import '../../styles/headerhome.css';
 
 export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      setIsScrolled(scrollTop > 0);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className='header solid'>
+    <header className={isScrolled ? 'header solid' : 'header transparent'}>
       <div className="header-content">
         <div className="logo">
         <li><Link to="/">

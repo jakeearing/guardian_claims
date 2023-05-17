@@ -3,7 +3,8 @@ body {
 }
 
 .footer-container {
-  border-top: 2px solid black;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
 
@@ -24,7 +25,8 @@ body {
   align-items: center;
 }
 
-.left-nav ul, .terms {
+.left-nav ul,
+.terms {
   display: flex;
   flex-direction: column;
   list-style: none;
