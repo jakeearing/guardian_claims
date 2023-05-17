@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/claimtypes.css'
 
-function ClaimTypes() {   
+export default function ClaimTypes() {   
   return (
     <div className="claim-types-wrapper">
       <h1><span class="thin">Your situation is unique,</span> We process all types of claims daily.</h1>
@@ -77,4 +77,3 @@ function ClaimTypes() {
   );
 }
 
-export default ClaimTypes;

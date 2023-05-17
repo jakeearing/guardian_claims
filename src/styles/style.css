@@ -65,146 +65,30 @@ button:hover {
   height: 60vh;
 }
 
-.background {
+.claimsteps-container {
   background-image: linear-gradient(to bottom, #FFFFFF, #008FDA);
   height: fit-content;
   padding-bottom: 40px;
-}
-
-.wrapper {
-  max-width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-image: linear-gradient(to top, #333333, #000F3C);
-  color: #FFFFFF;
-  border-radius: 20px;
-  padding: 20px;
-  margin-bottom: 40px;
-}
-
-.box img {
-  max-width: 98%;
-  height: auto;
-  margin-bottom: 10px;
-  border-radius: 20px;
-}
-
-.box h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-
-}
-
-.box p {
-  font-size: 1.3rem;
-}
-
-.box button {
-  margin-top: 5px;
-  background-color: YE;
 }
 
 .thin {
   font-weight: lighter;
 }
 
-.claim-types-background,
-.background {
+.claimtypes-container,
+.claimsteps-container {
   border-top: 5px solid;
 }
 
-.claim-types-wrapper {
-  max-width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.wrapper h1 {
+.wrapper h1,
+.wrapper h3,
+.claimtypes-container h3 {
   color: #000F3C;
   font-weight: 400;
 }
 
 .bold {
   font-weight: bold;
-}
-
-.claim-types-wrapper h3,
-.wrapper h3 {
-  color: #000F3C;
-  font-weight: 400;
-}
-
-.claim-types-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-}
-
-.claims-box {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  border: 5px solid;
-  border-image: linear-gradient(to bottom, #666666, #008FDA);
-  border-image-slice: 1;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-}
-
-.claims-box img {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-  margin-bottom: 10px;
-  aspect-ratio: 1/1;
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
-}
-
-.claims-box:hover img {
-  filter: none;
-}
-
-.claims-box .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.claims-box:hover .overlay {
-  opacity: 1;
-}
-
-.claims-box h2 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.5rem;
-  margin: 0;
-  color: white;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (max-width: 768px) {

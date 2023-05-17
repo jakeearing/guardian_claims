@@ -1,0 +1,46 @@
+.wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to top, #333333, #000F3C);
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.box img {
+  max-width: 98%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+
+}
+
+.box p {
+  font-size: 1.3rem;
+}
+
+.box button {
+  margin-top: 5px;
+  background-color: YE;
+}
+  
