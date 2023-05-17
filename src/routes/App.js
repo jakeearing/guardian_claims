@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './Home';
-import Claims from './ClaimPage';
-import About from './About';
-import TermsOfUse from './TermsOfUse';
-import PrivacyPolicy from './PrivacyPolicy';
+import Home from '../pages/Home';
+import Claims from '../pages/Claims';
+import About from '../pages/About';
+import TermsOfUse from '../pages/TermsOfUse';
+import PrivacyPolicy from '../pages/PrivacyPolicy';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export default function App() {

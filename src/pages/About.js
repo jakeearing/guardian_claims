@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './nav/Header.js';
-import Footer from './nav/Footer.js';
-import '../style/about.css'
+import Header from '../components/nav/Header.js';
+import Footer from '../components/nav/Footer.js';
+import '../styles/about.css'
 
 export default function About() {
   return (

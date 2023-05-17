@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './nav/Header.js';
-import Footer from './nav/Footer.js';
-import ClaimForm from './ClaimForm.js';
-import '../style/claimpage.css'
+import Header from '../components/nav/Header.js';
+import Footer from '../components/nav/Footer.js';
+import ClaimForm from '../components/ClaimForm.js';
+import '../styles/claims.css'
 
 export default function Claims() {
   return (

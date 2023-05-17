@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './nav/Header.js';
-import Footer from './nav/Footer.js';
-import ClaimTypes from './ClaimTypes.js';
-import ClaimForm from './ClaimForm.js';
-import '../style/style.css'
+import Header from '../components/nav/Header.js';
+import Footer from '../components/nav/Footer.js';
+import ClaimTypes from '../components/ClaimTypes.js';
+import ClaimForm from '../components/ClaimForm.js';
+import '../styles/style.css'
 import { Link } from 'react-router-dom';
 
 export default function Home() {

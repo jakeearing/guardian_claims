@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../style/claimform.css';
+import '../styles/claimform.css';
 
 export default function ClaimForm() {
   const [claimType, setClaimType] = useState('');
