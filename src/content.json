@@ -1,0 +1,112 @@
+{
+    "splash": {
+        "heading": "Are you struggling with your insurance claim?",
+        "description": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
+        "buttonText": "Get Guardian",
+        "buttonLink": "/claim",
+        "footerText": "Let Guardian Claims be your protector and defender against unjust insurance practices. We're here to shield your claim and fight for your right to fair compensation."
+    },
+    "claimSteps": {
+        "heading": "At GuardianClaims, we are here to help you navigate through the complicated and confusing insurance claims process.",
+        "description": "Our services cover a wide range of losses, including hail/wind damage, water damage, fire damage, mold damage, loss of income, and more. We offer a FREE consultation to assess the extent of the damage and determine the best course of action.",
+        "contactHeading": "Contact us today!",
+        "boxes": [
+            {
+                "image": "image1.jpg",
+                "title": "Submit Our Intake Form",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "buttonText": "Get Started",
+                "buttonLink": "/claim"
+            },
+            {
+                "image": "image1.jpg",
+                "title": "We Guide You Through the Claims Process",
+                "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            },
+            {
+                "image": "image1.jpg",
+                "title": "Connect with Our Team",
+                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        ]
+    },
+    "claimTypes": {
+        "heading": "Your situation is unique, We process all types of claims daily.",
+        "description": "Minor damage, major losses, emergency services, and planned restoration projects",
+        "claimCategories": [
+            {
+                "image": "waterflood.jpg",
+                "title": "Water & Flood"
+            },
+            {
+                "image": "waterflood.jpg",
+                "title": "Fire"
+            },
+            {
+                "image": "waterflood.jpg",
+                "title": "Earthquake"
+            },
+            {
+                "image": "waterflood.jpg",
+                "title": "Wildfire"
+            },
+            {
+                "image": "waterflood.jpg",
+                "title": "Collapse"
+            },
+            {
+                "image": "waterflood.jpg",
+                "title": "Hail & Snow"
+            },
+            {
+                "image": "waterflood.jpg",
+                "title": "Hurricane & Tornado"
+            },
+            {
+                "image": "waterflood.jpg",
+                "title": "Repair & Restoration"
+            }
+        ]
+    },
+    "claims": {
+        "heading": "Fill out this form to get in touch about your claim!"
+    },
+    "about": {
+        "heading": "About Us",
+        "whoWeAre": {
+            "heading": "Who We Are",
+            "paragraphs": [
+                "Founded by Josh Dalli and Phil Mascolo, Guardian Claims is a public adjusting firm based in Charlotte, NC serving North Carolina and South Carolina. With over 8 years of combined industry experience, we have witnessed the frustrations and disappointments that can come with filing an insurance claim.",
+                "As licensed public adjusters, we have a deep understanding of the complex claims process, and have seen firsthand the tactics that insurance companies use to minimize payouts and deny claims. We know how to navigate these obstacles to ensure that our clients receive the compensation they deserve.",
+                "At Guardian Claims, communication is key to a successful claims process. Our firm prioritizes transparency and open dialogue with clients from start to finish. We work closely with clients to understand the unique circumstances of their claim, and keep them informed every step of the way.",
+                "Our team at Guardian Claims is committed to providing exceptional service, going above and beyond for clients. We understand that filing a claim can be a stressful and overwhelming experience, which is why we strive to make the process as easy and stress-free as possible. Whether dealing with property damage, a natural disaster, or any other type of insurance claim, clients can trust Guardian Claims to be their advocate and fight for their rights.",
+                "Thank you for considering Guardian Claims for your public adjusting needs. We look forward to working with you!"
+            ]
+        },
+        "meetTheTeam": {
+            "heading": "Meet The Team",
+            "profiles": [
+                {
+                    "image": "josh-dalli.jpg",
+                    "name": "Josh Dalli",
+                    "phone": "123-456-7890",
+                    "email": "josh.dalli@roofsitup.com",
+                    "licenseNumber": "XXXX-XXXX-XXXX-XXXX"
+                },
+                {
+                    "image": "phil-mascolo.PNG",
+                    "name": "Phil Mascolo",
+                    "phone": "123-456-7890",
+                    "email": "phil.mascolo@roofsitup.com",
+                    "licenseNumber": "XXXX-XXXX-XXXX-XXXX"
+                }
+            ]
+        }
+    },
+    "termsOfUse": {
+
+    },
+    "privacyPolicy": {
+
+    }
+}

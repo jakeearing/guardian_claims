@@ -1,79 +1,27 @@
 import React from 'react';
-import '../styles/claimtypes.css'
+import '../styles/claimtypes.css';
+import content from '../content.json';
 
-export default function ClaimTypes() {   
+export default function ClaimTypes() {
   return (
     <div className="claim-types-wrapper">
-      <h1><span className="thin">Your situation is unique,</span> We process all types of claims daily.</h1>
-      <h3>Minor damage, major losses, emergency services,
-        and planned restoration projects</h3>
+      {/* The h1 element below is currently not implemented in the json */}
+      <h1><span className="thin">
+        Your situation is unique,</span> We process all types of claims daily.
+      </h1>
+      <h3>{content.claimTypes.description}</h3>
       <div className="claim-types-content">
-        <div className="claims-box">
-          <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
-            <div className="overlay">
-              <h2>Water & Flood</h2>
+        {content.claimTypes.claimCategories.map((category, index) => (
+          <div className="claims-box" key={index}>
+            <div className="image-wrapper">
+              <img src={process.env.PUBLIC_URL + `/images/content/${category.image}`} alt="intakeForm" />
+              <div className="overlay">
+                <h2>{category.title}</h2>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="claims-box">
-          <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
-            <div className="overlay">
-              <h2>Fire</h2>
-            </div>
-          </div>
-        </div>
-        <div className="claims-box">
-          <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
-            <div className="overlay">
-              <h2>Earthquake</h2>
-            </div>
-          </div>
-        </div>
-        <div className="claims-box">
-          <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
-            <div className="overlay">
-              <h2>Wildfire</h2>
-            </div>
-          </div>
-        </div>
-        <div className="claims-box">
-          <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
-            <div className="overlay">
-              <h2>Collapse</h2>
-            </div>
-          </div>
-        </div>
-        <div className="claims-box">
-          <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
-            <div className="overlay">
-              <h2>Hail & Snow</h2>
-            </div>
-          </div>
-        </div>
-        <div className="claims-box">
-          <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
-            <div className="overlay">
-              <h2>Hurricane & Tornado</h2>
-            </div>
-          </div>
-        </div>
-        <div className="claims-box">
-          <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
-            <div className="overlay">
-              <h2>Repair & Restoration</h2>
-            </div>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
   );
 }
-
