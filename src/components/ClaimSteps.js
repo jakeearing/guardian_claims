@@ -12,20 +12,20 @@ export default function ClaimSteps() {
             </h3>
             <div className="content">
                 <div className="box">
-                    <img src={process.env.PUBLIC_URL + '/images/image1.jpg'} alt="intakeForm" />
+                    <img src={process.env.PUBLIC_URL + '/images/content/image1.jpg'} alt="intakeForm" />
                     <h2>Submit Our Intake Form</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <Link to="/claim"><button>Get Started</button></Link>
                 </div>
                 <div className="box">
-                    <img src={process.env.PUBLIC_URL + '/images/image1.jpg'} alt="intakeForm" />
+                    <img src={process.env.PUBLIC_URL + '/images/content/image1.jpg'} alt="intakeForm" />
                     <h2>We Guide You Through the Claims Process</h2>
                     <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco
                         laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
                 <div className="box">
-                    <img src={process.env.PUBLIC_URL + '/images/image1.jpg'} alt="intakeForm" />
+                    <img src={process.env.PUBLIC_URL + '/images/content/image1.jpg'} alt="intakeForm" />
                     <h2>Connect with Our Team</h2>
                     <p>Duis aute irure dolor in reprehenderit in voluptate
                         velit esse cillum dolore eu fugiat nulla pariatur.

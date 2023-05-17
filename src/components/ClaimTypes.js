@@ -10,7 +10,7 @@ export default function ClaimTypes() {
       <div className="claim-types-content">
         <div className="claims-box">
           <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/waterflood.jpg'} alt="intakeForm" />
+            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
             <div className="overlay">
               <h2>Water & Flood</h2>
             </div>
@@ -18,7 +18,7 @@ export default function ClaimTypes() {
         </div>
         <div className="claims-box">
           <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/waterflood.jpg'} alt="intakeForm" />
+            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
             <div className="overlay">
               <h2>Fire</h2>
             </div>
@@ -26,7 +26,7 @@ export default function ClaimTypes() {
         </div>
         <div className="claims-box">
           <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/waterflood.jpg'} alt="intakeForm" />
+            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
             <div className="overlay">
               <h2>Earthquake</h2>
             </div>
@@ -34,7 +34,7 @@ export default function ClaimTypes() {
         </div>
         <div className="claims-box">
           <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/waterflood.jpg'} alt="intakeForm" />
+            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
             <div className="overlay">
               <h2>Wildfire</h2>
             </div>
@@ -42,7 +42,7 @@ export default function ClaimTypes() {
         </div>
         <div className="claims-box">
           <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/waterflood.jpg'} alt="intakeForm" />
+            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
             <div className="overlay">
               <h2>Collapse</h2>
             </div>
@@ -50,7 +50,7 @@ export default function ClaimTypes() {
         </div>
         <div className="claims-box">
           <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/waterflood.jpg'} alt="intakeForm" />
+            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
             <div className="overlay">
               <h2>Hail & Snow</h2>
             </div>
@@ -58,7 +58,7 @@ export default function ClaimTypes() {
         </div>
         <div className="claims-box">
           <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/waterflood.jpg'} alt="intakeForm" />
+            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
             <div className="overlay">
               <h2>Hurricane & Tornado</h2>
             </div>
@@ -66,7 +66,7 @@ export default function ClaimTypes() {
         </div>
         <div className="claims-box">
           <div className="image-wrapper">
-            <img src={process.env.PUBLIC_URL + '/images/waterflood.jpg'} alt="intakeForm" />
+            <img src={process.env.PUBLIC_URL + '/images/content/waterflood.jpg'} alt="intakeForm" />
             <div className="overlay">
               <h2>Repair & Restoration</h2>
             </div>
