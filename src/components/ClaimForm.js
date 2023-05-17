@@ -18,20 +18,53 @@ export default function ClaimForm() {
     setClaimStatus(event.target.value);
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    // Create an object with the form data
+    const formData = {
+      claimType,
+      claimStatus,
+      zipCode,
+      firstName: event.target.elements['first-name'].value,
+      lastName: event.target.elements['last-name'].value,
+      email: event.target.elements.email.value,
+      phone: event.target.elements.phone.value,
+    };
+
+    fetch('http://localhost:5000/api/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((response) => {
+        if (response.ok) {
+          console.log('Email sent!');
+        } else {
+          console.log('Error sending email');
+        }
+      })
+      .catch((error) => {
+        console.log('Error sending email', error);
+      });
+  };
+
   return (
     <div className="form-container">
-      <form>
+      <form onSubmit={handleSubmit}>
         <div className="form-row">
           <div className="form-column">
             <div className="form-group">
               <label htmlFor="first-name">First Name:</label>
-              <input type="text" id="first-name" required/>
+              <input type="text" id="first-name" required />
             </div>
           </div>
           <div className="form-column">
             <div className="form-group">
               <label htmlFor="last-name">Last Name:</label>
-              <input type="text" id="last-name" required/>
+              <input type="text" id="last-name" required />
             </div>
           </div>
         </div>
@@ -40,13 +73,13 @@ export default function ClaimForm() {
           <div className="form-column">
             <div className="form-group">
               <label htmlFor="email">Email Address:</label>
-              <input type="email" id="email" required/>
+              <input type="email" id="email" required />
             </div>
           </div>
           <div className="form-column">
             <div className="form-group">
               <label htmlFor="phone">Phone Number:</label>
-              <input type="tel" id="phone" required/>
+              <input type="tel" id="phone" required />
             </div>
           </div>
         </div>
@@ -100,7 +133,7 @@ export default function ClaimForm() {
         </div>
 
         <div className="form-row">
-        <div className="form-column">
+          <div className="form-column">
             <div className="form-group">
               <button className="form-button" type="submit">Submit</button>
             </div>
