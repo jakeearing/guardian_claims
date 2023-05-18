@@ -40,14 +40,15 @@ button:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  padding: 10px 20px;
-  background-color: #000;
+  background-color: transparent;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   opacity: 0;
   visibility: hidden;
+  width: 40px;
+  height: 40px;
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 

@@ -26,12 +26,12 @@ const ScrollToTopButton = () => {
   };
 
   return (
-    <button
+    <img
       className={`scroll-to-top-button ${isVisible ? 'show' : ''}`}
+      src={process.env.PUBLIC_URL + "/images/up-arrow.svg"}
+      alt="Scroll to Top"
       onClick={scrollToTop}
-    >
-      Top
-    </button>
+    />
   );
 };
 
