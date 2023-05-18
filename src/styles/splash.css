@@ -1,4 +1,4 @@
-.splash-content {
+.splash-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,17 +10,17 @@
     height: 60vh;
   }
 
-.splash-content p:first-child {
+.splash-wrapper p:first-child {
     font-size: 5.5vh;
     margin: 20px;
   }
   
-  .splash-content p:nth-child(2) {
+  .splash-wrapper p:nth-child(2) {
     font-size: 2.3vh;
     margin: 20px;
   }
   
-  .splash-content p:last-child {
+  .splash-wrapper p:last-child {
     font-size: 2vh;
     margin-top: 40px;
     margin-bottom: 0;

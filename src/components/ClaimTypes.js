@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/claimtypes.css';
+import '../styles/claim-types.css';
 import content from '../content.json';
 
 export default function ClaimTypes() {

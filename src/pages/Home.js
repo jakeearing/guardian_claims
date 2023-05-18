@@ -8,7 +8,7 @@ import '../styles/home.css'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="home-container">
       <Header />
       <div className="splash-container">
         <Splash />

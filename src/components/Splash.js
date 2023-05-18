@@ -5,7 +5,7 @@ import content from '../content.json';
 
 export default function Splash() {
     return (
-        <div className="splash-content">
+        <div className="splash-wrapper">
             <p>{content.splash.heading}</p>
             <p>{content.splash.description}</p>
             <button>

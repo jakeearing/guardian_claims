@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../pages/Home';
 import Claims from '../pages/Claims';
-import About from '../pages/About';
+import About from '../pages/AboutUs';
 import TermsOfUse from '../pages/TermsOfUse';
 import PrivacyPolicy from '../pages/PrivacyPolicy';
 import ScrollToTop from '../components/ScrollToTop';

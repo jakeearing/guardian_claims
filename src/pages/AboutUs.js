@@ -1,10 +1,10 @@
 import React from 'react';
 import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
-import '../styles/about.css';
+import '../styles/simple-pages.css';
 import content from '../content.json';
 
-export default function About() {
+export default function AboutUs() {
   const { heading, whoWeAre, meetTheTeam } = content.about;
   const { heading: whoWeAreHeading, paragraphs: whoWeAreParagraphs } = whoWeAre;
   const { heading: meetTheTeamHeading, profiles } = meetTheTeam;
@@ -13,8 +13,8 @@ export default function About() {
     <div>
       <Header />
       <div className="page-container">
-        <div className="about-section">
-          <h1>{heading}</h1>
+        <div className="content-text">
+          <h1 className="about-header">{heading}</h1>
           <h2>{whoWeAreHeading}</h2>
           {whoWeAreParagraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>

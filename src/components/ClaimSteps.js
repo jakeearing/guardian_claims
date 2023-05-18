@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/claimsteps.css'
+import '../styles/claim-steps.css'
 import ClaimForm from './ClaimForm.js';
 import { Link } from 'react-router-dom';
 import content from '../content.json';
@@ -7,15 +7,15 @@ import content from '../content.json';
 export default function ClaimSteps() {
 
     return (
-        <div className="wrapper">
+        <div className="claim-steps-wrapper">
             {/* The h1 element below is currently not implemented in the json */}
             <h1>At <span className="bold">GuardianClaims</span>, 
             we are here to help you navigate through the complicated 
             and confusing insurance claims process.</h1>
-            <h3>{content.claimSteps.description}</h3>
-            <div className="content">
+            <h3><span className="thin">{content.claimSteps.description}</span></h3>
+            <div className="claim-steps-content">
                 {content.claimSteps.boxes.map((box, index) => (
-                    <div className="box" key={index}>
+                    <div className="claim-step-box" key={index}>
                         <img src={process.env.PUBLIC_URL + `/images/content/${box.image}`} alt="intakeForm" />
                         <h2>{box.title}</h2>
                         <p>{box.description}</p>
