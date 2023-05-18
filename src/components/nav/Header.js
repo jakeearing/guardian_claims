@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logoGrey from './logo-left-grey.png'
 import '../../styles/header.css';
 
 export default function Header() {
@@ -8,7 +9,7 @@ export default function Header() {
       <div className="header-content">
         <div className="logo">
         <li><Link to="/">
-        <img src={process.env.PUBLIC_URL + '/images/logos/logo-left.png'} alt="Guardian Claim Logo" />
+        <img src={logoGrey} alt="Guardian Claim Logo" />
         </Link></li>
         </div>
         <nav>
