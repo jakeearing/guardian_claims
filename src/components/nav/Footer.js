@@ -22,7 +22,6 @@ export default function Footer() {
         <div className="right-nav">
           <div className="social-media">
             <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
-            <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/instagram-logo.svg"} alt="Instagram Icon" /></a>
             <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
             <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/youtube-logo.svg"} alt="Youtube Icon" /></a>
           </div>
