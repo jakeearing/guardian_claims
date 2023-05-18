@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import '../../styles/footer.css';
 
-export default function Footer() {    
+export default function Footer() {
   return (
     <div className="footer-container">
       <div className="footer">
@@ -14,17 +14,17 @@ export default function Footer() {
             </ul>
           </nav>
         </div>
+        <div className="footer-logo">
+          <Link to="/">
+            <img src={process.env.PUBLIC_URL + '/images/logos/logo192.png'} alt="Guardian Claim Logo" />
+          </Link>
+        </div>
         <div className="right-nav">
-          <div className="subscribe">
-            <form>
-              <input type="text" placeholder="Enter your email" />
-              <button type="submit">Subscribe</button>
-            </form>
-          </div>
           <div className="social-media">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/instagram-logo.svg"} alt="Instagram Icon" /></a>
+            <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/youtube-logo.svg"} alt="Youtube Icon" /></a>
           </div>
           <div className="terms">
             <Link to="/terms-of-use">Terms of Use</Link>

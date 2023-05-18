@@ -50,13 +50,29 @@ body {
   padding: 10px;
 }
 
-.right-nav {
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer-logo a {
   display: flex;
   align-items: center;
 }
 
-.right-nav form {
-  margin-right: 20px;
+.footer-logo img {
+  width: 80px;
+  height: auto;
+}
+
+.right-nav {
   display: flex;
   align-items: center;
 }
@@ -66,31 +82,17 @@ body {
   font-size: 15px;
 }
 
-.right-nav input[type="text"] {
-  width: 200px;
-  padding: 5px;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  margin-right: 10px;
-}
-
-.right-nav button[type="submit"] {
-  padding: 2px 6px;
-  font-size: 10px;
-  height: 30px;
-}
-
 .right-nav .social-media {
   display: flex;
   align-items: center;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 
-.right-nav .social-media a {
-  color: black;
-  text-decoration: none;
-  margin-right: 10px;
-  font-size: 20px;
+.right-nav .social-media img {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  height: 20px;
 }
 
 .right-nav .terms a {
