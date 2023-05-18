@@ -40,12 +40,7 @@ button:hover {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
   cursor: pointer;
-  opacity: 0;
   visibility: hidden;
   width: 40px;
   height: 40px;
@@ -53,7 +48,6 @@ button:hover {
 }
 
 .scroll-to-top-button.show {
-  opacity: 1;
   visibility: visible;
 }
 
