@@ -47,3 +47,45 @@
   background-color: YE;
 }
 
+@media screen and (max-width: 768px) {
+  .claim-steps-wrapper {
+    max-width: 80%;
+  }
+
+  .claim-steps-wrapper h1 {
+    font-size: 3vh;
+    margin-bottom: 20px;
+  }
+
+  .claim-steps-wrapper h3 {
+    font-size: 2vh;
+    margin-bottom: 20px;
+  }
+
+  .claim-steps-content {
+    grid-template-columns: 1fr;
+  }
+
+  .claim-step-box {
+    margin-bottom: 20px;
+  }
+
+  .claim-step-box h2 {
+    font-size: 2vh;
+    margin-bottom: 8px;
+  }
+
+  .claim-step-box p {
+    font-size: 2vh;
+  }
+
+  .claim-step-box button {
+    margin-top: 10px;
+    font-size: 2.2vh;
+    padding: 25px;
+  }
+
+  .claim-steps-wrapper .form-container {
+    width: 80%;
+  }
+}

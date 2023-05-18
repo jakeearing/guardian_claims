@@ -25,3 +25,39 @@
     margin-top: 40px;
     margin-bottom: 0;
   }
+
+  @media screen and (max-width: 768px) {
+    .splash-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 50px;
+      text-align: center;
+      max-width: 800px;
+      margin: 10vh auto;
+      height: 60vh;
+    }
+
+    .splash-wrapper button {
+      margin-top: 10px;
+      font-size: 1.8vh;
+    }
+  
+    .splash-wrapper p:first-child {
+      font-size: 3.5vh;
+      margin: 40px 10px 10px;
+    }
+  
+    .splash-wrapper p:nth-child(2) {
+      font-size: 2.3vh;
+      margin: 20px;
+    }
+  
+    .splash-wrapper p:last-child {
+      font-size: 2.2vh;
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+  }
+  

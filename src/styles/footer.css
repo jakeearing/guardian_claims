@@ -101,3 +101,9 @@ body {
   margin-right: 10px;
   font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer-logo {
+    display: none;
+  }
+}

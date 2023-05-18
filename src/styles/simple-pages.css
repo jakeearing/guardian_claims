@@ -57,4 +57,9 @@
     object-fit: cover;
 }
 
- 
+@media screen and (max-width: 768px) {
+    .content-text p {
+        width: 80%;
+        margin: 0 auto 20px auto;
+    }
+}

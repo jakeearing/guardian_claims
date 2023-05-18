@@ -70,3 +70,100 @@ nav a {
   padding-bottom: 7px;
   height: 45px;
 }
+
+@media screen and (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  nav.open {
+    display: block;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 101;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .menu-toggle:hover {
+    background-color: transparent;
+  }
+
+  .menu-toggle.open span {
+    background-color: transparent;
+  }
+
+  .menu-toggle.open span:before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  .menu-toggle.open span:after {
+    transform: rotate(-45deg);
+    bottom: 0;
+  }
+
+  .menu-toggle.scrolled span {
+    background-color: black;
+  }
+
+  .menu-toggle.open span {
+    background-color: transparent;
+  }
+
+  .menu-toggle.open span:before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  nav.open a {
+    color: black;
+  }
+}

@@ -10,3 +10,9 @@
   font-weight: 400;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .claims-form {
+  height: calc(100vh - 55px - 102px);
+  }
+}

@@ -21,7 +21,6 @@ export default function ClaimForm() {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    // Create an object with the form data
     const formData = {
       claimType,
       claimStatus,
