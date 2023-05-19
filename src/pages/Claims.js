@@ -9,9 +9,11 @@ export default function Claims() {
   return (
     <div>
       <Header />
+      <div className="claims-form-wrapper">
       <div className="claims-form">
       <h1>{content.claims.heading}</h1>
       <ClaimForm />
+      </div>
       </div>
       <Footer />
     </div>

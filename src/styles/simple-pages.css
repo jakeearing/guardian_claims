@@ -60,6 +60,7 @@
 @media screen and (max-width: 768px) {
     .content-text p {
         width: 80%;
+        font-size: 2.5vh;
         margin: 0 auto 20px auto;
     }
 }
