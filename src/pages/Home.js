@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../components/nav/HeaderHome.js';
+import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
 import Splash from '../components/Splash.js';
 import ClaimSteps from '../components/ClaimSteps.js';

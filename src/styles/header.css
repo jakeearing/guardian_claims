@@ -7,6 +7,7 @@
   left: 0;
   width: 100%;
   z-index: 100;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .header-content {
@@ -19,12 +20,18 @@
   list-style: none;
 }
 
+.header.transparent {
+  background-color: transparent;
+  box-shadow: none;
+}
+
 .header.solid {
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.header.solid nav a {
+.header.solid nav a,
+.not-home nav a {
   color: black;
 }
 
@@ -49,16 +56,31 @@ nav li:last-child {
   margin-right: 0;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
 .logo img {
   padding-top: 8px;
   padding-bottom: 7px;
   height: 45px;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .header-content {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    width: 200px;
+  }
+
+  .logo {
+    text-align: center;
   }
 
   nav {
@@ -116,10 +138,6 @@ nav li:last-child {
     background-color: transparent;
   }
 
-  .menu-toggle.open span {
-    background-color: transparent;
-  }
-
   .menu-toggle.open span:before {
     transform: rotate(45deg);
     top: 0;
@@ -128,6 +146,11 @@ nav li:last-child {
   .menu-toggle.open span:after {
     transform: rotate(-45deg);
     bottom: 0;
+  }
+
+  .menu-toggle.scrolled span,
+  .menu-toggle.open span {
+    background-color: transparent;
   }
 
   nav.open a {

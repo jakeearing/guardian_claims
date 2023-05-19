@@ -1,32 +1,58 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import logoWhite from './logo-left.png';
 import logoGrey from './logo-left-grey.png';
 import '../../styles/header.css';
 
 export default function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const isMobile = window.innerWidth <= 768; // Check if the screen size is mobile
+  const [isHomePage, setIsHomePage] = useState(true);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset;
+      setIsScrolled(scrollTop > 0);
+    };
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  useEffect(() => {
+    setIsHomePage(location.pathname === '/');
+  }, [location]);
+
+  const logoSrc = isHomePage ? (isScrolled ? logoGrey : logoWhite) : logoGrey;
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <header className="header solid">
+    <header className={isHomePage ? (isScrolled ? 'header solid' : 'header transparent') : 'header solid'}>
       <div className="header-content">
         <div className="logo">
           <li>
             <Link to="/">
-              <img src={logoGrey} alt="Guardian Claim Logo" />
+              <img src={logoSrc} alt="Guardian Claim Logo" />
             </Link>
           </li>
         </div>
         {isMobile && (
           <>
-            <button
-              className={`menu-toggle ${isMenuOpen ? 'open' : ''}`}
-              onClick={toggleMenu}
-            >
+            <button className={`menu-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
               <span></span>
               <span></span>
               <span></span>
@@ -34,13 +60,19 @@ export default function Header() {
             <nav className={isMenuOpen ? 'open' : ''}>
               <ul>
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link to="/" className={isHomePage ? 'active' : ''}>
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/claim">Claims</Link>
+                  <Link to="/claim" className={!isHomePage ? 'active' : ''}>
+                    Claims
+                  </Link>
                 </li>
                 <li>
-                  <Link to="/about-us">About Us</Link>
+                  <Link to="/about-us" className={!isHomePage ? 'active' : ''}>
+                    About Us
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -50,13 +82,19 @@ export default function Header() {
           <nav>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" className={isHomePage ? 'active' : ''}>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/claim">Claims</Link>
+                <Link to="/claim" className={!isHomePage ? 'active' : ''}>
+                  Claims
+                </Link>
               </li>
               <li>
-                <Link to="/about-us">About Us</Link>
+                <Link to="/about-us" className={!isHomePage ? 'active' : ''}>
+                  About Us
+                </Link>
               </li>
             </ul>
           </nav>
