@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from '../pages/Home';
+import Residential from '../pages/Residential';
+import Commercial from '../pages/Commercial';
+import Contractors from '../pages/Contractors';
 import Claims from '../pages/Claims';
 import About from '../pages/AboutUs';
 import TermsOfUse from '../pages/TermsOfUse';
@@ -41,6 +44,9 @@ const App = () => {
       <ScrollToTop>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/residential" element={<Residential />} />
+          <Route path="/commercial" element={<Commercial />} />
+          <Route path="/contractors" element={<Contractors />} />
           <Route path="/claim" element={<Claims />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/terms-of-use" element={<TermsOfUse />} />

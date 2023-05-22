@@ -80,24 +80,40 @@ export default function Header() {
         )}
         {!isMobile && (
           <nav>
-            <ul>
-              <li>
-                <Link to="/" className={isHomePage ? 'active' : ''}>
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/claim" className={!isHomePage ? 'active' : ''}>
-                  Claims
-                </Link>
-              </li>
-              <li>
-                <Link to="/about-us" className={!isHomePage ? 'active' : ''}>
-                  About Us
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <ul>
+            <li>
+              <Link to="/" className={isHomePage ? 'active' : ''}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/residential" className={!isHomePage ? 'active' : ''}>
+                Residential
+              </Link>
+            </li>
+            <li>
+              <Link to="/commercial" className={!isHomePage ? 'active' : ''}>
+                Commercial
+              </Link>
+            </li>
+            <li>
+              <Link to="/contractors" className={!isHomePage ? 'active' : ''}>
+                Contractors
+              </Link>
+            </li>
+            <li>
+              <Link to="/claim" className={!isHomePage ? 'active' : ''}>
+                Claims
+              </Link>
+            </li>
+            <li>
+              <Link to="/about-us" className={!isHomePage ? 'active' : ''}>
+                About Us
+              </Link>
+            </li>
+          </ul>
+        </nav>
+        
         )}
       </div>
     </header>

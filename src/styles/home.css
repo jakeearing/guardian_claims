@@ -24,11 +24,15 @@
   border-top: 5px solid;
 }
 
-.wrapper h1,
-.wrapper h3,
-.claimtypes-container h3 {
+.claim-steps-wrapper h1,
+.claim-steps-wrapper h3,
+.claim-types-wrapper h3 {
   color: #000F3C;
   font-weight: 400;
+}
+
+.claim-types-wrapper h1 {
+  color: #000F3C;
 }
 
 @media screen and (max-width: 768px) {

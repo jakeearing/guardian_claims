@@ -1,19 +1,55 @@
 .claims-form-wrapper {
-  margin-top: 55px;
-  height: calc(100vh - 55px - 100px);
-  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-wrapper img {
+  max-width: 400px;
 }
 
 .claims-form h1 {
-  padding-top: 100px;
-  color: #000F3C;
+  margin: 0px 0px 20px 0px;
   font-weight: 400;
   text-align: center;
 }
 
+.claims-content {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.left-column {
+  width: 25%;
+  break-inside: avoid;
+}
+
+.right-column {
+  width: fit-content;
+  break-inside: avoid;
+  display: flex;
+  justify-content: center;
+}
+
+.last-h3 {
+  width: 50%;
+  text-align: center;
+  margin: 80px;
+}
+
+
 @media screen and (max-width: 768px) {
   .claims-form-wrapper {
-    margin-top: 10px;
+    margin-top: 60px;
     margin-bottom: 40px;
     max-width: 100%;
   }
