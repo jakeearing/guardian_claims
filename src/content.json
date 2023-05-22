@@ -69,7 +69,9 @@
         ]
     },
     "claims": {
-        "heading": "Fill out this form to get in touch about your claim!"
+        "leftColumnText": "Egestas maecenas pharetra convallis posuere morbi leo urna. Faucibus nisl tincidunt eget nullam non nisi. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Ornare arcu dui vivamus arcu felis. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Iaculis urna id volutpat lacus laoreet. Proin nibh nisl condimentum id venenatis a condimentum. Integer eget aliquet nibh praesent. Odio eu feugiat pretium nibh. Nulla aliquet enim tortor at. Est pellentesque elit ullamcorper dignissim cras tincidunt. Quis lectus nulla at volutpat diam ut venenatis.",
+        "rightColumnText": "Mattis ullamcorper velit sed ullamcorper. Libero nunc consequat interdum varius sit amet mattis vulputate. Accumsan tortor posuere ac ut consequat semper. Et tortor at risus viverra adipiscing at in tellus integer. Ultrices dui sapien eget mi proin. Tincidunt vitae semper quis lectus nulla at.",
+        "lastSectionText": "Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Vel facilisis volutpat est velit egestas. Pharetra massa massa ultricies mi quis. Placerat in egestas erat imperdiet sed euismod nisi. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Nec nam aliquam sem et tortor consequat id porta nibh."
     },
     "about": {
         "heading": "About Us",
@@ -103,10 +105,6 @@
             ]
         }
     },
-    "termsOfUse": {
-
-    },
-    "privacyPolicy": {
-
-    }
+    "termsOfUse": {},
+    "privacyPolicy": {}
 }

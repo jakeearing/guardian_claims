@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/claim-form.css';
+import content from '../content.json';
 
 export default function ClaimForm() {
   const [claimType, setClaimType] = useState('');
@@ -140,9 +141,7 @@ export default function ClaimForm() {
         </div>
 
       </form>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse 
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>{content.claims.rightColumnText}</p>
     </div>
   );
 }

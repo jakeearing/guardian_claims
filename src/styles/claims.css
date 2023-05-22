@@ -43,9 +43,8 @@
 .last-h3 {
   width: 50%;
   text-align: center;
-  margin: 80px;
+  margin-top: 80px;
 }
-
 
 @media screen and (max-width: 768px) {
   .claims-form-wrapper {
