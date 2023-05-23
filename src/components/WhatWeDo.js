@@ -4,7 +4,7 @@ import content from '../content.json';
 
 export default function WhatWeDo() {
   return (
-    <div className="what-we-do-wrapper">
+    <div className="what-we-do-container">
 
     </div>
   );

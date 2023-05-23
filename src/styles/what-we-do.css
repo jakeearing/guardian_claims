@@ -1,3 +1,5 @@
-.what-we-do-wrapper {
-  
+.what-we-do-container {
+  height: 20vh;
+  border-top: 20px solid white;
+  background-image: linear-gradient(to left, #669933, #DC7C00);
 }
