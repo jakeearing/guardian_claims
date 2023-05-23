@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to top, #333333, #000F3C);
+  background-color: #000F3C;
   color: #FFFFFF;
   border-radius: 20px;
   padding: 20px;
@@ -82,7 +82,7 @@
   .claim-step-box button {
     margin-top: 10px;
     font-size: 2.2vh;
-    padding: 25px;
+    padding: 20px;
   }
 
   .claim-steps-wrapper .form-container {

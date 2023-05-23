@@ -39,7 +39,7 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    background-image: linear-gradient(to bottom, #333333, #008FDA);
+    background-color: #008FDA;
     color: white;
 }
 
@@ -49,9 +49,10 @@
 }
 
 .profile img {
-    width: 200px;
-    height: 200px;
+    height: 220px;
+    width: auto;
     border-radius: 50%;
+    border: 2px black solid;
     object-fit: cover;
 }
 

@@ -1,13 +1,29 @@
 import React from 'react';
 import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
+import ImageLeftContentRight from '../components/ImageLeftContentRight.js';
+import ImageRightContentLeft from '../components/ImageRightContentLeft.js';
 import '../styles/secondary-pages.css'
+import { Link } from 'react-router-dom';
+import content from '../content.json';
 
 export default function Commercial() {
+  const commercialSplash = content.commercial.commercialSplash[0];
   return (
     <div className="secondary-container">
       <Header />
-
+      <div className="secondary-splash-container">
+        <div className="secondary-splash-wrapper">
+          <p>{commercialSplash.heading}</p>
+          <p>{commercialSplash.paragraph}</p>
+          <button>
+            <Link to="/claim">{commercialSplash.buttonText}</Link>
+          </button>
+        </div>
+      </div>
+      <ImageLeftContentRight />
+      <ImageRightContentLeft />
+      <ImageLeftContentRight />
       <Footer />
     </div>
   );

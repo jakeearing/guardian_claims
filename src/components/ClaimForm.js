@@ -41,6 +41,7 @@ export default function ClaimForm() {
     })
       .then((response) => {
         if (response.ok) {
+          alert('Form submitted successfully! We\'ll get back to you in 24-48 hours.');
           console.log('Email sent!');
         } else {
           console.log('Error sending email');
@@ -105,9 +106,9 @@ export default function ClaimForm() {
                 onChange={handleClaimTypeChange} required
               >
                 <option value="">Select Claim Type</option>
-                <option value="home">Home</option>
-                <option value="business">Business</option>
-                <option value="auto">Auto</option>
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+                <option value="other">Other</option>
                 <option value="marine-aviation">Marine/Aviation</option>
               </select>
             </div>

@@ -9,7 +9,10 @@ export default function Footer() {
           <nav>
             <ul>
               <li><Link to="/">Home</Link></li>
+              <li><Link to="/contractors">Contractors</Link></li>
+              <li><Link to="/residential">Residential</Link></li>
               <li><Link to="/claim">Claims</Link></li>
+              <li><Link to="/commercial">Commercial</Link></li>
               <li><Link to="/about-us">About Us</Link></li>
             </ul>
           </nav>
@@ -23,7 +26,6 @@ export default function Footer() {
           <div className="social-media">
             <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
             <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
-            <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/youtube-logo.svg"} alt="Youtube Icon" /></a>
           </div>
           <div className="terms">
             <Link to="/terms-of-use">Terms of Use</Link>

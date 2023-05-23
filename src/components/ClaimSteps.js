@@ -19,6 +19,7 @@ export default function ClaimSteps() {
                         <img src={process.env.PUBLIC_URL + `/images/content/${box.image}`} alt="intakeForm" />
                         <h2>{box.title}</h2>
                         <p>{box.description}</p>
+                        {/* Check index 0,1,2 to display which button */}
                         {index === 0 && (
                             <Link to={box.buttonLink}>
                                 <button>{box.buttonText}</button>
@@ -27,8 +28,7 @@ export default function ClaimSteps() {
                     </div>
                 ))}
             </div>
-            <h1><span className="bold">{content.claimSteps.contactHeading}</span></h1>
-            <ClaimForm />
+
         </div>
     );
 }

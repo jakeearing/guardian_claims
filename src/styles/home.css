@@ -14,12 +14,11 @@
 }
 
 .claimsteps-container {
-  background-image: linear-gradient(to bottom, #FFFFFF, #008FDA);
+  background-image: linear-gradient(to top, white, #008FDA);
   height: fit-content;
   padding-bottom: 40px;
 }
 
-.claimtypes-container,
 .claimsteps-container {
   border-top: 5px solid;
 }
@@ -27,12 +26,13 @@
 .claim-steps-wrapper h1,
 .claim-steps-wrapper h3,
 .claim-types-wrapper h3 {
-  color: #000F3C;
+  color: black;
   font-weight: 400;
 }
 
-.claim-types-wrapper h1 {
-  color: #000F3C;
+.claim-types-wrapper h1,
+.claim-types-wrapper h3 {
+  color: black;
 }
 
 @media screen and (max-width: 768px) {

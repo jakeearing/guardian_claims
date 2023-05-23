@@ -32,7 +32,7 @@ button>a {
 }
 
 button:hover {
-  background-color: #87CEFA;
+  background-color: #0056b3;
   cursor: pointer;
   text-decoration: none;
 }
