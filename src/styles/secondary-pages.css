@@ -11,6 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-bottom: 20px solid white;
 }
 
 .secondary-splash-wrapper {
@@ -44,10 +45,13 @@
 
 .secondary-content-container {
   height: 50vh;
-  border-top: 20px solid white;
   display: flex;
   align-items: stretch;
   justify-content: center;
+}
+
+.secondary-content-container > :nth-child(1) {
+  background-color: rgba(211, 211, 211, 0.7);
 }
 
 .left-column-image {

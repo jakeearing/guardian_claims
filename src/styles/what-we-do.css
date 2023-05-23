@@ -1,5 +1,44 @@
 .what-we-do-container {
-  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 22vh;
   border-top: 20px solid white;
   background-image: linear-gradient(to left, #669933, #DC7C00);
+  padding: 0 100px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.icon-wrapper:last-child {
+  margin-right: 0px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  filter: invert(1);
+}
+
+.icon-text {
+  text-align: center;
+  color: white;
+  margin-top: 5px;
 }
