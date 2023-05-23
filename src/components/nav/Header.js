@@ -7,7 +7,7 @@ import '../../styles/header.css';
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isHomePage, setIsHomePage] = useState(true);
+  const [isSplashPage, setIsSplashPage] = useState(true);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const location = useLocation();
 
@@ -31,17 +31,18 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    setIsHomePage(location.pathname === '/');
+    setIsSplashPage((location.pathname === '/') || (location.pathname === '/residential') 
+    || (location.pathname === '/commercial') || (location.pathname === '/contractors'));
   }, [location]);
 
-  const logoSrc = isHomePage ? (isScrolled ? logoGrey : logoWhite) : logoGrey;
+  const logoSrc = isSplashPage ? (isScrolled ? logoGrey : logoWhite) : logoGrey;
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
-    <header className={isHomePage ? (isScrolled ? 'header solid' : 'header transparent') : 'header solid'}>
+    <header className={isSplashPage ? (isScrolled ? 'header solid' : 'header transparent') : 'header solid'}>
       <div className="header-content">
         <div className="logo">
           <li>
@@ -60,17 +61,17 @@ export default function Header() {
             <nav className={isMenuOpen ? 'open' : ''}>
               <ul>
                 <li>
-                  <Link to="/" className={isHomePage ? 'active' : ''}>
+                  <Link to="/" className={isSplashPage ? 'active' : ''}>
                     Home
                   </Link>
                 </li>
                 <li>
-                  <Link to="/claim" className={!isHomePage ? 'active' : ''}>
+                  <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
                     Claims
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about-us" className={!isHomePage ? 'active' : ''}>
+                  <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
                     About Us
                   </Link>
                 </li>
@@ -82,32 +83,32 @@ export default function Header() {
           <nav>
           <ul>
             <li>
-              <Link to="/" className={isHomePage ? 'active' : ''}>
+              <Link to="/" className={isSplashPage ? 'active' : ''}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/residential" className={!isHomePage ? 'active' : ''}>
+              <Link to="/residential" className={!isSplashPage ? 'active' : ''}>
                 Residential
               </Link>
             </li>
             <li>
-              <Link to="/commercial" className={!isHomePage ? 'active' : ''}>
+              <Link to="/commercial" className={!isSplashPage ? 'active' : ''}>
                 Commercial
               </Link>
             </li>
             <li>
-              <Link to="/contractors" className={!isHomePage ? 'active' : ''}>
+              <Link to="/contractors" className={!isSplashPage ? 'active' : ''}>
                 Contractors
               </Link>
             </li>
             <li>
-              <Link to="/claim" className={!isHomePage ? 'active' : ''}>
+              <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
                 Claims
               </Link>
             </li>
             <li>
-              <Link to="/about-us" className={!isHomePage ? 'active' : ''}>
+              <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
                 About Us
               </Link>
             </li>
