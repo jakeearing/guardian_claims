@@ -1,8 +1,6 @@
 import React from 'react';
 import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
-import ImageLeftContentRight from '../components/ImageLeftContentRight.js';
-import ImageRightContentLeft from '../components/ImageRightContentLeft.js';
 import WhatWeDo from '../components/WhatWeDo.js';
 import '../styles/secondary-pages.css'
 import { Link } from 'react-router-dom';
@@ -18,14 +16,55 @@ export default function Residential() {
           <p>{residentialContent.residentialSplash[0].heading}</p>
           <p>{residentialContent.residentialSplash[0].paragraph}</p>
           <button>
-            <Link to="/claim">{residentialContent.residentialSplash[0].buttonText}</Link>
+            <Link to={residentialContent.residentialSplash[0].buttonLink}>{residentialContent.residentialSplash[0].buttonText}</Link>
           </button>
         </div>
       </div>
-      {/* Passing the contentText as a prop is currently WIP */}
-      <ImageLeftContentRight contentText={residentialContent.contentOne} />
-      <ImageRightContentLeft contentText={residentialContent.contentTwo} />
-      <ImageLeftContentRight contentText={residentialContent.contentThree} />
+      <div className="secondary-content-container">
+        <div className="left-column-image">
+          <img src={process.env.PUBLIC_URL + `/images/${residentialContent.contentOne[0].image}`} alt="Residential" />
+        </div>
+        <div className="right-column-text">
+          <div className="right-column-content">
+            <h2>{residentialContent.contentOne[0].heading}</h2>
+            <p>{residentialContent.contentOne[0].paragraphOne}</p>
+            <p>{residentialContent.contentOne[0].paragraphTwo}</p>
+            <button>
+              <Link to={residentialContent.contentOne[0].buttonLink}>{residentialContent.contentOne[0].buttonText}</Link>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="secondary-content-container">
+        <div className="left-column-text">
+          <div className="left-column-content">
+            <h2>{residentialContent.contentTwo[0].heading}</h2>
+            <p>{residentialContent.contentTwo[0].paragraphOne}</p>
+            <p>{residentialContent.contentTwo[0].paragraphTwo}</p>
+            <button>
+              <Link to={residentialContent.contentOne[0].buttonLink}>{residentialContent.contentOne[0].buttonText}</Link>
+            </button>
+          </div>
+        </div>
+        <div className="right-column-image">
+          <img src={process.env.PUBLIC_URL + `/images/${residentialContent.contentTwo[0].image}`} alt="Residential" />
+        </div>
+      </div>
+      <div className="secondary-content-container">
+        <div className="left-column-image">
+          <img src={process.env.PUBLIC_URL + `/images/${residentialContent.contentThree[0].image}`} alt="Residential" />
+        </div>
+        <div className="right-column-text">
+          <div className="right-column-content">
+            <h2>{residentialContent.contentThree[0].heading}</h2>
+            <p>{residentialContent.contentThree[0].paragraphOne}</p>
+            <p>{residentialContent.contentThree[0].paragraphTwo}</p>
+            <button>
+              <Link to={residentialContent.contentThree[0].buttonLink}>{residentialContent.contentThree[0].buttonText}</Link>
+            </button>
+          </div>
+        </div>
+      </div>
       <WhatWeDo />
       <Footer />
     </div>
