@@ -85,7 +85,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
-                    About Us
+                    About
                   </Link>
                 </li>
               </ul>
@@ -122,7 +122,7 @@ export default function Header() {
               </li>
               <li>
                 <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
-                  About Us
+                  About
                 </Link>
               </li>
             </ul>
