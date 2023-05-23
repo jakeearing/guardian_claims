@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
-import WhatWeDo from '../components/SecondaryPages/WhatWeDo.js';
-import TestimonialsContractors from '../components/SecondaryPages/TestimonialsContractors.js';
+import WhatWeDo from '../components/secondary-pages/WhatWeDo.js';
+import TestimonialsContractors from '../components/secondary-pages/TestimonialsContractors.js';
 import '../styles/secondary-pages.css'
 import { Link } from 'react-router-dom';
 import content from '../content.json';
