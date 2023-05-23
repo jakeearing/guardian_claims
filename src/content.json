@@ -32,7 +32,7 @@
             }
         ]
     },
-    "claimTypes": { 
+    "claimTypes": {
         "headingThin": "Your situation is unique, ",
         "headingBold": "We process all types of claims daily.",
         "description": "Minor damage, major losses, emergency services, and planned restoration projects",
@@ -74,120 +74,120 @@
     "residential": {
         "residentialSplash": [
             {
-            "heading": "Residential",
-            "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "heading": "Residential",
+                "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentOne": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Residential Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Residential Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentTwo": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Residential Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Residential Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentThree": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Residential Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Residential Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ]
     },
     "commercial": {
         "commercialSplash": [
             {
-            "heading": "Commercial",
-            "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "heading": "Commercial",
+                "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentOne": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Commercial Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Commercial Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentTwo": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Commercial Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Commercial Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentThree": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Commercial Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Commercial Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ]
     },
     "contractor": {
         "contractorSplash": [
             {
-            "heading": "Contractors",
-            "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "heading": "Contractors",
+                "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentOne": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Contractor Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Contractor Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentTwo": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Contractor Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Contractor Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ],
         "contentThree": [
             {
-            "image": "residential.jpg",
-            "heading": "Our Contractor Property Process",
-            "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-            "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-            "buttonText": "Submit a Claim",
-            "buttonLink": "/claim"
+                "image": "residential.jpg",
+                "heading": "Our Contractor Property Process",
+                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/claim"
             }
         ]
     },
@@ -203,6 +203,30 @@
         "iconFourText": "Text for Four",
         "iconFive": "five.svg",
         "iconFiveText": "Text for Five"
+    },
+    "testimonialsResidential": {
+        "icon": "testimonial-icon.svg",
+        "icon-text": "Testimonials",
+        "heading": "Hear From Our Clients",
+        "text": "I have respect for what other people believe. What I believe in my own life is that it's a search for how I can do things better, whether it's being a better man or a better father or finding ways for myself to improve.",
+        "author": "Tom Cruise",
+        "company": "The Church of Scientology"
+    },
+    "testimonialsCommercial": {
+        "icon": "testimonial-icon.svg",
+        "icon-text": "Testimonials",
+        "heading": "Hear From Our Clients",
+        "text": "I have respect for what other people believe. What I believe in my own life is that it's a search for how I can do things better, whether it's being a better man or a better father or finding ways for myself to improve.",
+        "author": "Tom Cruise",
+        "company": "The Church of Scientology"
+    },
+    "testimonialsContractors": {
+        "icon": "testimonial-icon.svg",
+        "icon-text": "Testimonials",
+        "heading": "Hear From Our Clients",
+        "text": "I have respect for what other people believe. What I believe in my own life is that it's a search for how I can do things better, whether it's being a better man or a better father or finding ways for myself to improve.",
+        "author": "Tom Cruise",
+        "company": "The Church of Scientology"
     },
     "claims": {
         "leftColumnText": "Egestas maecenas pharetra convallis posuere morbi leo urna. Faucibus nisl tincidunt eget nullam non nisi. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Ornare arcu dui vivamus arcu felis. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Iaculis urna id volutpat lacus laoreet. Proin nibh nisl condimentum id venenatis a condimentum. Integer eget aliquet nibh praesent. Odio eu feugiat pretium nibh. Nulla aliquet enim tortor at. Est pellentesque elit ullamcorper dignissim cras tincidunt. Quis lectus nulla at volutpat diam ut venenatis.",

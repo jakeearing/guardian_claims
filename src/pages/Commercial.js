@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
-import WhatWeDo from '../components/WhatWeDo.js';
+import WhatWeDo from '../components/SecondaryPages/WhatWeDo.js';
+import TestimonialsCommercial from '../components/SecondaryPages/TestimonialsCommercial.js';
 import '../styles/secondary-pages.css'
 import { Link } from 'react-router-dom';
 import content from '../content.json';
@@ -66,6 +67,7 @@ export default function Commercial() {
         </div>
       </div>
       <WhatWeDo />
+      <TestimonialsCommercial />
       <Footer />
     </div>
   );
