@@ -31,8 +31,8 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    setIsSplashPage((location.pathname === '/') || (location.pathname === '/residential') 
-    || (location.pathname === '/commercial') || (location.pathname === '/contractors'));
+    setIsSplashPage((location.pathname === '/') || (location.pathname === '/residential')
+      || (location.pathname === '/commercial') || (location.pathname === '/contractors'));
   }, [location]);
 
   const logoSrc = isSplashPage ? (isScrolled ? logoGrey : logoWhite) : logoGrey;
@@ -45,15 +45,13 @@ export default function Header() {
     <header className={isSplashPage ? (isScrolled ? 'header solid' : 'header transparent') : 'header solid'}>
       <div className="header-content">
         <div className="logo">
-          <li>
             <Link to="/">
               <img src={logoSrc} alt="Guardian Claim Logo" />
             </Link>
-          </li>
         </div>
         {isMobile && (
           <>
-            <button className={`menu-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+            <button className={`menu-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu} title="Toggle Menu">
               <span></span>
               <span></span>
               <span></span>
@@ -63,6 +61,21 @@ export default function Header() {
                 <li>
                   <Link to="/" className={isSplashPage ? 'active' : ''}>
                     Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/residential" className={!isSplashPage ? 'active' : ''}>
+                    Residential
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/commercial" className={!isSplashPage ? 'active' : ''}>
+                    Commercial
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contractors" className={!isSplashPage ? 'active' : ''}>
+                    Contractors
                   </Link>
                 </li>
                 <li>
@@ -81,40 +94,40 @@ export default function Header() {
         )}
         {!isMobile && (
           <nav>
-          <ul>
-            <li>
-              <Link to="/" className={isSplashPage ? 'active' : ''}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/residential" className={!isSplashPage ? 'active' : ''}>
-                Residential
-              </Link>
-            </li>
-            <li>
-              <Link to="/commercial" className={!isSplashPage ? 'active' : ''}>
-                Commercial
-              </Link>
-            </li>
-            <li>
-              <Link to="/contractors" className={!isSplashPage ? 'active' : ''}>
-                Contractors
-              </Link>
-            </li>
-            <li>
-              <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
-                Claims
-              </Link>
-            </li>
-            <li>
-              <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
-                About Us
-              </Link>
-            </li>
-          </ul>
-        </nav>
-        
+            <ul>
+              <li>
+                <Link to="/" className={isSplashPage ? 'active' : ''}>
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/residential" className={!isSplashPage ? 'active' : ''}>
+                  Residential
+                </Link>
+              </li>
+              <li>
+                <Link to="/commercial" className={!isSplashPage ? 'active' : ''}>
+                  Commercial
+                </Link>
+              </li>
+              <li>
+                <Link to="/contractors" className={!isSplashPage ? 'active' : ''}>
+                  Contractors
+                </Link>
+              </li>
+              <li>
+                <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
+                  Claims
+                </Link>
+              </li>
+              <li>
+                <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
+                  About Us
+                </Link>
+              </li>
+            </ul>
+          </nav>
+
         )}
       </div>
     </header>

@@ -31,7 +31,7 @@ const ScrollToTopButton = () => {
   return (
     <img
       className={`scroll-to-top-button ${isVisible ? 'show' : ''}`}
-      src={process.env.PUBLIC_URL + "/images/up-arrow.svg"}
+      src={process.env.PUBLIC_URL + "/images/svg-icons/up-arrow.svg"}
       alt="Scroll to Top"
       onClick={scrollToTop}
     />

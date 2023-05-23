@@ -24,8 +24,8 @@ export default function Footer() {
         </div>
         <div className="right-nav">
           <div className="social-media">
-            <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
-            <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/logos/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
+            <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
+            <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
           </div>
           <div className="terms">
             <Link to="/terms-of-use">Terms of Use</Link>
