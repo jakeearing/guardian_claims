@@ -5,11 +5,10 @@ import content from '../content.json';
 export default function ClaimTypes() {
   return (
     <div className="claim-types-wrapper">
-      {/* The h1 element below is currently not implemented in the json */}
       <h1><span className="thin">
-        Your situation is unique,</span> We process all types of claims daily.
+      {content.claimTypes.headingThin}</span>{content.claimTypes.headingBold}
       </h1>
-      <h3>{content.claimTypes.description}</h3>
+      <h3><span className="thin">{content.claimTypes.description}</span></h3>
       <div className="claim-types-content">
         {content.claimTypes.claimCategories.map((category, index) => (
           <div className="claims-box" key={index}>

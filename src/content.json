@@ -7,7 +7,9 @@
         "footerText": "Let Guardian Claims be your protector and defender against unjust insurance practices. We're here to shield your claim and fight for your right to fair compensation."
     },
     "claimSteps": {
-        "heading": "At GuardianClaims, we are here to help you navigate through the complicated and confusing insurance claims process.",
+        "headingThinOne": "At ",
+        "headingBold": "GuardianClaims",
+        "headingThinTwo": ", we are here to help you navigate through the complicated and confusing insurance claims process.",
         "description": "Our services cover a wide range of losses, including hail/wind damage, water damage, fire damage, mold damage, loss of income, and more. We offer a FREE consultation to assess the extent of the damage and determine the best course of action.",
         "contactHeading": "Contact us today!",
         "boxes": [
@@ -30,8 +32,9 @@
             }
         ]
     },
-    "claimTypes": {
-        "heading": "Your situation is unique, We process all types of claims daily.",
+    "claimTypes": { 
+        "headingThin": "Your situation is unique, ",
+        "headingBold": "We process all types of claims daily.",
         "description": "Minor damage, major losses, emergency services, and planned restoration projects",
         "claimCategories": [
             {

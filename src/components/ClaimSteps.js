@@ -8,10 +8,8 @@ export default function ClaimSteps() {
 
     return (
         <div className="claim-steps-wrapper">
-            {/* The h1 element below is currently not implemented in the json */}
-            <h1>At <span className="bold">GuardianClaims</span>, 
-            we are here to help you navigate through the complicated 
-            and confusing insurance claims process.</h1>
+            <h1>{content.claimSteps.headingThinOne} <span className="bold">{content.claimSteps.headingBold}</span> 
+            {content.claimSteps.headingThinTwo}</h1>
             <h3><span className="thin">{content.claimSteps.description}</span></h3>
             <div className="claim-steps-content">
                 {content.claimSteps.boxes.map((box, index) => (
