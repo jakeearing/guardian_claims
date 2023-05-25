@@ -1,10 +1,10 @@
 {
     "splash": {
         "heading": "Are you struggling with your insurance claim?",
-        "description": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
+        "description": "Whether you’ve filed a claim or not, GuardianClaims is here to help. With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
         "buttonText": "Get Guardian",
         "buttonLink": "/claim",
-        "footerText": "Let Guardian Claims be your protector and defender against unjust insurance practices. We're here to shield your claim and fight for your right to fair compensation."
+        "footerText": "Let GuardianClaims be your protector and defender against unjust insurance practices. We're here to shield your claim and fight for your right to fair compensation."
     },
     "claimSteps": {
         "headingThinOne": "At ",
@@ -16,26 +16,26 @@
             {
                 "image": "image1.jpg",
                 "title": "Submit Our Intake Form",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "description": "Click the button below to fill out our short Claims form. Every claim is different, this will allow us to better understand your specific situation.",
                 "buttonText": "Get Started",
                 "buttonLink": "/claim"
             },
             {
                 "image": "image1.jpg",
-                "title": "We Guide You Through the Claims Process",
-                "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                "title": "Connect with Our Team",
+                "description": "A licensed public adjuster in your state will review your information and reach out for a free claim review. Not every claim is a good fit for a public adjuster, and in order to best serve our clients, we believe education and communication are key!"
             },
             {
                 "image": "image1.jpg",
-                "title": "Connect with Our Team",
-                "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                "title": "Receive Settlement",
+                "description": "After our adjusters complete their investigation of your claim, and finalize negotiations with your insurance company, you’ll receive a check in the mail!"
             }
         ]
     },
     "claimTypes": {
         "headingThin": "Your situation is unique, ",
         "headingBold": "We process all types of claims daily.",
-        "description": "Minor damage, major losses, emergency services, and planned restoration projects",
+        "description": "Residential and commercial losses, emergency services, and planned restoration projects.",
         "claimCategories": [
             {
                 "image": "waterflood.jpg",
@@ -84,29 +84,25 @@
             {
                 "image": "residential.jpg",
                 "heading": "Our Residential Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-                "buttonText": "Submit a Claim",
-                "buttonLink": "/claim"
+                "paragraphOne": "After your file is reviewed by a licensed public adjuster, a GuardianClaims team member will reach out to schedule an inspection of the damages.",
+                "paragraphTwo": "Our adjusters are trained in residential property inspections and have completed over 1000 inspections combined to-date. The first step to properly assessing any loss is a detailed and accurate inspection. Once our team completes their claim investigation, and compiles all relevant documents, estimates, and invoices, we can confidently present your claim to your insurance company and begin negotiations."
             }
         ],
         "contentTwo": [
             {
                 "image": "residential.jpg",
-                "heading": "Our Residential Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-                "buttonText": "Submit a Claim",
-                "buttonLink": "/claim"
+                "heading": "Claim Presentation & Negotiation",
+                "paragraphOne": "The negotiation phase is oftentimes the most frustrating part of the entire claim process, and if not handled correctly, can drag out for months and months. Even years. This is where most homeowners/policyholders make the mistake of trusting that the assessment they receive from their insurance adjuster was written with their best interests in mind.",
+                "paragraphTwo": "It’s important to have a knowledgeable and experienced advocate present your claim in the full context of your policy, to ensure you’re recouping every dime that you’re owed after a loss."
             }
         ],
         "contentThree": [
             {
                 "image": "residential.jpg",
-                "heading": "Our Residential Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-                "buttonText": "Submit a Claim",
+                "heading": "Settlement",
+                "paragraphOne": "We’ve finally arrived at the settlement phase! The most anticipated part of any insurance claim. In many cases, the insurance company will attempt to settle your claim immediately after their initial inspection with little thought being put into what it is they’re actually paying for (if anything).",
+                "paragraphTwo": "However, allowing GuardianClaims to guide you through our systematic claim process guarantees a fair and accurate settlement based upon the coverage provided in your policy, and the damages sustained to your property.",
+                "buttonText": "Get Started",
                 "buttonLink": "/claim"
             }
         ]
@@ -125,9 +121,7 @@
                 "image": "residential.jpg",
                 "heading": "Our Commercial Property Process",
                 "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-                "buttonText": "Submit a Claim",
-                "buttonLink": "/claim"
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
             }
         ],
         "contentTwo": [
@@ -135,9 +129,7 @@
                 "image": "residential.jpg",
                 "heading": "Our Commercial Property Process",
                 "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-                "buttonText": "Submit a Claim",
-                "buttonLink": "/claim"
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
             }
         ],
         "contentThree": [
@@ -154,10 +146,10 @@
     "contractor": {
         "contractorSplash": [
             {
-                "heading": "Contractors",
+                "heading": "Contractor Network",
                 "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
                 "buttonText": "Submit a Claim",
-                "buttonLink": "/claim"
+                "buttonLink": "/network"
             }
         ],
         "contentOne": [
@@ -165,9 +157,7 @@
                 "image": "residential.jpg",
                 "heading": "Our Contractor Property Process",
                 "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-                "buttonText": "Submit a Claim",
-                "buttonLink": "/claim"
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
             }
         ],
         "contentTwo": [
@@ -175,9 +165,7 @@
                 "image": "residential.jpg",
                 "heading": "Our Contractor Property Process",
                 "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
-                "buttonText": "Submit a Claim",
-                "buttonLink": "/claim"
+                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
             }
         ],
         "contentThree": [
@@ -187,7 +175,7 @@
                 "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
                 "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
                 "buttonText": "Submit a Claim",
-                "buttonLink": "/claim"
+                "buttonLink": "/network"
             }
         ]
     },

@@ -5,11 +5,11 @@ import Residential from '../pages/Residential';
 import Commercial from '../pages/Commercial';
 import Contractors from '../pages/Contractors';
 import Claims from '../pages/Claims';
+import ClaimsContractors from '../pages/ClaimsContractors';
 import About from '../pages/AboutUs';
 import TermsOfUse from '../pages/TermsOfUse';
 import PrivacyPolicy from '../pages/PrivacyPolicy';
 import ScrollToTop from '../components/ScrollToTop';
-
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -48,6 +48,7 @@ const App = () => {
           <Route path="/commercial" element={<Commercial />} />
           <Route path="/contractors" element={<Contractors />} />
           <Route path="/claim" element={<Claims />} />
+          <Route path="/network" element={<ClaimsContractors />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/terms-of-use" element={<TermsOfUse />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
