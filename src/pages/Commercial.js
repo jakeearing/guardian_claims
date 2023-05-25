@@ -30,9 +30,6 @@ export default function Commercial() {
             <h2>{commercialContent.contentOne[0].heading}</h2>
             <p>{commercialContent.contentOne[0].paragraphOne}</p>
             <p>{commercialContent.contentOne[0].paragraphTwo}</p>
-            <button>
-              <Link to={commercialContent.contentOne[0].buttonLink}>{commercialContent.contentOne[0].buttonText}</Link>
-            </button>
           </div>
         </div>
       </div>
@@ -42,9 +39,6 @@ export default function Commercial() {
             <h2>{commercialContent.contentTwo[0].heading}</h2>
             <p>{commercialContent.contentTwo[0].paragraphOne}</p>
             <p>{commercialContent.contentTwo[0].paragraphTwo}</p>
-            <button>
-              <Link to={commercialContent.contentOne[0].buttonLink}>{commercialContent.contentOne[0].buttonText}</Link>
-            </button>
           </div>
         </div>
         <div className="right-column-image">

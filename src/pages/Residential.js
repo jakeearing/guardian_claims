@@ -30,9 +30,6 @@ export default function Residential() {
             <h2>{residentialContent.contentOne[0].heading}</h2>
             <p>{residentialContent.contentOne[0].paragraphOne}</p>
             <p>{residentialContent.contentOne[0].paragraphTwo}</p>
-            <button>
-              <Link to={residentialContent.contentOne[0].buttonLink}>{residentialContent.contentOne[0].buttonText}</Link>
-            </button>
           </div>
         </div>
       </div>
@@ -42,9 +39,6 @@ export default function Residential() {
             <h2>{residentialContent.contentTwo[0].heading}</h2>
             <p>{residentialContent.contentTwo[0].paragraphOne}</p>
             <p>{residentialContent.contentTwo[0].paragraphTwo}</p>
-            <button>
-              <Link to={residentialContent.contentOne[0].buttonLink}>{residentialContent.contentOne[0].buttonText}</Link>
-            </button>
           </div>
         </div>
         <div className="right-column-image">

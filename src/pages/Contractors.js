@@ -30,9 +30,6 @@ export default function Contractors() {
             <h2>{contractorContent.contentOne[0].heading}</h2>
             <p>{contractorContent.contentOne[0].paragraphOne}</p>
             <p>{contractorContent.contentOne[0].paragraphTwo}</p>
-            <button>
-              <Link to={contractorContent.contentOne[0].buttonLink}>{contractorContent.contentOne[0].buttonText}</Link>
-            </button>
           </div>
         </div>
       </div>
@@ -42,9 +39,6 @@ export default function Contractors() {
             <h2>{contractorContent.contentTwo[0].heading}</h2>
             <p>{contractorContent.contentTwo[0].paragraphOne}</p>
             <p>{contractorContent.contentTwo[0].paragraphTwo}</p>
-            <button>
-              <Link to={contractorContent.contentOne[0].buttonLink}>{contractorContent.contentOne[0].buttonText}</Link>
-            </button>
           </div>
         </div>
         <div className="right-column-image">

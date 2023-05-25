@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
         <div className="footer-logo">
           <Link to="/">
-            <img src={process.env.PUBLIC_URL + '/images/logos/logo192.png'} alt="Guardian Claim Logo" />
+            <img src={process.env.PUBLIC_URL + '/images/logos/logo192.png'} alt="GuardianClaims Logo" />
           </Link>
         </div>
         <div className="right-nav">
@@ -36,4 +36,3 @@ export default function Footer() {
     </div>
   );
 }
-
