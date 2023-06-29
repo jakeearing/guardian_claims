@@ -17,13 +17,12 @@
   
   .splash-wrapper p:nth-child(2) {
     font-size: 2.3vh;
-    margin: 20px;
+    margin: 20px 20px 40px 20px;
   }
   
   .splash-wrapper p:last-child {
     font-size: 2vh;
-    margin-top: 40px;
-    margin-bottom: 0;
+    margin: 40px 0 0 0;
   }
 
   @media screen and (max-width: 768px) {

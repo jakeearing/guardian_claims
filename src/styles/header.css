@@ -32,7 +32,7 @@
 
 .header.solid nav a,
 .not-home nav a {
-  color: black;
+  color: #666666;
 }
 
 nav {
@@ -43,19 +43,24 @@ nav ul {
   display: flex;
   list-style: none;
   margin-left: 10px;
-  margin-top: 12px;
+  margin-top: 10px;
   padding: 0;
 }
 
+.header nav li:first-child {
+  margin-left: 20px;
+}
+
 nav li {
-  margin-right: 10px;
   position: relative;
   font-size: 18px;
   white-space: nowrap;
+  font-weight: 500;
 }
 
 nav li:last-child {
   margin-right: 0;
+  border-right: none;
 }
 
 nav a {
