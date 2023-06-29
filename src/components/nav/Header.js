@@ -31,8 +31,19 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    setIsSplashPage((location.pathname === '/') || (location.pathname === '/residential')
-      || (location.pathname === '/commercial') || (location.pathname === '/contractors'));
+    setIsSplashPage(
+      location.pathname === '/' ||
+      location.pathname === '/residential' ||
+      location.pathname === '/commercial' ||
+      location.pathname === '/contractors'
+    );
+
+    // Preload logos
+    const whiteLogo = new Image();
+    whiteLogo.src = logoWhite;
+
+    const greyLogo = new Image();
+    greyLogo.src = logoGrey;
   }, [location]);
 
   const logoSrc = isSplashPage ? (isScrolled ? logoGrey : logoWhite) : logoGrey;
@@ -45,9 +56,9 @@ export default function Header() {
     <header className={isSplashPage ? (isScrolled ? 'header solid' : 'header transparent') : 'header solid'}>
       <div className="header-content">
         <div className="logo">
-            <Link to="/">
-              <img src={logoSrc} alt="Guardian Claim Logo" />
-            </Link>
+          <Link to="/">
+            <img src={logoSrc} alt="Guardian Claim Logo" />
+          </Link>
         </div>
         {isMobile && (
           <>
