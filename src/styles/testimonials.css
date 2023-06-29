@@ -56,3 +56,13 @@
   text-align: center;
   padding-bottom: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .testimonials-container {
+    padding: 20px;
+  }
+  
+  .testimonial-text {
+    width: 100%;
+  }
+}
