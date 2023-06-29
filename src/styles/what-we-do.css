@@ -44,3 +44,9 @@
   color: white;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 768px) {
+  .what-we-do-container {
+    display: none;
+  }
+}
