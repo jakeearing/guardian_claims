@@ -23,6 +23,7 @@ export default function ClaimForm() {
     event.preventDefault();
 
     const formData = {
+      formType: 'default',
       claimType,
       claimStatus,
       zipCode,

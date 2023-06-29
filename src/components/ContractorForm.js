@@ -16,8 +16,9 @@ export default function ContractorForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
+  
     const formData = {
+      formType: 'contractor',
       company,
       zipCode,
       firstName: event.target.elements['first-name'].value,

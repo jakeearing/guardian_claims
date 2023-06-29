@@ -21,21 +21,35 @@ app.post('/api/send-email', (req, res) => {
     port: 465,
     secure: true,
     auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASSWORD,
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASSWORD,
     },
   });
 
-  // Construct the email message
-  const emailMessage = `
-    First Name: ${formData.firstName}
-    Last Name: ${formData.lastName}
-    Email Address: ${formData.email}
-    Phone Number: ${formData.phone}
-    Zip Code: ${formData.zipCode}
-    Type of Claim: ${formData.claimType}
-    Claim Status: ${formData.claimStatus}
-  `;
+  // Construct the email message based on the form type
+  let emailMessage;
+  if (formData.formType === 'default') {
+    emailMessage = `
+      First Name: ${formData.firstName}
+      Last Name: ${formData.lastName}
+      Email Address: ${formData.email}
+      Phone Number: ${formData.phone}
+      Zip Code: ${formData.zipCode}
+      Type of Claim: ${formData.claimType}
+      Claim Status: ${formData.claimStatus}
+    `;
+  } else if (formData.formType === 'contractor') {
+    emailMessage = `
+      First Name: ${formData.firstName}
+      Last Name: ${formData.lastName}
+      Email Address: ${formData.email}
+      Phone Number: ${formData.phone}
+      Zip Code: ${formData.zipCode}
+      Company Name: ${formData.company}
+    `;
+  } else {
+    return res.status(400).json({ error: 'Invalid form type' });
+  }
 
   // Define the email options
   const mailOptions = {
