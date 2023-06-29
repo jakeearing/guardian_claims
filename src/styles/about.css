@@ -3,7 +3,6 @@
     height: fit-content;
     overflow: hidden;
     color: black;
-    padding-bottom: 10vh;
     text-align: center;
     margin-top: 55px;
 }
@@ -30,6 +29,7 @@
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    padding-bottom: 10vh;
 }
 
 .profile {

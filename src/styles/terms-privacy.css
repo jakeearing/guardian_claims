@@ -1,0 +1,30 @@
+.page-container {
+    position: relative;
+    height: fit-content;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.terms-privacy-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    min-height: calc(100vh - 100px - 55px);
+  }
+
+.terms-privacy-content {
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    color: black;
+    padding-bottom: 10vh;
+    width: 70%;
+    text-align: left;
+}
+
+.terms-privacy-content h1 {
+    text-align: center;
+}
