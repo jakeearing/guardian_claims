@@ -155,25 +155,25 @@
         "contentOne": [
             {
                 "image": "contractor1.jpg",
-                "heading": "Our Contractor Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
+                "heading": "Growing Your Network",
+                "paragraphOne": "For years contractors have grown their own referral and lead pipeline through the use of networking. Meeting with realtors, insurance agents, and other trade professionals is one of the easiest ways to ensure the phone keeps ringing. At GuardianClaims, we believe in this same philosophy.",
+                "paragraphTwo": "Our Contractor Network’s primary goal is connecting property owners with licensed construction professionals."
             }
         ],
         "contentTwo": [
             {
                 "image": "contractor2.jpg",
-                "heading": "Our Contractor Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
+                "heading": "Form a Relationship",
+                "paragraphOne": "There are a lot of reasons to get into the restoration/insurance industry. But the most important one is to help people. If your customer’s insurance company won’t pay for the damages to their property - It may be time to give us a call at GuardianClaims.",
+                "paragraphTwo": "From under-deductible approvals, to partial-denials, to full denials, we’ve seen just about everything  in residential property claims."
             }
         ],
         "contentThree": [
             {
                 "image": "contractor3.jpg",
-                "heading": "Our Contractor Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "heading": "Become a Contractor Connection",
+                "paragraphOne": "Our offices receive calls from property owners daily looking for help with their insurance claim. Most of these individuals already have contractor’s selected for the job. Some do not.",
+                "paragraphTwo": "To join our Contractor Network, fill out our submission form. Don’t forget to enter your zip code and trade (ex. Roofing, Water Mitigation, Flooring).",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/network"
             }
@@ -244,20 +244,134 @@
                 {
                     "image": "josh-dalli.jpg",
                     "name": "Josh Dalli",
-                    "phone": "123-456-7890",
+                    "phone": "704-516-5336",
                     "email": "josh.dalli@roofsitup.com",
                     "licenseNumber": "XXXX-XXXX-XXXX-XXXX"
                 },
                 {
                     "image": "phil-mascolo.PNG",
                     "name": "Phil Mascolo",
-                    "phone": "123-456-7890",
+                    "phone": "704-858-7892",
                     "email": "phil.mascolo@roofsitup.com",
                     "licenseNumber": "XXXX-XXXX-XXXX-XXXX"
                 }
             ]
         }
     },
-    "termsOfUse": {},
-    "privacyPolicy": {}
+    "termsOfUse": {
+        "sections": [
+            {
+                "content": "Please read these Terms of Use (\"Terms\") carefully before using [Website URL] (the \"Website\"). These Terms govern your access to and use of the Website. By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use the Website."
+            },
+            {
+                "title": "Intellectual Property",
+                "sections": [
+                    {
+                        "title": "Ownership",
+                        "content": "The Website and its contents, including but not limited to text, graphics, images, logos, and software, are the property of GuardianClaims and are protected by intellectual property laws. You may not use, reproduce, modify, or distribute any content from the Website without prior written permission from GuardianClaims."
+                    },
+                    {
+                        "title": "Trademarks",
+                        "content": "All trademarks, service marks, logos, and trade names displayed on the Website are the property of GuardianClaims or their respective owners. You may not use any trademarks without the express written permission of the trademark owner."
+                    }
+                ]
+            },
+            {
+                "title": "User Conduct",
+                "sections": [
+                    {
+                        "title": "Acceptable Use",
+                        "content": "You agree to use the Website only for lawful purposes and in a manner that does not infringe upon or restrict the rights of others. You shall not:\n\n- Upload, post, or transmit any content that is unlawful, harmful, defamatory, obscene, or otherwise objectionable.\n- Engage in any activity that could disable, damage, or impair the Website or interfere with any other party's use of the Website.\n- Attempt to gain unauthorized access to any portion of the Website or its related systems or networks.\n- Collect or store personal information about other users without their consent."
+                    },
+                    {
+                        "title": "User Content",
+                        "content": "You may have the opportunity to submit or upload content to the Website. By submitting or uploading any content, you grant GuardianClaims a non-exclusive, royalty-free, worldwide, perpetual, and irrevocable license to use, reproduce, modify, adapt, publish, translate, distribute, and display such content for any purpose."
+                    }
+                ]
+            },
+            {
+                "title": "Disclaimer of Warranties",
+                "content": "The Website and its contents are provided on an \"as is'' and \"as available\" basis without any warranties of any kind, whether express or implied. GuardianClaims disclaims all warranties, including but not limited to the implied warranties of merchantability, fitness for a particular purpose, and non-infringement. GuardianClaims does not warrant that the Website will be error-free or uninterrupted, or that any defects will be corrected."
+            },
+            {
+                "title": "Limitation of Liability",
+                "content": "To the maximum extent permitted by law, GuardianClaims shall not be liable for any indirect, incidental, consequential, or punitive damages arising out of or in connection with the use or inability to use the Website, even if GuardianClaims has been advised of the possibility of such damages. In no event shall GuardianClaims' total liability to you for all damages, losses, or causes of action exceed the amount paid by you, if any, for accessing the Website."
+            },
+            {
+                "title": "Indemnification",
+                "content": "You agree to indemnify, defend, and hold harmless GuardianClaims and its officers, directors, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, or expenses, including reasonable attorneys' fees, arising out of or in connection with your use of the Website or any violation of these Terms."
+            },
+            {
+                "title": "Governing Law and Jurisdiction",
+                "content": "These Terms shall be governed by and construed in accordance with the laws of [Your Country/State/Region]. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts located in [Your Jurisdiction]."
+            }
+        ]
+    },
+    "privacyPolicy": {
+        "sections": [
+            {
+                "title": "Privacy Policy",
+                "content": "This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website [Website URL] (the 'Website'). Please read this Privacy Policy carefully to understand our practices regarding your personal information and how we will treat it. By using or accessing the Website, you agree to the terms of this Privacy Policy."
+            },
+            {
+                "title": "Information We Collect",
+                "sections": [
+                    {
+                        "title": "Personal Information",
+                        "content": "We may collect personal information that you voluntarily provide to us when you interact with the Website. This may include your name, email address, contact information, and any other information you choose to provide."
+                    },
+                    {
+                        "title": "Non-Personal Information",
+                        "content": "We may collect non-personal information about you automatically when you visit the Website. This may include your IP address, browser type, operating system, referring website, pages viewed, and other usage information. This information is used to analyze trends, administer the Website, and gather demographic information about our user base as a whole."
+                    }
+                ]
+            },
+            {
+                "title": "Use of Information",
+                "sections": [
+                    {
+                        "title": "Personal Information",
+                        "content": "We may use your personal information to: Provide, maintain, and improve the Website and our services. Respond to your inquiries, requests, and feedback. Send you administrative and promotional communications, such as updates, newsletters, and marketing materials. Personalize your experience on the Website. Protect the security and integrity of the Website. Comply with applicable laws, regulations, and legal processes."
+                    },
+                    {
+                        "title": "Non-Personal Information",
+                        "content": "We may collect non-personal information about you automatically when you visit the Website. This may include your IP address, browser type, operating system, referring website, pages viewed, and other usage information. This information is used to analyze trends, administer the Website, and gather demographic information about our user base as a whole."
+                    }
+                ]
+            },
+            {
+                "title": "Disclosure of Information",
+                "sections": [
+                    {
+                        "title": "Service Providers",
+                        "content": "We may share your information with trusted third-party service providers who assist us in operating our business, providing the Website, and delivering services to you. These service providers are bound by confidentiality obligations and are not permitted to use or disclose your information for any purpose other than providing services to us."
+                    },
+                    {
+                        "title": "Legal Requirements",
+                        "content": "We may disclose your information if required to do so by law or in the good faith belief that such action is necessary to comply with applicable laws, regulations, legal processes, or enforceable governmental requests."
+                    },
+                    {
+                        "title": "Business Transfers",
+                        "content": "In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred or acquired by a third party as part of the transaction. You acknowledge and agree that such transfers may occur and that any acquirer of our assets may continue to use your personal information as set forth in this Privacy Policy."
+                    }
+                ]
+            },
+            {
+                "title": "Data Security",
+                "content": "We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, please note that no data transmission or storage system can be guaranteed to be 100% secure. Therefore, while we strive to protect your information, we cannot guarantee its absolute security."
+            },
+            {
+                "title": "Your Choices",
+                "content": "You may opt out of receiving promotional communications from us by following the instructions in those communications or by contacting us directly. Please note that even if you opt out of receiving promotional communications, we may still send you non-promotional emails related to your use of the Website."
+            },
+            {
+                "title": "Changes to This Privacy Policy",
+                "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We encourage you to review this Privacy Policy periodically. Your continued use of the Website after any modifications constitutes your acceptance of the revised Privacy Policy."
+            },
+            {
+                "title": "Contact Us",
+                "content": "If you have any questions or concerns about this Privacy Policy, please contact us at [Contact Email]."
+            }
+        ]
+    }
 }
