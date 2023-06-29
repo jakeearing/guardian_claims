@@ -16,9 +16,11 @@ export default function Residential() {
         <div className="secondary-splash-wrapper">
           <p>{residentialContent.residentialSplash[0].heading}</p>
           <p>{residentialContent.residentialSplash[0].paragraph}</p>
-          <button>
-            <Link to={residentialContent.residentialSplash[0].buttonLink}>{residentialContent.residentialSplash[0].buttonText}</Link>
-          </button>
+          <Link to={residentialContent.residentialSplash[0].buttonLink}>
+            <button>
+              {residentialContent.residentialSplash[0].buttonText}
+            </button>
+          </Link>
         </div>
       </div>
       <div className="secondary-content-container">
@@ -54,9 +56,11 @@ export default function Residential() {
             <h2>{residentialContent.contentThree[0].heading}</h2>
             <p>{residentialContent.contentThree[0].paragraphOne}</p>
             <p>{residentialContent.contentThree[0].paragraphTwo}</p>
-            <button>
-              <Link to={residentialContent.contentThree[0].buttonLink}>{residentialContent.contentThree[0].buttonText}</Link>
-            </button>
+            <Link to={residentialContent.contentThree[0].buttonLink}>
+              <button>
+                {residentialContent.contentThree[0].buttonText}
+              </button>
+            </Link>
           </div>
         </div>
       </div>

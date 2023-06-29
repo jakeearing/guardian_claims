@@ -16,9 +16,11 @@ export default function Contractors() {
         <div className="secondary-splash-wrapper">
           <p>{contractorContent.contractorSplash[0].heading}</p>
           <p>{contractorContent.contractorSplash[0].paragraph}</p>
-          <button>
-            <Link to={contractorContent.contractorSplash[0].buttonLink}>{contractorContent.contractorSplash[0].buttonText}</Link>
-          </button>
+          <Link to={contractorContent.contractorSplash[0].buttonLink}>
+            <button>
+              {contractorContent.contractorSplash[0].buttonText}
+            </button>
+          </Link>
         </div>
       </div>
       <div className="secondary-content-container">
@@ -54,9 +56,11 @@ export default function Contractors() {
             <h2>{contractorContent.contentThree[0].heading}</h2>
             <p>{contractorContent.contentThree[0].paragraphOne}</p>
             <p>{contractorContent.contentThree[0].paragraphTwo}</p>
-            <button>
-              <Link to={contractorContent.contentThree[0].buttonLink}>{contractorContent.contentThree[0].buttonText}</Link>
-            </button>
+            <Link to={contractorContent.contentThree[0].buttonLink}>
+              <button>
+                {contractorContent.contentThree[0].buttonText}
+              </button>
+            </Link>
           </div>
         </div>
       </div>

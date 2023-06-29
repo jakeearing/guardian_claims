@@ -16,9 +16,11 @@ export default function Commercial() {
         <div className="secondary-splash-wrapper">
           <p>{commercialContent.commercialSplash[0].heading}</p>
           <p>{commercialContent.commercialSplash[0].paragraph}</p>
-          <button>
-            <Link to={commercialContent.commercialSplash[0].buttonLink}>{commercialContent.commercialSplash[0].buttonText}</Link>
-          </button>
+          <Link to={commercialContent.commercialSplash[0].buttonLink}>
+            <button>
+              {commercialContent.commercialSplash[0].buttonText}
+            </button>
+          </Link>
         </div>
       </div>
       <div className="secondary-content-container">
@@ -54,9 +56,11 @@ export default function Commercial() {
             <h2>{commercialContent.contentThree[0].heading}</h2>
             <p>{commercialContent.contentThree[0].paragraphOne}</p>
             <p>{commercialContent.contentThree[0].paragraphTwo}</p>
-            <button>
-              <Link to={commercialContent.contentThree[0].buttonLink}>{commercialContent.contentThree[0].buttonText}</Link>
-            </button>
+            <Link to={commercialContent.contentThree[0].buttonLink}>
+              <button>
+                {commercialContent.contentThree[0].buttonText}
+              </button>
+            </Link>
           </div>
         </div>
       </div>
