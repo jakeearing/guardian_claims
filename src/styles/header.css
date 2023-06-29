@@ -109,49 +109,23 @@ nav a {
     margin-bottom: 10px;
   }
 
-  .menu-toggle {
+  .menu-icon-wrapper {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
     cursor: pointer;
     z-index: 101;
     position: absolute;
-    right: 25px;
-    top: 15px;
-    padding: 5px;
-    border-radius: 50%;
+    right: 5px;
+    top: 5px;
+    width: 20px;
     background-color: transparent;
     border: none;
-    transition: background-color 0.3s ease-in-out;
   }
 
-  .menu-toggle span {
-    display: block;
-    width: 25px;
-    height: 2px;
-    background-color: white;
-    position: relative;
-    transition: background-color 0.3s ease-in-out;
+  .menu-icon-wrapper .menu-icon {
+    width: 20px;
   }
 
-  .menu-toggle:hover {
-    background-color: transparent;
-  }
-
-  .menu-toggle.open span:before {
-    transform: rotate(45deg);
-    top: 0;
-  }
-
-  .menu-toggle.open span:after {
-    transform: rotate(-45deg);
-    bottom: 0;
-  }
-
-  .menu-toggle.scrolled span,
-  .menu-toggle.open span {
+  button:hover {
     background-color: transparent;
   }
 
