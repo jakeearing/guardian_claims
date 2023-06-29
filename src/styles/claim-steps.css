@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #000F3C;
+  background-image: linear-gradient(to top, black, #000F3C);
   color: #FFFFFF;
   border-radius: 20px;
   padding: 20px;

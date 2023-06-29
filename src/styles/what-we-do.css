@@ -5,6 +5,8 @@
   height: 250px;
   background-image: linear-gradient(to right, #008FDA, #DC7C00);
   padding: 0 100px;
+  border-top: black 2px solid;
+  border-bottom: black 2px solid;
 }
 
 .title {

@@ -11,6 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-bottom: black 1px solid;
 }
 
 .secondary-splash-wrapper {

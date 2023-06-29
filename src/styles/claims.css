@@ -34,6 +34,14 @@
   break-inside: avoid;
 }
 
+.left-column h2{
+  text-align: center;
+}
+
+.left-column li{
+  font-size: 1.8vh;
+}
+
 .right-column {
   width: fit-content;
   break-inside: avoid;

@@ -32,7 +32,7 @@
 
 .claim-types-wrapper h1,
 .claim-types-wrapper h3 {
-  color: black;
+  color: #000F3C;
 }
 
 @media screen and (max-width: 768px) {
