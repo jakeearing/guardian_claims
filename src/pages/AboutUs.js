@@ -28,8 +28,8 @@ export default function AboutUs() {
               <div className="profile" key={index}>
                 <img src={process.env.PUBLIC_URL + `/images/team-pictures/${profile.image}`} alt={profile.name} />
                 <h2>{profile.name}</h2>
-                <p>Phone: {profile.phone}</p>
-                <p>Email: {profile.email}</p>
+                <p><span className="bold">Phone: <a href={`tel:${profile.phone}`}>{profile.phone}</a></span></p>
+                <p><span className="bold">Email: <a href={`mailto:${profile.email}`}>{profile.email}</a></span></p>
               </div>
             ))}
           </div>

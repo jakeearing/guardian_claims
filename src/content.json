@@ -259,7 +259,7 @@
     "termsOfUse": {
         "sections": [
             {
-                "content": "Please read these Terms of Use (\"Terms\") carefully before using [Website URL] (the \"Website\"). These Terms govern your access to and use of the Website. By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use the Website."
+                "content": "Please read these Terms of Use (\"Terms\") carefully before using [guardianclaims.com] (the \"Website\"). These Terms govern your access to and use of the Website. By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use the Website."
             },
             {
                 "title": "Intellectual Property",
@@ -309,7 +309,7 @@
         "sections": [
             {
                 "title": "Privacy Policy",
-                "content": "This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website [Website URL] (the 'Website'). Please read this Privacy Policy carefully to understand our practices regarding your personal information and how we will treat it. By using or accessing the Website, you agree to the terms of this Privacy Policy."
+                "content": "This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website [guardianclaims.com] (the 'Website'). Please read this Privacy Policy carefully to understand our practices regarding your personal information and how we will treat it. By using or accessing the Website, you agree to the terms of this Privacy Policy."
             },
             {
                 "title": "Information We Collect",
@@ -368,7 +368,7 @@
             },
             {
                 "title": "Contact Us",
-                "content": "If you have any questions or concerns about this Privacy Policy, please contact us at [Contact Email]."
+                "content": "If you have any questions or concerns about this Privacy Policy, please contact us at [claims@guardianclaims.com]."
             }
         ]
     }
