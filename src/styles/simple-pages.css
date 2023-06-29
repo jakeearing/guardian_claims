@@ -52,7 +52,7 @@
     height: 220px;
     width: auto;
     border-radius: 50%;
-    border: 2px black solid;
+    border: 1px black solid;
     object-fit: cover;
 }
 

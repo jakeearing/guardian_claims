@@ -14,19 +14,19 @@
         "contactHeading": "Contact us today!",
         "boxes": [
             {
-                "image": "image1.jpg",
+                "image": "intake-form.jpg",
                 "title": "Submit Our Intake Form",
                 "description": "Click the button below to fill out our short Claims form. Every claim is different, this will allow us to better understand your specific situation.",
                 "buttonText": "Get Started",
                 "buttonLink": "/claim"
             },
             {
-                "image": "image1.jpg",
+                "image": "connect.jpg",
                 "title": "Connect with Our Team",
                 "description": "A licensed public adjuster in your state will review your information and reach out for a free claim review. Not every claim is a good fit for a public adjuster, and in order to best serve our clients, we believe education and communication are key!"
             },
             {
-                "image": "image1.jpg",
+                "image": "receive-settlement.jpg",
                 "title": "Receive Settlement",
                 "description": "After our adjusters complete their investigation of your claim, and finalize negotiations with your insurance company, you’ll receive a check in the mail!"
             }
@@ -38,31 +38,31 @@
         "description": "Residential and commercial losses, emergency services, and planned restoration projects.",
         "claimCategories": [
             {
-                "image": "waterflood.jpg",
+                "image": "water-flood.jpg",
                 "title": "Water & Flood"
             },
             {
-                "image": "waterflood.jpg",
+                "image": "fire-damage.jpg",
                 "title": "Fire"
             },
             {
-                "image": "waterflood.jpg",
+                "image": "earthquake.jpg",
                 "title": "Earthquake"
             },
             {
-                "image": "waterflood.jpg",
+                "image": "wildfire.jpg",
                 "title": "Wildfire"
             },
             {
-                "image": "waterflood.jpg",
+                "image": "collapse.jpg",
                 "title": "Collapse"
             },
             {
-                "image": "waterflood.jpg",
+                "image": "hail.jpg",
                 "title": "Hail"
             },
             {
-                "image": "waterflood.jpg",
+                "image": "hurricane-tornado.jpg",
                 "title": "Hurricane & Tornado"
             },
             {
@@ -82,7 +82,7 @@
         ],
         "contentOne": [
             {
-                "image": "residential.jpg",
+                "image": "residential1.jpg",
                 "heading": "Our Residential Property Process",
                 "paragraphOne": "After your file is reviewed by a licensed public adjuster, a GuardianClaims team member will reach out to schedule an inspection of the damages.",
                 "paragraphTwo": "Our adjusters are trained in residential property inspections and have completed over 1000 inspections combined to-date. The first step to properly assessing any loss is a detailed and accurate inspection. Once our team completes their claim investigation, and compiles all relevant documents, estimates, and invoices, we can confidently present your claim to your insurance company and begin negotiations."
@@ -90,7 +90,7 @@
         ],
         "contentTwo": [
             {
-                "image": "residential.jpg",
+                "image": "residential2.jpg",
                 "heading": "Claim Presentation & Negotiation",
                 "paragraphOne": "The negotiation phase is oftentimes the most frustrating part of the entire claim process, and if not handled correctly, can drag out for months and months. Even years. This is where most homeowners/policyholders make the mistake of trusting that the assessment they receive from their insurance adjuster was written with their best interests in mind.",
                 "paragraphTwo": "It’s important to have a knowledgeable and experienced advocate present your claim in the full context of your policy, to ensure you’re recouping every dime that you’re owed after a loss."
@@ -98,7 +98,7 @@
         ],
         "contentThree": [
             {
-                "image": "residential.jpg",
+                "image": "residential3.jpg",
                 "heading": "Settlement",
                 "paragraphOne": "We’ve finally arrived at the settlement phase! The most anticipated part of any insurance claim. In many cases, the insurance company will attempt to settle your claim immediately after their initial inspection with little thought being put into what it is they’re actually paying for (if anything).",
                 "paragraphTwo": "However, allowing GuardianClaims to guide you through our systematic claim process guarantees a fair and accurate settlement based upon the coverage provided in your policy, and the damages sustained to your property.",
@@ -111,33 +111,33 @@
         "commercialSplash": [
             {
                 "heading": "Commercial",
-                "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
+                "paragraph": "At GuardianClaims we understand the busy daily life of business owners. Our streamlined claim process was created to make sure that the headaches of dealing with your insurance company are handled by an expert. Our team is trained to get you the best settlement possible, without having to waste your valuable time.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
             }
         ],
         "contentOne": [
             {
-                "image": "residential.jpg",
+                "image": "commercial1.jpg",
                 "heading": "Our Commercial Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
+                "paragraphOne": "After your file is reviewed by a licensed public adjuster, a GuardianClaims team member will reach out to schedule an inspection of the damages. Our initial process includes a detailed and thorough hands on inspection complete with a full photo loss report. You can rest easy knowing that GuardianClaims will account for every dollar of your loss!",
+                "paragraphTwo": ""
             }
         ],
         "contentTwo": [
             {
-                "image": "residential.jpg",
-                "heading": "Our Commercial Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
+                "image": "commercial2.jpg",
+                "heading": "Claim Presentation & Negotiation",
+                "paragraphOne": "Once our initial inspection and photo loss report is compiled, we will then write a comprehensive scope to account for all damages related to your loss. Our comprehensive scope aims to capture both the obvious and hidden or underlying damages, ensuring that nothing is overlooked. By considering all the associated losses, our scope ensures that the restoration efforts are thorough and complete.",
+                "paragraphTwo": "This scope document may include itemized lists of damaged property, recommended repairs or replacements, estimated costs, and any additional measures required to mitigate further losses. It serves as a roadmap for the subsequent restoration or recovery efforts, which will help guide your insurance company to a quick and easy resolution."
             }
         ],
         "contentThree": [
             {
-                "image": "residential.jpg",
-                "heading": "Our Commercial Property Process",
-                "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
-                "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
+                "image": "commercial3.jpg",
+                "heading": "Settlement",
+                "paragraphOne": "We have now reached the settlement phase, which is often the most eagerly awaited part of an insurance claim. Unfortunately, in many cases, insurance companies may try to settle the claim hastily after their initial inspection, without thoroughly considering what they are actually paying for, if anything.",
+                "paragraphTwo": "By relying on our expertise and systematic approach, you can have confidence in the fairness and accuracy of the settlement. We take into account all the relevant factors, such as the extent of damages and the coverage specified in your policy, to negotiate a settlement that adequately compensates you for your losses.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
             }
@@ -147,14 +147,14 @@
         "contractorSplash": [
             {
                 "heading": "Contractor Network",
-                "paragraph": "With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
+                "paragraph": "Calling all contractors and restoration professionals! Interested in becoming a part of the GuardianClaims Network?",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/network"
             }
         ],
         "contentOne": [
             {
-                "image": "residential.jpg",
+                "image": "contractor1.jpg",
                 "heading": "Our Contractor Property Process",
                 "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
                 "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
@@ -162,7 +162,7 @@
         ],
         "contentTwo": [
             {
-                "image": "residential.jpg",
+                "image": "contractor2.jpg",
                 "heading": "Our Contractor Property Process",
                 "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
                 "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque."
@@ -170,7 +170,7 @@
         ],
         "contentThree": [
             {
-                "image": "residential.jpg",
+                "image": "contractor3.jpg",
                 "heading": "Our Contractor Property Process",
                 "paragraphOne": "Pellentesque elit eget gravida cum sociis natoque penatibus. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Aliquam purus sit amet luctus venenatis lectus magna. Id volutpat lacus laoreet non. Facilisis mauris sit amet massa vitae tortor.",
                 "paragraphTwo": "Sem viverra aliquet eget sit amet tellus cras adipiscing enim. Quisque id diam vel quam. Ut sem viverra aliquet eget sit amet tellus cras adipiscing. Egestas fringilla phasellus faucibus scelerisque.",
@@ -182,44 +182,44 @@
     "whatWeDo": {
         "heading": "What we do",
         "iconOne": "one.svg",
-        "iconOneText": "Text for One",
+        "iconOneText": "Review your claim",
         "iconTwo": "two.svg",
-        "iconTwoText": "Text for Two",
+        "iconTwoText": "Complete On-board process",
         "iconThree": "three.svg",
-        "iconThreeText": "Text for Three",
+        "iconThreeText": "Submit file to carrier",
         "iconFour": "four.svg",
-        "iconFourText": "Text for Four",
+        "iconFourText": "Negotiate Claim",
         "iconFive": "five.svg",
-        "iconFiveText": "Text for Five"
+        "iconFiveText": "Receive Payment"
     },
     "testimonialsResidential": {
         "icon": "testimonial-icon.svg",
         "icon-text": "Testimonials",
         "heading": "Hear From Our Clients",
-        "text": "I have respect for what other people believe. What I believe in my own life is that it's a search for how I can do things better, whether it's being a better man or a better father or finding ways for myself to improve.",
-        "author": "Tom Cruise",
-        "company": "The Church of Scientology"
+        "text": "Got the opportunity to work with these guys on 4 different claims. They are very knowledgeable and a pleasure to work with.",
+        "author": "Blake Grissom",
+        "company": "Contractor Connection"
     },
     "testimonialsCommercial": {
         "icon": "testimonial-icon.svg",
         "icon-text": "Testimonials",
         "heading": "Hear From Our Clients",
-        "text": "I have respect for what other people believe. What I believe in my own life is that it's a search for how I can do things better, whether it's being a better man or a better father or finding ways for myself to improve.",
-        "author": "Tom Cruise",
-        "company": "The Church of Scientology"
+        "text": "Got the opportunity to work with these guys on 4 different claims. They are very knowledgeable and a pleasure to work with.",
+        "author": "Blake Grissom",
+        "company": "Contractor Connection"
     },
     "testimonialsContractors": {
         "icon": "testimonial-icon.svg",
         "icon-text": "Testimonials",
         "heading": "Hear From Our Clients",
-        "text": "I have respect for what other people believe. What I believe in my own life is that it's a search for how I can do things better, whether it's being a better man or a better father or finding ways for myself to improve.",
-        "author": "Tom Cruise",
-        "company": "The Church of Scientology"
+        "text": "Got the opportunity to work with these guys on 4 different claims. They are very knowledgeable and a pleasure to work with.",
+        "author": "Blake Grissom",
+        "company": "Contractor Connection"
     },
     "claims": {
-        "leftColumnText": "Egestas maecenas pharetra convallis posuere morbi leo urna. Faucibus nisl tincidunt eget nullam non nisi. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel. Ornare arcu dui vivamus arcu felis. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Iaculis urna id volutpat lacus laoreet. Proin nibh nisl condimentum id venenatis a condimentum. Integer eget aliquet nibh praesent. Odio eu feugiat pretium nibh. Nulla aliquet enim tortor at. Est pellentesque elit ullamcorper dignissim cras tincidunt. Quis lectus nulla at volutpat diam ut venenatis.",
+        "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
         "rightColumnText": "Mattis ullamcorper velit sed ullamcorper. Libero nunc consequat interdum varius sit amet mattis vulputate. Accumsan tortor posuere ac ut consequat semper. Et tortor at risus viverra adipiscing at in tellus integer. Ultrices dui sapien eget mi proin. Tincidunt vitae semper quis lectus nulla at.",
-        "lastSectionText": "Vulputate ut pharetra sit amet aliquam id diam maecenas ultricies. Vel facilisis volutpat est velit egestas. Pharetra massa massa ultricies mi quis. Placerat in egestas erat imperdiet sed euismod nisi. Ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla. Nec nam aliquam sem et tortor consequat id porta nibh."
+        "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
     },
     "about": {
         "heading": "About Us",

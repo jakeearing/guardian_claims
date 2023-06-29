@@ -23,7 +23,7 @@ export default function Commercial() {
       </div>
       <div className="secondary-content-container">
         <div className="left-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/${commercialContent.contentOne[0].image}`} alt="Commercial" />
+          <img src={process.env.PUBLIC_URL + `/images/content/${commercialContent.contentOne[0].image}`} alt="Commercial" />
         </div>
         <div className="right-column-text">
           <div className="right-column-content">
@@ -42,12 +42,12 @@ export default function Commercial() {
           </div>
         </div>
         <div className="right-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/${commercialContent.contentTwo[0].image}`} alt="Commercial" />
+          <img src={process.env.PUBLIC_URL + `/images/content/${commercialContent.contentTwo[0].image}`} alt="Commercial" />
         </div>
       </div>
       <div className="secondary-content-container">
         <div className="left-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/${commercialContent.contentThree[0].image}`} alt="Commercial" />
+          <img src={process.env.PUBLIC_URL + `/images/content/${commercialContent.contentThree[0].image}`} alt="Commercial" />
         </div>
         <div className="right-column-text">
           <div className="right-column-content">

@@ -23,7 +23,7 @@ export default function Contractors() {
       </div>
       <div className="secondary-content-container">
         <div className="left-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/${contractorContent.contentOne[0].image}`} alt="Contractor" />
+          <img src={process.env.PUBLIC_URL + `/images/content/${contractorContent.contentOne[0].image}`} alt="Contractor" />
         </div>
         <div className="right-column-text">
           <div className="right-column-content">
@@ -42,12 +42,12 @@ export default function Contractors() {
           </div>
         </div>
         <div className="right-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/${contractorContent.contentTwo[0].image}`} alt="Contractor" />
+          <img src={process.env.PUBLIC_URL + `/images/content/${contractorContent.contentTwo[0].image}`} alt="Contractor" />
         </div>
       </div>
       <div className="secondary-content-container">
         <div className="left-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/${contractorContent.contentThree[0].image}`} alt="Contractor" />
+          <img src={process.env.PUBLIC_URL + `/images/content/${contractorContent.contentThree[0].image}`} alt="Contractor" />
         </div>
         <div className="right-column-text">
           <div className="right-column-content">
