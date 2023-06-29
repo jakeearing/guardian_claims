@@ -30,7 +30,6 @@ export default function AboutUs() {
                 <h2>{profile.name}</h2>
                 <p>Phone: {profile.phone}</p>
                 <p>Email: {profile.email}</p>
-                <p>License Number: {profile.licenseNumber}</p>
               </div>
             ))}
           </div>
