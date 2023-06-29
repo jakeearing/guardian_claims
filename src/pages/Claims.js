@@ -16,6 +16,13 @@ export default function Claims() {
         <div className="claims-content">
           <div className="left-column">
             <h3><span className="thin">{content.claims.leftColumnText}</span></h3>
+            <h2>{content.claims.leftColumnListTitle}</h2>
+            <ul>
+              <li>{content.claims.leftColumnListItem1}</li>
+              <li>{content.claims.leftColumnListItem2}</li>
+              <li>{content.claims.leftColumnListItem3}</li>
+              <li>{content.claims.leftColumnListItem4}</li>
+            </ul>
           </div>
           <div className="right-column">
             <div className="claims-form">
