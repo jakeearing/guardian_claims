@@ -42,10 +42,6 @@
     border-radius: 20px;
     cursor: pointer;
   }
-  
-  button[type="submit"]:hover {
-    background-color: #ddd;
-  }
 
   .form-container p{
     font-size: 1.1vh;
