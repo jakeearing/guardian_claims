@@ -44,7 +44,7 @@
 }
 
 .secondary-content-container {
-  height: 50vh;
+  height: auto;
   display: flex;
   align-items: stretch;
   justify-content: center;
