@@ -26,27 +26,30 @@ app.post('/api/send-email', (req, res) => {
     },
   });
 
-  // Construct the email message based on the form type
+  // Construct the email message based on the form type and set the email subject
   let emailMessage;
+  let emailSubject;
   if (formData.formType === 'default') {
+    emailSubject = 'Claim Form Submission';
     emailMessage = `
-      First Name: ${formData.firstName}
-      Last Name: ${formData.lastName}
-      Email Address: ${formData.email}
-      Phone Number: ${formData.phone}
-      Zip Code: ${formData.zipCode}
-      Type of Claim: ${formData.claimType}
-      Claim Status: ${formData.claimStatus}
-    `;
+    First Name: ${formData.firstName}
+    Last Name: ${formData.lastName}
+    Email Address: ${formData.email}
+    Phone Number: ${formData.phone}
+    Zip Code: ${formData.zipCode}
+    Type of Claim: ${formData.claimType}
+    Claim Status: ${formData.claimStatus}
+  `;
   } else if (formData.formType === 'contractor') {
+    emailSubject = 'Contractor Form Submission';
     emailMessage = `
-      First Name: ${formData.firstName}
-      Last Name: ${formData.lastName}
-      Email Address: ${formData.email}
-      Phone Number: ${formData.phone}
-      Zip Code: ${formData.zipCode}
-      Company Name: ${formData.company}
-    `;
+    First Name: ${formData.firstName}
+    Last Name: ${formData.lastName}
+    Email Address: ${formData.email}
+    Phone Number: ${formData.phone}
+    Zip Code: ${formData.zipCode}
+    Company Name: ${formData.company}
+  `;
   } else {
     return res.status(400).json({ error: 'Invalid form type' });
   }
@@ -55,7 +58,8 @@ app.post('/api/send-email', (req, res) => {
   const mailOptions = {
     from: 'claims@guardianclaims.com',
     to: 'claims@guardianclaims.com',
-    subject: 'Claim Form Submission',
+    // Set the email subject based on the form type
+    subject: emailSubject, 
     text: emailMessage,
   };
 
