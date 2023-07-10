@@ -27,7 +27,7 @@ export default function ClaimSteps() {
           <div className="claim-step-box" key={index}>
             <img
               src={process.env.PUBLIC_URL + `/images/content/${box.image}`}
-              alt="intakeForm"
+              alt={box.title}
             />
             <h2>{box.title}</h2>
             <p>{box.description}</p>
