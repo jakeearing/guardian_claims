@@ -22,12 +22,13 @@
   border-image-slice: 1;
   padding: 0;
   margin: 0;
+  width: fit-content;
   overflow: hidden;
 }
 
 .claims-box img {
-  max-width: 100%;
   height: 100%;
+  width: auto;
   object-fit: cover;
   margin-bottom: 10px;
   aspect-ratio: 1/1;
