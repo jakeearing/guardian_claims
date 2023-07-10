@@ -10,6 +10,7 @@
 
 .claim-steps-content {
   display: grid;
+  margin-top: 40px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
@@ -23,7 +24,6 @@
   color: #FFFFFF;
   border-radius: 20px;
   padding: 20px;
-  margin-bottom: 40px;
 }
 
 .claim-step-box img {
@@ -34,12 +34,12 @@
 }
 
 .claim-step-box h2 {
-  font-size: 1.5rem;
+  font-size: 2.5vh;
   margin-bottom: 10px;
 }
 
 .claim-step-box p {
-  font-size: 1.3rem;
+  font-size: 2vh;
 }
 
 .claim-step-box button {

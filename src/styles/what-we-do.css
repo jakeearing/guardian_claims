@@ -7,6 +7,7 @@
   padding: 0 100px;
   border-top: black 2px solid;
   border-bottom: black 2px solid;
+  max-width: 90%;
 }
 
 .title {
@@ -25,7 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 5vw;
+  margin-right: 4vw;
   width: 130px;
 }
 

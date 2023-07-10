@@ -8,7 +8,7 @@ export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSplashPage, setIsSplashPage] = useState(true);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 900);
   const location = useLocation();
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export default function Header() {
     };
 
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 900);
     };
 
     window.addEventListener('scroll', handleScroll);
