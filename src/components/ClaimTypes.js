@@ -26,7 +26,7 @@ export default function ClaimTypes() {
             <div className="image-wrapper">
               <img
                 src={process.env.PUBLIC_URL + `/images/content/${category.image}`}
-                alt="intakeForm"
+                alt={category.title}
               />
               <div className="overlay">
                 <h2>{category.title}</h2>
