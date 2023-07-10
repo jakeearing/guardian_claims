@@ -23,6 +23,7 @@ export default function Commercial() {
           </Link>
         </div>
       </div>
+      <WhatWeDo />
       <div className="secondary-content-container">
         <div className="left-column-image">
           <img src={process.env.PUBLIC_URL + `/images/content/${commercialContent.contentOne[0].image}`} alt="Commercial" />
@@ -64,7 +65,6 @@ export default function Commercial() {
           </div>
         </div>
       </div>
-      <WhatWeDo />
       <TestimonialsCommercial />
       <Footer />
     </div>

@@ -23,6 +23,7 @@ export default function Contractors() {
           </Link>
         </div>
       </div>
+      <WhatWeDo />
       <div className="secondary-content-container">
         <div className="left-column-image">
           <img src={process.env.PUBLIC_URL + `/images/content/${contractorContent.contentOne[0].image}`} alt="Contractor" />
@@ -64,7 +65,6 @@ export default function Contractors() {
           </div>
         </div>
       </div>
-      <WhatWeDo />
       <TestimonialsContractors />
       <Footer />
     </div>

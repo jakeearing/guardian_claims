@@ -130,12 +130,12 @@
 
   .secondary-content-container:nth-child(odd) .left-column-text,
   .secondary-content-container:nth-child(odd) .left-column-image {
-    order: 2;
+    order: 1;
   }
 
   .secondary-content-container:nth-child(odd) .right-column-text,
   .secondary-content-container:nth-child(odd) .right-column-image {
-    order: 1;
+    order: 2;
   }
 
   .left-column-content,
@@ -150,6 +150,10 @@
 @media (max-width: 768px) {
   .secondary-splash-container {
     padding-bottom: 40px;
+  }
+
+  .what-we-do-container {
+    display: none;
   }
 
   .secondary-splash-wrapper button {

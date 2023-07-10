@@ -23,6 +23,7 @@ export default function Residential() {
           </Link>
         </div>
       </div>
+      <WhatWeDo />
       <div className="secondary-content-container">
         <div className="left-column-image">
           <img src={process.env.PUBLIC_URL + `/images/content/${residentialContent.contentOne[0].image}`} alt="Residential" />
@@ -64,7 +65,6 @@ export default function Residential() {
           </div>
         </div>
       </div>
-      <WhatWeDo />
       <TestimonialsResidential />
       <Footer />
     </div>
