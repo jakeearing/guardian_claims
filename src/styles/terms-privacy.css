@@ -1,12 +1,3 @@
-.page-container {
-    position: relative;
-    height: fit-content;
-    overflow: hidden;
-    color: black;
-    text-align: center;
-    margin-top: 55px;
-}
-
 .terms-privacy-container {
     display: flex;
     justify-content: center;
