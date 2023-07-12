@@ -10,6 +10,7 @@ export default function TermsOfUse() {
   return (
     <div>
       <Header />
+      <div className="container">
         <div className="terms-privacy-container">
           <div className="terms-privacy-content">
             <h1>Terms of Use</h1>
@@ -34,6 +35,7 @@ export default function TermsOfUse() {
               ))}
             </ol>
           </div>
+        </div>
       </div>
       <Footer />
     </div>
