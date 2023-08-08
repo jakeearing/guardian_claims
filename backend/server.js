@@ -56,8 +56,8 @@ app.post('/api/send-email', (req, res) => {
 
   // Define the email options
   const mailOptions = {
-    from: 'claims@guardianclaims.com',
-    to: 'claims@guardianclaims.com',
+    from: process.env.EMAIL_USER,
+    to: process.env.EMAIL_USER,
     // Set the email subject based on the form type
     subject: emailSubject, 
     text: emailMessage,
