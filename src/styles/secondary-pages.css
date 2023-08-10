@@ -7,7 +7,7 @@
   height: 50vh;
   overflow: hidden;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/secondary-background.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/secondary-background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

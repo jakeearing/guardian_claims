@@ -8,7 +8,7 @@ export default function ClaimSteps() {
     // Preload images
     content.claimSteps.boxes.forEach(box => {
       const img = new Image();
-      img.src = process.env.PUBLIC_URL + `/images/content/claim-steps/${box.image}`;
+      img.src = process.env.PUBLIC_URL + `/images/claim-steps/${box.image}`;
     });
   }, []);
 
@@ -26,7 +26,7 @@ export default function ClaimSteps() {
         {content.claimSteps.boxes.map((box, index) => (
           <div className="claim-step-box" key={index}>
             <img
-              src={process.env.PUBLIC_URL + `/images/content/claim-steps/${box.image}`}
+              src={process.env.PUBLIC_URL + `/images/claim-steps/${box.image}`}
               alt={box.title}
             />
             <h2>{box.title}</h2>

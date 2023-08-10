@@ -26,7 +26,7 @@ export default function Residential() {
       <WhatWeDo />
       <div className="secondary-content-container">
         <div className="left-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/content/${residentialContent.contentOne[0].image}`} alt="Residential" />
+          <img src={process.env.PUBLIC_URL + `/images/secondary-pages/${residentialContent.contentOne[0].image}`} alt="Residential" />
         </div>
         <div className="right-column-text">
           <div className="right-column-content">
@@ -45,12 +45,12 @@ export default function Residential() {
           </div>
         </div>
         <div className="right-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/content/${residentialContent.contentTwo[0].image}`} alt="Residential" />
+          <img src={process.env.PUBLIC_URL + `/images/secondary-pages/${residentialContent.contentTwo[0].image}`} alt="Residential" />
         </div>
       </div>
       <div className="secondary-content-container">
         <div className="left-column-image">
-          <img src={process.env.PUBLIC_URL + `/images/content/${residentialContent.contentThree[0].image}`} alt="Residential" />
+          <img src={process.env.PUBLIC_URL + `/images/secondary-pages/${residentialContent.contentThree[0].image}`} alt="Residential" />
         </div>
         <div className="right-column-text">
           <div className="right-column-content">

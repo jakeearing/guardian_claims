@@ -7,7 +7,7 @@ export default function ClaimTypes() {
     // Preload images
     content.claimTypes.claimCategories.forEach(category => {
       const img = new Image();
-      img.src = process.env.PUBLIC_URL + `/images/content/claim-types/${category.image}`;
+      img.src = process.env.PUBLIC_URL + `/images/claim-types/${category.image}`;
     });
   }, []);
 
@@ -25,7 +25,7 @@ export default function ClaimTypes() {
           <div className="claims-box" key={index}>
             <div className="image-wrapper">
               <img
-                src={process.env.PUBLIC_URL + `/images/content/claim-types/${category.image}`}
+                src={process.env.PUBLIC_URL + `/images/claim-types/${category.image}`}
                 alt={category.title}
               />
               <div className="overlay">
