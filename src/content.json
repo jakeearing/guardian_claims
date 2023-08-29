@@ -1,10 +1,10 @@
 {
     "splash": {
-        "heading": "Are you struggling with your insurance claim?",
-        "description": "Whether you’ve filed a claim or not, GuardianClaims is here to help. With our simple intake process, getting started is easy. Just fill out the form, and we will review your file to make sure you are a good fit for a Public Adjuster. From start to finish, we keep you informed and updated every step of the way.",
-        "buttonText": "Get Guardian",
+        "heading": "Have you suffered damage to your home or business and got an unreasonable settlement from your insurance company?",
+        "description": "GuardianClaims is a public adjusting firm that works with your insurance company to help make you whole again. We're only compensated when you get the fair settlement you deserve and are equipped to handle all residential, business, and commercial property insurance claims.",
+        "buttonText": "Free Claim Review",
         "buttonLink": "/claim",
-        "footerText": "Let GuardianClaims be your protector and defender against unjust insurance practices. We're here to shield your claim and fight for your right to fair compensation."
+        "footerText": "Insurance companies are well-represented, and you should be too!"
     },
     "claimSteps": {
         "headingThinOne": "At ",
