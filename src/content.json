@@ -15,8 +15,8 @@
         "boxes": [
             {
                 "image": "intake-form.jpg",
-                "title": "Submit Our Intake Form",
-                "description": "Click the button below to fill out our short Claims form. Every claim is different, this will allow us to better understand your specific situation.",
+                "title": "Free Claim Review",
+                "description": "Every claim is unique, so tell us a little more about your situation, and we'll develop a plan to get you what you deserve.",
                 "buttonText": "Get Started",
                 "buttonLink": "/claim"
             },
