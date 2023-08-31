@@ -35,7 +35,8 @@
     "claimTypes": {
         "headingThin": "Your situation is unique  ",
         "headingBold": "and we take it personally.",
-        "description": "GuardianClaims adjusters are experienced in all facets of residential and commercial insurance losses.": [
+        "description": "GuardianClaims adjusters are experienced in all facets of residential and commercial insurance losses.",
+        "claimCategories": [
             {
                 "image": "water-flood.jpg",
                 "title": "Water & Flood"
