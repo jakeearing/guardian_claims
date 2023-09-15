@@ -18,7 +18,7 @@ export default function ClaimTypes() {
         {content.claimTypes.headingBold}
       </h1>
       <h3>
-        <span className="thin">{content.claimTypes.description}</span>
+        {content.claimTypes.description}
       </h3>
       <div className="claim-types-content">
         {content.claimTypes.claimCategories.map((category, index) => (

@@ -20,7 +20,7 @@ export default function ClaimSteps() {
         {content.claimSteps.headingThinTwo}
       </h1>
       <h3>
-        <span className="thin">{content.claimSteps.description}</span>
+        {content.claimSteps.description}
       </h3>
       <div className="claim-steps-content">
         {content.claimSteps.boxes.map((box, index) => (
