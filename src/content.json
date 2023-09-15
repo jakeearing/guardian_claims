@@ -83,9 +83,9 @@
         "contentOne": [
             {
                 "image": "residential1.jpg",
-                "heading": "Our Residential Property Process",
-                "paragraphOne": "After your file is reviewed by a licensed public adjuster, a GuardianClaims team member will reach out to schedule an inspection of the damages.",
-                "paragraphTwo": "Our adjusters are trained in residential property inspections and have completed over 1000 inspections combined to-date. The first step to properly assessing any loss is a detailed and accurate inspection. Once our team completes their claim investigation, and compiles all relevant documents, estimates, and invoices, we can confidently present your claim to your insurance company and begin negotiations."
+                "heading": "It Starts With Your Free Claim Review",
+                "paragraphOne": "GuardianClaims licensed public adjusters will reach out to begin building your case.",
+                "paragraphTwo": "We will review your policy and documents to confirm coverage for your damages. Experienced adjusters and experts will inspect your property and prepare a visual report supporting a fair settlement for you and your family."
             }
         ],
         "contentTwo": [
@@ -180,17 +180,17 @@
         ]
     },
     "whatWeDo": {
-        "heading": "What we do",
+        "heading": "5-Steps to Success",
         "iconOne": "one.svg",
-        "iconOneText": "Review your claim",
+        "iconOneText": "Free Claim Review",
         "iconTwo": "two.svg",
-        "iconTwoText": "Complete On-board process",
+        "iconTwoText": "Build Your Case",
         "iconThree": "three.svg",
-        "iconThreeText": "Submit file to carrier",
+        "iconThreeText": "Negotiate With Insurance",
         "iconFour": "four.svg",
-        "iconFourText": "Negotiate Claim",
+        "iconFourText": "Fair Settlement",
         "iconFive": "five.svg",
-        "iconFiveText": "Receive Payment"
+        "iconFiveText": "Get Payment!"
     },
     "testimonialsResidential": {
         "icon": "testimonial-icon.svg",
