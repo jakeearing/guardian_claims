@@ -3,7 +3,7 @@ import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
 import WhatWeDo from '../components/secondary-pages/WhatWeDo.js';
 import TestimonialsContractors from '../components/secondary-pages/TestimonialsContractors.js';
-import '../styles/secondary-pages.css'
+import '../styles/secondary-contractors.css'
 import { Link } from 'react-router-dom';
 import content from '../content.json';
 
@@ -12,7 +12,7 @@ export default function Contractors() {
   return (
     <div className="secondary-container">
       <Header />
-      <div className="secondary-splash-container">
+      <div className="contractors-splash-container">
         <div className="secondary-splash-wrapper">
           <p>{contractorContent.contractorSplash[0].heading}</p>
           <p>{contractorContent.contractorSplash[0].paragraph}</p>

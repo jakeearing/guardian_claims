@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   height: 250px;
-  background-image: linear-gradient(to right, #008FDA, #DC7C00);
+  background-image: linear-gradient(to right, rgba(211, 211, 211, 0.7), rgba(211, 211, 211, 0.7));
   padding: 0 100px;
   border-top: black 2px solid;
   border-bottom: black 2px solid;
@@ -12,7 +12,7 @@
 
 .title {
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 34px;
 }
 
@@ -37,11 +37,10 @@
 .icon {
   width: 50px;
   height: 50px;
-  filter: invert(1);
 }
 
 .icon-text {
   text-align: center;
-  color: white;
+  color: black;
   margin-top: 5px;
 }
