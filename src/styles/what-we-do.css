@@ -5,8 +5,6 @@
   height: 250px;
   background-image: linear-gradient(to right, rgba(211, 211, 211, 0.7), rgba(211, 211, 211, 0.7));
   padding: 0 100px;
-  border-top: black 2px solid;
-  border-bottom: black 2px solid;
   max-width: 90%;
 }
 
