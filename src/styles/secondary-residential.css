@@ -4,6 +4,8 @@
 
 .residential-splash-container {
   display: flex;
+  justify-content: center;
+  align-items: center; 
   position: relative;
   height: 80vh;
   overflow: hidden;
@@ -18,7 +20,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   padding: 0px;
   text-align: left;
   max-width: 800px;
