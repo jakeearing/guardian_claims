@@ -120,14 +120,14 @@
             {
                 "image": "commercial1.jpg",
                 "heading": "Our Commercial Property Process",
-                "paragraphOne": "Get A Free Commercial Claim Review",
-                "paragraphTwo": "Your business loss generated a lot of paperwork on top of all the headaches. GuardianClaims commercial public adjusters take over the process and pay attention to the details that streamline claims. Our commercial process starts with a thorough policy review to confirm coverage and build a case. Our comprehensive document review, property inspection, and visual report ensure that your insurance company has no choice but a fair settlement."
+                "paragraphOne": "Your business loss generated a lot of paperwork on top of all the headaches.",
+                "paragraphTwo": "GuardianClaims commercial public adjusters take over the process and pay attention to the details that streamline claims. Our commercial process starts with a thorough policy review to confirm coverage and build a case. Our comprehensive document review, property inspection, and visual report ensure that your insurance company has no choice but a fair settlement."
             }
         ],
         "contentTwo": [
             {
                 "image": "commercial2.jpg",
-                "heading": "Claim Presentation & Negotiation - Your Clearscope Report",
+                "heading": "Submission & Negotiation - Your Clearscope Report",
                 "paragraphOne": "Insurance companies are well-represented, and GuardianClaims' commercial division will ensure you are, too! Once your documents, inspections, and photo loss report are compiled, a GuardianClaims Clearscope report is prepared to account for all damages and entitlements. Our comprehensive Clearscope report captures evident and underlying damages so nothing is overlooked and ensures your restoration plan is thorough.",
                 "paragraphTwo": "We include measures to mitigate further losses, which are often overlooked and a necessary step on your part. GuardianClaims Clearscope report serves as a settlement roadmap for your business's restoration and recovery and focuses your insurance company on a fair resolution of your claim."
             }
@@ -136,8 +136,8 @@
             {
                 "image": "commercial3.jpg",
                 "heading": "Settlement",
-                "paragraphOne": "We have now reached the settlement phase, which is often the most eagerly awaited part of an insurance claim. Unfortunately, in many cases, insurance companies may try to settle the claim hastily after their initial inspection, without thoroughly considering what they are actually paying for, if anything.",
-                "paragraphTwo": "By relying on our expertise and systematic approach, you can have confidence in the fairness and accuracy of the settlement. We take into account all the relevant factors, such as the extent of damages and the coverage specified in your policy, to negotiate a settlement that adequately compensates you for your losses.",
+                "paragraphOne": "The settlement phase is the most eagerly anticipated part of the process, but here again, insurance companies may try to settle hastily, undermining the extent of your damages. GuardianClaims protects your best interests with attention to detail, ensuring a fair and accurate settlement.",
+                "paragraphTwo": " Last but not least, GuardianClaims processes the funding of your settlement to ensure accurate and prompt payment according to the terms of your policy. And remember, we don't get paid unless you do!",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
             }
