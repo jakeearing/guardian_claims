@@ -4,7 +4,7 @@
 
 .contractors-splash-container {
   position: relative;
-  height: 50vh;
+  height: 80vh;
   overflow: hidden;
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/contractors-splash.jpg');
