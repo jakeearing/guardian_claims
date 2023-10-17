@@ -42,6 +42,10 @@
   font-size: 1.8vh;
 }
 
+.left-column ul {
+  list-style-type: none;
+}
+
 .right-column {
   width: fit-content;
   break-inside: avoid;

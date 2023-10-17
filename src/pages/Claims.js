@@ -18,10 +18,11 @@ export default function Claims() {
             <h3><span className="thin">{content.claims.leftColumnText}</span></h3>
             <h2>{content.claims.leftColumnListTitle}</h2>
             <ul>
-              <li>{content.claims.leftColumnListItem1}</li>
-              <li>{content.claims.leftColumnListItem2}</li>
-              <li>{content.claims.leftColumnListItem3}</li>
-              <li>{content.claims.leftColumnListItem4}</li>
+              <li>{content.whatWeDo.iconOneText}</li>
+              <li>{content.whatWeDo.iconTwoText}</li>
+              <li>{content.whatWeDo.iconThreeText}</li>
+              <li>{content.whatWeDo.iconFourText}</li>
+              <li>{content.whatWeDo.iconFiveText}</li>
             </ul>
           </div>
           <div className="right-column">
