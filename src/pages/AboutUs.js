@@ -19,6 +19,10 @@ export default function AboutUs() {
           {whoWeAreParagraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
+          <div className="signatures">
+            <img src={process.env.PUBLIC_URL + `/images/about-signatures/jd-signature.png`} alt='Josh Dalli Signature' />
+            <img src={process.env.PUBLIC_URL + `/images/about-signatures/pm-signature.png`} alt='Phil Mascolo Signature' />
+          </div>
         </div>
 
         <div className="profile-section">
