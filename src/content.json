@@ -155,25 +155,25 @@
         "contentOne": [
             {
                 "image": "contractor1.jpg",
-                "heading": "Growing Your Network",
-                "paragraphOne": "For years contractors have grown their own referral and lead pipeline through the use of networking. Meeting with realtors, insurance agents, and other trade professionals is one of the easiest ways to ensure the phone keeps ringing. At GuardianClaims, we believe in this same philosophy.",
-                "paragraphTwo": "Our Contractor Network’s primary goal is connecting property owners with licensed construction professionals."
+                "heading": "Contractors",
+                "paragraphOne": "As contractors, you possess expertise in the real world elements of property restoration and renovation. You have a deep understanding of construction, material costs, labor, and project timelines. Conversely, as public adjusters, our specialization lies in a different facet of the equation – we excel in insurance policies, claims procedures, and negotiation strategies. When our two areas of expertise converge it creates a synergy that delivers a robust and all-encompassing service to the policyholder.",
+                "paragraphTwo": ""
             }
         ],
         "contentTwo": [
             {
                 "image": "contractor2.jpg",
-                "heading": "Form a Relationship",
-                "paragraphOne": "There are a lot of reasons to get into the restoration/insurance industry. But the most important one is to help people. If your customer’s insurance company won’t pay for the damages to their property - It may be time to give us a call at GuardianClaims.",
-                "paragraphTwo": "From under-deductible approvals, to partial-denials, to full denials, we’ve seen just about everything  in residential property claims."
+                "heading": "HOA, COA, & POA",
+                "paragraphOne": "Homeowners, Property Owners, and Condo Associations encounter various hurdles when handling insurance claims. From navigating complex policies to guaranteeing comprehensive coverage for individual unit owners, the claim process can swiftly turn into a daunting task. Oversights or errors may result in undervalued claims, or extended settlement durations.",
+                "paragraphTwo": "Our team specializes in providing clarity within the insurance process. We assure that claims are managed accurately, steering clear of potential pitfalls, and guaranteeing that your community receives the full compensation it deserves without any unnecessary delays."
             }
         ],
         "contentThree": [
             {
                 "image": "contractor3.jpg",
-                "heading": "Become a Contractor Connection",
-                "paragraphOne": "Our offices receive calls from property owners daily looking for help with their insurance claim. Most of these individuals already have contractor’s selected for the job. Some do not.",
-                "paragraphTwo": "To join our Contractor Network, fill out our submission form. Don’t forget to enter your zip code and trade (ex. Roofing, Water Mitigation, Flooring).",
+                "heading": "Affiliations",
+                "paragraphOne": "GuardianClaims is proud to offer iink payment processing on all settlements, preventing long delays in the property restoration process and eliminating payment frustrations. Our commitment to seamless, secure, and efficient payment solutions ensures a hassle-free experience for our clients. ",
+                "paragraphTwo": "We are excited to be a part of United Claims Professionals, the newest organization for public adjusters and industry experts. Our affiliation with UCP signifies our dedication to upholding the highest standards of professionalism. This relationship bolsters our ability to provide top-notch services and demonstrate our commitment to you, the insured.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/network"
             }
