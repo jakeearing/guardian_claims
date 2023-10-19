@@ -182,15 +182,15 @@
     "whatWeDo": {
         "heading": "5-Steps to Success",
         "iconOne": "one.svg",
-        "iconOneText": "Free Claim Review",
+        "iconOneText": "1. Free Claim Review",
         "iconTwo": "two.svg",
-        "iconTwoText": "Build Your Case",
+        "iconTwoText": "2. Build Your Case",
         "iconThree": "three.svg",
-        "iconThreeText": "Negotiate With Insurance",
+        "iconThreeText": "3. Negotiate With Insurance",
         "iconFour": "four.svg",
-        "iconFourText": "Fair Settlement",
+        "iconFourText": "4. Fair Settlement",
         "iconFive": "five.svg",
-        "iconFiveText": "Get Payment!"
+        "iconFiveText": "5. Get Payment!"
     },
     "testimonialsResidential": {
         "icon": "testimonial-icon.svg",
@@ -244,13 +244,13 @@
                 {
                     "image": "josh-dalli.jpg",
                     "name": "Josh Dalli",
-                    "phone": "704-516-5336",
+                    "phone": "(704)-516-5336",
                     "email": "jdalli@guardianclaims.com"
                 },
                 {
-                    "image": "phil-mascolo.PNG",
+                    "image": "phil-mascolo.png",
                     "name": "Phil Mascolo",
-                    "phone": "704-858-7892",
+                    "phone": "(704)-858-7892",
                     "email": "pmascolo@guardianclaims.com"
                 }
             ]

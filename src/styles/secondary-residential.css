@@ -3,8 +3,11 @@
 }
 
 .residential-splash-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   position: relative;
-  height: 50vh;
+  height: 80vh;
   overflow: hidden;
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/residential-splash.jpg');
@@ -17,9 +20,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   padding: 0px;
-  text-align: left;
+  text-align: center;
   max-width: 800px;
   margin: 0vh auto;
   height: 60vh;

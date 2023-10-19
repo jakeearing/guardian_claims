@@ -13,7 +13,8 @@ export default function Residential() {
     <div className="secondary-container">
       <Header />
       <div className="residential-splash-container">
-        <div className="secondary-splash-wrapper">
+      </div>
+      <div className="secondary-splash-wrapper">
           <p>{residentialContent.residentialSplash[0].heading}</p>
           <p>{residentialContent.residentialSplash[0].paragraph}</p>
           <Link to={residentialContent.residentialSplash[0].buttonLink}>
@@ -22,7 +23,6 @@ export default function Residential() {
             </button>
           </Link>
         </div>
-      </div>
       <WhatWeDo />
       <div className="secondary-content-container">
         <div className="left-column-image">
@@ -33,6 +33,11 @@ export default function Residential() {
             <h2>{residentialContent.contentOne[0].heading}</h2>
             <p>{residentialContent.contentOne[0].paragraphOne}</p>
             <p>{residentialContent.contentOne[0].paragraphTwo}</p>
+            <Link to={residentialContent.contentThree[0].buttonLink}>
+              <button>
+                {residentialContent.contentThree[0].buttonText}
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -42,6 +47,11 @@ export default function Residential() {
             <h2>{residentialContent.contentTwo[0].heading}</h2>
             <p>{residentialContent.contentTwo[0].paragraphOne}</p>
             <p>{residentialContent.contentTwo[0].paragraphTwo}</p>
+            <Link to={residentialContent.contentThree[0].buttonLink}>
+              <button>
+                {residentialContent.contentThree[0].buttonText}
+              </button>
+            </Link>
           </div>
         </div>
         <div className="right-column-image">
