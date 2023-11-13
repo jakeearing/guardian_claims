@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import '../../styles/footer.css';
+import content from '../../content.json';
 
 export default function Footer() {
   return (
@@ -34,7 +35,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="copyright">
-            <p>Copyright &copy; 2023 GuardianClaims - All Rights Reserved</p>
+            <p>{content.copyright}</p>
           </div>
         </div>
       </div>

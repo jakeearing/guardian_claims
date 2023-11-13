@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import logoWhite from './logo-left.png';
 import logoGrey from './logo-left-grey.png';
 import '../../styles/header.css';
+import '../../content.json';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -99,7 +100,7 @@ export default function Header() {
                 </li>
                 <div>
                   {/* 
-                    <p>Copyright &copy; 2023 GuardianClaims - All Rights Reserved</p>
+                    <p>{content.copyright}</p>
                   */}
                 </div>
               </ul>
