@@ -3,7 +3,7 @@ import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
 import WhatWeDo from '../components/secondary-pages/WhatWeDo.js';
 import TestimonialsContractors from '../components/secondary-pages/TestimonialsContractors.js';
-import '../styles/secondary-contractors.css'
+import '../styles/secondary-pages.css'
 import { Link } from 'react-router-dom';
 import content from '../content.json';
 
@@ -15,7 +15,11 @@ export default function Contractors() {
       <div className="contractors-splash-container">
         <div className="secondary-splash-wrapper">
           <p>{contractorContent.contractorSplash[0].heading}</p>
-          <p>{contractorContent.contractorSplash[0].paragraph}</p>
+          {contractorContent.contractorSplash[0].paragraph && (
+            <p className="splash-text">
+              {contractorContent.contractorSplash[0].paragraph}
+            </p>
+          )}
           <Link to={contractorContent.contractorSplash[0].buttonLink}>
             <button>
               {contractorContent.contractorSplash[0].buttonText}

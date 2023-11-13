@@ -3,7 +3,7 @@ import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
 import WhatWeDo from '../components/secondary-pages/WhatWeDo.js';
 import TestimonialsCommercial from '../components/secondary-pages/TestimonialsCommercial.js';
-import '../styles/secondary-commercial.css'
+import '../styles/secondary-pages.css'
 import { Link } from 'react-router-dom';
 import content from '../content.json';
 
@@ -15,7 +15,11 @@ export default function Commercial() {
       <div className="commercial-splash-container">
         <div className="secondary-splash-wrapper">
           <p>{commercialContent.commercialSplash[0].heading}</p>
-          <p>{commercialContent.commercialSplash[0].paragraph}</p>
+          {commercialContent.commercialSplash[0].paragraph && (
+            <p className="splash-text">
+              {commercialContent.commercialSplash[0].paragraph}
+            </p>
+          )}
           <Link to={commercialContent.commercialSplash[0].buttonLink}>
             <button>
               {commercialContent.commercialSplash[0].buttonText}

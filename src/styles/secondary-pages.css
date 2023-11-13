@@ -2,7 +2,10 @@
   min-height: calc(100vh - 100px - 55px);
 }
 
-.contractors-splash-container {
+.residential-splash-container,
+.commercial-splash-container,
+.contractors-splash-container
+ {
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -10,10 +13,21 @@
   height: 80vh;
   overflow: hidden;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/contractors-splash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.residential-splash-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/residential-splash.jpg');
+}
+
+.commercial-splash-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/commercial-splash.jpg');
+}
+
+.contractors-splash-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/contractors-splash.jpg');
 }
 
 .secondary-splash-wrapper {
@@ -25,6 +39,13 @@
   max-width: 800px;
   margin: 0vh auto;
   height: 60vh;
+}
+
+.splash-text {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .secondary-splash-wrapper p:first-child {

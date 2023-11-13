@@ -3,7 +3,7 @@ import Header from '../components/nav/Header.js';
 import Footer from '../components/nav/Footer.js';
 import WhatWeDo from '../components/secondary-pages/WhatWeDo.js';
 import TestimonialsResidential from '../components/secondary-pages/TestimonialsResidential.js';
-import '../styles/secondary-residential.css'
+import '../styles/secondary-pages.css'
 import { Link } from 'react-router-dom';
 import content from '../content.json';
 
@@ -15,7 +15,11 @@ export default function Residential() {
       <div className="residential-splash-container">
         <div className="secondary-splash-wrapper">
           <p>{residentialContent.residentialSplash[0].heading}</p>
-          <p>{residentialContent.residentialSplash[0].paragraph}</p>
+          {residentialContent.residentialSplash[0].paragraph && (
+            <p className="splash-text">
+              {residentialContent.residentialSplash[0].paragraph}
+            </p>
+          )}
           <Link to={residentialContent.residentialSplash[0].buttonLink}>
             <button>
               {residentialContent.residentialSplash[0].buttonText}
