@@ -14,12 +14,22 @@ export default function Residential() {
       <Header />
       <div className="residential-splash-container">
         <div className="secondary-splash-wrapper">
-          <p>{residentialContent.residentialSplash[0].heading}</p>
-          {residentialContent.residentialSplash[0].paragraph && (
-            <p className="splash-text">
+          <div className="splash-text">
+            <p>{residentialContent.residentialSplash[0].heading}</p>
+            <p>
               {residentialContent.residentialSplash[0].paragraph}
             </p>
-          )}
+          </div>
+        </div>
+      </div>
+      <div className="secondary-text-container">
+        <div className="secondary-text-wrapper">
+          <div>
+            <p>{residentialContent.residentialSplash[0].heading}</p>
+            <p>
+              {residentialContent.residentialSplash[0].paragraph}
+            </p>
+          </div>
           <Link to={residentialContent.residentialSplash[0].buttonLink}>
             <button>
               {residentialContent.residentialSplash[0].buttonText}

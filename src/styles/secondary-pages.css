@@ -4,13 +4,11 @@
 
 .residential-splash-container,
 .commercial-splash-container,
-.contractors-splash-container
- {
+.contractors-splash-container {
   display: flex;
-  justify-content: center;
-  align-items: center; 
+  align-items: center;
   position: relative;
-  height: 80vh;
+  height: 85vh;
   overflow: hidden;
   color: white;
   background-size: cover;
@@ -37,8 +35,31 @@
   padding: 0px;
   text-align: left;
   max-width: 800px;
-  margin: 0vh auto;
+  margin: 0 0 0 10vw;
   height: 60vh;
+}
+
+.secondary-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 0vh auto;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.secondary-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0vw auto;
+  height: 50vh;
 }
 
 .splash-text {
@@ -48,18 +69,21 @@
   color: white;
 }
 
-.secondary-splash-wrapper p:first-child {
+.secondary-splash-wrapper p:first-child,
+.secondary-text-wrapper p:first-child {
   font-size: 4vh;
   margin: 20px;
   font-weight: bold;
 }
 
-.secondary-splash-wrapper p:nth-child(2) {
+.secondary-splash-wrapper p:nth-child(2),
+.secondary-text-wrapper p:nth-child(2) {
   font-size: 2.3vh;
   margin: 20px;
 }
 
-.secondary-splash-wrapper button {
+.secondary-splash-wrapper button,
+.secondary-text-wrapper button {
   margin: 20px 20px 40px 20px;
   font-size: 1.5vh;
   width: 200px;
@@ -89,7 +113,8 @@
   width: 100%;
 }
 
-.right-column-text, .left-column-text {
+.right-column-text,
+.left-column-text {
   padding: 40px 0 40px 0;
   flex: 1;
   display: flex;
