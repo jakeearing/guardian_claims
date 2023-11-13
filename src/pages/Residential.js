@@ -13,8 +13,7 @@ export default function Residential() {
     <div className="secondary-container">
       <Header />
       <div className="residential-splash-container">
-      </div>
-      <div className="secondary-splash-wrapper">
+        <div className="secondary-splash-wrapper">
           <p>{residentialContent.residentialSplash[0].heading}</p>
           <p>{residentialContent.residentialSplash[0].paragraph}</p>
           <Link to={residentialContent.residentialSplash[0].buttonLink}>
@@ -23,6 +22,7 @@ export default function Residential() {
             </button>
           </Link>
         </div>
+      </div>
       <WhatWeDo />
       <div className="secondary-content-container">
         <div className="left-column-image">
