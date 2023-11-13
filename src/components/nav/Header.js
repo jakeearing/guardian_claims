@@ -97,6 +97,11 @@ export default function Header() {
                     About
                   </Link>
                 </li>
+                <div>
+                  {/* 
+                    <p>Copyright &copy; 2023 GuardianClaims - All Rights Reserved</p>
+                  */}
+                </div>
               </ul>
             </nav>
           </>

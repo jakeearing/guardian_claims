@@ -22,14 +22,19 @@ export default function Footer() {
             <img src={process.env.PUBLIC_URL + '/images/logos/logo192.png'} alt="GuardianClaims Logo" />
           </Link>
         </div>
-        <div className="right-nav">
-          <div className="social-media">
-            <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
-            <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
+        <div className="copyright-right-nav">
+          <div className="right-nav">
+            <div className="social-media">
+              <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
+              <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
+            </div>
+            <div className="terms">
+              <Link to="/terms-of-use">Terms of Use</Link>
+              <Link to="/privacy-policy">Privacy Policy</Link>
+            </div>
           </div>
-          <div className="terms">
-            <Link to="/terms-of-use">Terms of Use</Link>
-            <Link to="/privacy-policy">Privacy Policy</Link>
+          <div className="copyright">
+            <p>Copyright &copy; 2023 GuardianClaims - All Rights Reserved</p>
           </div>
         </div>
       </div>
