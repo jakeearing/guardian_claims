@@ -44,7 +44,8 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 0vh auto;
+  height: fit-content;
+  padding: 5vh 0;
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,6 +155,10 @@
     height: auto;
   }
 
+  .secondary-splash-wrapper {
+    margin: 0 auto;
+  }
+
   .left-column-image,
   .right-column-image {
     order: 2;
@@ -193,14 +198,23 @@
     padding-bottom: 40px;
   }
 
+  .secondary-splash-wrapper {
+    margin-top: 5vh;
+  }
+
+  .secondary-text-container {
+    width: 85vw;
+    padding: 10vh 0;
+    margin: 0 auto;
+  }
+
   .what-we-do-container {
     display: none;
   }
 
   .secondary-splash-wrapper button {
-    height: 40px;
     width: 150px;
-    padding: 2px;
+    padding: 0px;
     font-size: 1.5vh;
   }
 }
