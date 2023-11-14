@@ -14,12 +14,20 @@ export default function Commercial() {
       <Header />
       <div className="commercial-splash-container">
         <div className="secondary-splash-wrapper">
-          <p>{commercialContent.commercialSplash[0].heading}</p>
-          {commercialContent.commercialSplash[0].paragraph && (
-            <p className="splash-text">
-              {commercialContent.commercialSplash[0].paragraph}
+          <div className="splash-text">
+            <p>{commercialContent.commercialSplash[0].heading}</p>
+            <p>{commercialContent.commercialSplash[0].paragraph}</p>
+          </div>
+        </div>
+      </div>
+      <div className="secondary-text-container">
+        <div className="secondary-text-wrapper">
+          <div>
+            <p>{commercialContent.commercialSecondary[0].heading}</p>
+            <p>
+              {commercialContent.commercialSecondary[0].paragraph}
             </p>
-          )}
+          </div>
           <Link to={commercialContent.commercialSplash[0].buttonLink}>
             <button>
               {commercialContent.commercialSplash[0].buttonText}

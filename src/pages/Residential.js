@@ -16,18 +16,16 @@ export default function Residential() {
         <div className="secondary-splash-wrapper">
           <div className="splash-text">
             <p>{residentialContent.residentialSplash[0].heading}</p>
-            <p>
-              {residentialContent.residentialSplash[0].paragraph}
-            </p>
+            <p>{residentialContent.residentialSplash[0].paragraph}</p>
           </div>
         </div>
       </div>
       <div className="secondary-text-container">
         <div className="secondary-text-wrapper">
           <div>
-            <p>{residentialContent.residentialSplash[0].heading}</p>
+            <p>{residentialContent.residentialSecondary[0].heading}</p>
             <p>
-              {residentialContent.residentialSplash[0].paragraph}
+              {residentialContent.residentialSecondary[0].paragraph}
             </p>
           </div>
           <Link to={residentialContent.residentialSplash[0].buttonLink}>

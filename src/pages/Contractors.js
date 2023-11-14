@@ -14,12 +14,20 @@ export default function Contractors() {
       <Header />
       <div className="contractors-splash-container">
         <div className="secondary-splash-wrapper">
-          <p>{contractorContent.contractorSplash[0].heading}</p>
-          {contractorContent.contractorSplash[0].paragraph && (
-            <p className="splash-text">
-              {contractorContent.contractorSplash[0].paragraph}
+          <div className="splash-text">
+            <p>{contractorContent.contractorSplash[0].heading}</p>
+            <p>{contractorContent.contractorSplash[0].paragraph}</p>
+          </div>
+        </div>
+      </div>
+      <div className="secondary-text-container">
+        <div className="secondary-text-wrapper">
+          <div>
+            <p>{contractorContent.contractorSecondary[0].heading}</p>
+            <p>
+              {contractorContent.contractorSecondary[0].paragraph}
             </p>
-          )}
+          </div>
           <Link to={contractorContent.contractorSplash[0].buttonLink}>
             <button>
               {contractorContent.contractorSplash[0].buttonText}
