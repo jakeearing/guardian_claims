@@ -74,7 +74,7 @@
     "residential": {
         "residentialSplash": [
             {
-                "heading": "We've Got Your Back",
+                "heading": "We've Got Your Back.",
                 "paragraph": "When disaster strikes at home our experts are here to help you through each step of the claim process.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
@@ -82,7 +82,7 @@
         ],
         "residentialSecondary": [
             {
-                "heading": "Residential",
+                "heading": "Residential Claims",
                 "paragraph": "It's frustrating to read your policy and deal with insurance companies. Their business model is designed to confuse and minimize the claims they pay. That's where GuardainClaims comes in: Our public adjusters negotiate all claims for fire, water, storm, and other damages. We focus on personal service to you and your family, making you whole again.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
@@ -118,15 +118,15 @@
     "commercial": {
         "commercialSplash": [
             {
-                "heading": "Large Losses Are Complex",
-                "paragraph": "Dealing with a complicated property loss is a headache most buisness owners - like you, cannot afford to deal with. Our dedicated team of adjusters dig deep to uncover the facts and details of your claim to ensure success.",
+                "heading": "Large Losses Are Complex.",
+                "paragraph": "Dealing with a complicated property loss is a headache most buisness owners - like you, cannot afford to deal with.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
             }
         ],
         "commercialSecondary": [
             {
-                "heading": "Commercial",
+                "heading": "Commercial Claims",
                 "paragraph": "Your business suffered a loss, and the distraction is taking you away from what you do best- running your business and making money. The only thing that can make matters worse is dealing with your insurance company! Your time is valuable, so put GuardianClaims commercial public adjusters to work to settle your business claim and make you whole again.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
@@ -163,7 +163,7 @@
         "contractorSplash": [
             {
                 "heading": "Relationships Matter",
-                "paragraph": "Building relationships is the cornerstone of any successful enterprise. GuardianClaims values our relationships with contractors, homeowners associations, property owners, and other industry professionals.",
+                "paragraph": "We value our relationships with contractors, homeowners associations, property owners, and other industry professionals.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/network"
             }
