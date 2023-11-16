@@ -66,6 +66,7 @@
 .splash-text {
   padding: 20px;
   border-radius: 5px;
+  width: 30vw;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
@@ -86,8 +87,7 @@
 .secondary-splash-wrapper button,
 .secondary-text-wrapper button {
   margin: 20px 20px 40px 20px;
-  font-size: 1.5vh;
-  width: 200px;
+  width: 230px;
 }
 
 .secondary-content-container {
