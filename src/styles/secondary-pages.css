@@ -17,15 +17,15 @@
 }
 
 .residential-splash-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/residential-splash.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/residential-splash.jpg');
 }
 
 .commercial-splash-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/commercial-splash.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/commercial-splash.jpg');
 }
 
 .contractors-splash-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/contractors-splash.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/contractors-splash.jpg');
 }
 
 .secondary-splash-wrapper {
@@ -67,7 +67,7 @@
   padding: 20px;
   border-radius: 5px;
   width: 30vw;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   color: white;
 }
 
@@ -157,6 +157,10 @@
 
   .secondary-splash-wrapper {
     margin: 0 auto;
+  }
+
+  .splash-text {
+    width: 60vw;
   }
 
   .left-column-image,
