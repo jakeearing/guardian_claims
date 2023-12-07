@@ -85,7 +85,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link to="/contractors" className={!isSplashPage ? 'active' : ''}>
-                    Clients
+                    Contractors & Affiliations
                   </Link>
                 </li>
                 <li>
@@ -125,9 +125,9 @@ export default function Header() {
                   Commercial
                 </Link>
               </li>
-              <li>
+              <li class="wrap-text">
                 <Link to="/contractors" className={!isSplashPage ? 'active' : ''}>
-                  Clients
+                  Contractors & Affiliations
                 </Link>
               </li>
               <li>

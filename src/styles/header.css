@@ -6,6 +6,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: 75px;
   z-index: 100;
   transition: background-color 0.3s ease-in-out;
 }
@@ -56,6 +57,20 @@ nav li {
   font-size: 18px;
   white-space: nowrap;
   font-weight: 500;
+  padding: 5px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav li.wrap-text a {
+  white-space: normal;
+  width: 120px;
+  display: block;
 }
 
 nav li:last-child {
@@ -63,23 +78,36 @@ nav li:last-child {
   border-right: none;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
+nav li:not(.wrap-text) a {
+  text-align: center;
   padding: 10px;
 }
 
 .logo img {
-  padding-top: 8px;
+  padding-top: 10px;
   padding-bottom: 7px;
-  height: 45px;
+  height: 55px;
 }
 
 .menu-toggle {
   display: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .header-content {
+    width: 90%;
+  }
+
+  nav li {
+    padding: 0px;
+  }
+}
+
 @media screen and (max-width: 900px) {
+  .header {
+    height: 55px;
+  }
+
   .header-content {
     flex-direction: column;
     align-items: center;
@@ -88,6 +116,12 @@ nav a {
 
   .logo {
     text-align: center;
+  }
+
+  .logo img {
+    padding-top: 6px;
+    padding-bottom: 7px;
+    height: 45px;
   }
 
   nav {
@@ -121,6 +155,10 @@ nav a {
     padding: 10px 10px 0 10px;
   }
 
+  nav li:not(.wrap-text) a {
+    padding: 5px;
+  }
+
   nav li:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -137,10 +175,18 @@ nav a {
     padding: 0px;
     height: fit-content;
     width: fit-content;
-    right: 20px;
-    top: 20px;
+    right: 22px;
+    top: 18px;
     background-color: transparent;
     border: none;
+  }
+
+  .header.transparent .menu-icon-wrapper {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+  }
+  
+  .header.solid .menu-icon-wrapper {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
   }
 
   .menu-icon-wrapper .menu-icon {
