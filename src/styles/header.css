@@ -52,7 +52,7 @@ nav ul {
   margin-left: 20px;
 }
 
-nav li {
+header nav li {
   position: relative;
   font-size: 18px;
   white-space: nowrap;
@@ -61,24 +61,24 @@ nav li {
   text-align: center;
 }
 
-nav a {
+header nav a {
   color: white;
   text-decoration: none;
   display: inline-block;
 }
 
-nav li.wrap-text a {
+header nav li.wrap-text a {
   white-space: normal;
   width: 120px;
   display: block;
 }
 
-nav li:last-child {
+header nav li:last-child {
   margin-right: 0;
   border-right: none;
 }
 
-nav li:not(.wrap-text) a {
+header nav li:not(.wrap-text) a {
   text-align: center;
   padding: 10px;
 }
@@ -175,7 +175,7 @@ nav li:not(.wrap-text) a {
     padding: 0px;
     height: fit-content;
     width: fit-content;
-    right: 22px;
+    right: 2px;
     top: 18px;
     background-color: transparent;
     border: none;
