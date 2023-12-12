@@ -8,7 +8,15 @@
 }
 
 .testimonials-contractor-logo-wrapper {
-  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+
+.testimonials-contractor-logo-wrapper img {
+  margin: 50px;
+  height: 180px;
 }
 
 .testimonial-icon-container {
