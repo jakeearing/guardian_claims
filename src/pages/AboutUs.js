@@ -28,7 +28,7 @@ export default function AboutUs() {
               <div className="profile" key={index}>
                 <img src={process.env.PUBLIC_URL + `/images/team-pictures/${profile.image}.jpg`} alt={profile.name} className="profile-picture"/>
                 <div className="signatures">
-                  <img src={process.env.PUBLIC_URL + `/images/about-signatures/${profile.image}.png`} alt='Josh Dalli Signature' />
+                  <img src={process.env.PUBLIC_URL + `/images/about-signatures/${profile.image}.png`} alt={profile.name} />
                 </div>
                 <p><span className="bold"><a href={`tel:${profile.phone}`}>{profile.phone}</a></span></p>
                 <p><span className="bold"><a href={`mailto:${profile.email}`}>{profile.email}</a></span></p>
