@@ -7,14 +7,16 @@ export default function TestimonialsContractors() {
 
   return (
     <div className="testimonials-container">
-      <div className="testimonial-icon-container">
-        <img src={process.env.PUBLIC_URL + `/images/svg-icons/${testimonialContractorsData.icon}`} alt="Testimonial Icon" className="testimonial-icon" />
-        <p className="testimonial-icon-text"><span className="thin">Testimonials</span></p>
+      <div className="testimonials-contractor-logo-wrapper">
+        {testimonialContractorsData.logos.map((logo, index) => (
+          <img
+            key={index}
+            src={process.env.PUBLIC_URL + `/images/contractor-testimonials/${logo}.png`}
+            alt={`${logo}`}
+            className={`${logo}`}
+          />
+        ))}
       </div>
-      <h2 className="testimonial-heading">{testimonialContractorsData.heading}</h2>
-      <p className="testimonial-text">{testimonialContractorsData.text}</p>
-      <p className="testimonial-author">{testimonialContractorsData.author}</p>
-      <p className="testimonial-company"><span className="bold">{testimonialContractorsData.company}</span></p>
     </div>
   );
 }

@@ -145,7 +145,7 @@
                 "image": "commercial2.jpg",
                 "heading": "Submission & Negotiation - Your Clearscope Report",
                 "paragraphOne": "Insurance companies are well-represented, and GuardianClaims' commercial division will ensure you are, too! Once your documents, inspections, and photo loss report are compiled, a GuardianClaims Clearscope report is prepared to account for all damages and entitlements. Our comprehensive Clearscope report captures evident and underlying damages so nothing is overlooked and ensures your restoration plan is thorough. We include measures to mitigate further losses, which are often overlooked and a necessary step on your part. GuardianClaims Clearscope report serves as a settlement roadmap for your business's restoration and recovery and focuses your insurance company on a fair resolution of your claim.",
-           "paragraphTwo":  ""
+                "paragraphTwo": ""
             }
         ],
         "contentThree": [
@@ -233,12 +233,11 @@
         "company": "Contractor Connection"
     },
     "testimonialsContractors": {
-        "icon": "testimonial-icon.svg",
-        "icon-text": "Testimonials",
-        "heading": "Hear From Our Clients",
-        "text": "\"Got the opportunity to work with these guys on 4 different claims. They are very knowledgeable and a pleasure to work with.\"",
-        "author": "Blake Grissom",
-        "company": "Contractor Connection"
+        "_comment (internal use only)": "The logos in this section are dynamic, this means that you can add or remove logos as you wish and the page will handle it automatically. The logos MUST be added to /public/images/contractor-testimonials first as .png ONLY (case sensitive), then you can simply add them to 'logos' below (without the .png), refer to the current logos as an example.",
+        "logos": [
+            "iink-logo",
+            "UCP-logo"
+        ]
     },
     "claims": {
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
@@ -253,13 +252,13 @@
     "about": {
         "heading": "About Us",
         "whoWeAre": {
+            "_comment (internal use only)": "The paragraphs for this page are completely dynamic, this means that you add or remove any of the paragraphs and the page will handle it automatically.",
             "heading": "Who We Are",
             "paragraphs": [
                 "GuardianClaims is a family-owned and operated business serving the communities of North Carolina and South Carolina. Our founders grew up in the contracting, roofing, and public adjusting space, spending over a decade witnessing what damage and disappointment do to families and businesses.",
                 "Insurance companies always have the best negotiators and take advantage of every situation to minimize the claims they pay. So, who advocates for families and businesses? We learned about public adjusters and their role in processing and settling claims for the insured, and our mission became clear. GuardianClaims was founded to help families and businesses stand up to insurance companies and spread the word about public adjusters.",
                 "GuardianClaims staff understand and navigate the complex claims process, so you don't have to. We ensure our clients receive the compensation they deserve with transparency and communication- hallmarks of our firm. We work closely with clients to understand their unique circumstances, provide the personal attention they deserve, and ensure a fair and accurate settlement.",
                 "Thank you for trusting GuardianClaims with your residential and commercial insurance claims. We look forward to meeting you, advocating for you, and getting you the settlement you deserve so life can return to the way it was."
-                
             ]
         },
         "meetTheTeam": {
@@ -281,6 +280,7 @@
         }
     },
     "termsOfUse": {
+        "_comment (internal use only)": "This page is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
             {
                 "content": "Please read these Terms of Use (\"Terms\") carefully before using [guardianclaims.com] (the \"Website\"). These Terms govern your access to and use of the Website. By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use the Website."
@@ -330,6 +330,7 @@
         ]
     },
     "privacyPolicy": {
+        "_comment (internal use only)": "This page is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
             {
                 "title": "Privacy Policy",

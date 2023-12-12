@@ -101,6 +101,11 @@ header nav li:not(.wrap-text) a {
   nav li {
     padding: 0px;
   }
+
+  header nav li:not(.wrap-text) a {
+    text-align: center;
+    padding: 5px;
+  }
 }
 
 @media screen and (max-width: 900px) {

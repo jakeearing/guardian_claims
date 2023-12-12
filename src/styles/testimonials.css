@@ -7,6 +7,10 @@
   padding: 0 100px;
 }
 
+.testimonials-contractor-logo-wrapper {
+  padding-bottom: 50px;
+}
+
 .testimonial-icon-container {
   display: flex;
   flex-direction: column;
