@@ -14,7 +14,7 @@
     text-underline-offset: 20px;
 }
 
-.page-container h2 {
+.content-text h2 {
     margin-top: 60px;
     font-weight: 600;
 }
@@ -25,11 +25,11 @@
     font-weight: 200;
     margin: 0px auto 20px;
     text-align: left;
-    width: 50%;
+    width: 55%;
 }
 
 .signatures {
-    padding-top: 20px;
+    width: fit-content;
 }
 
 .signatures img {
@@ -43,22 +43,26 @@
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .profile {
-    width: 300px;
+    width: fit-content;
     margin: 20px;
     text-align: center;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    background-color: #008FDA;
-    color: white;
+}
+
+.meet-the-team-text {
+    font-size: 4vh;
+    font-weight: 600;
 }
 
 .profile a {
     text-decoration: none;
-    color: white;
+    color: black;
+    font-weight: 500;
 }
 
 .profile p {
@@ -66,11 +70,10 @@
     margin-bottom: 10px;
 }
 
-.profile img {
+.profile-picture {
     height: 220px;
     width: auto;
-    border-radius: 50%;
-    border: 1px black solid;
+    border-radius: 5px;
     object-fit: cover;
 }
 

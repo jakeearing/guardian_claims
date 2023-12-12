@@ -265,13 +265,13 @@
             "heading": "Meet The Team",
             "profiles": [
                 {
-                    "image": "josh-dalli.jpg",
+                    "image": "josh-dalli",
                     "name": "Josh Dalli",
                     "phone": "(704)-516-5336",
                     "email": "jdalli@guardianclaims.com"
                 },
                 {
-                    "image": "phil-mascolo.jpg",
+                    "image": "phil-mascolo",
                     "name": "Phil Mascolo",
                     "phone": "(704)-858-7892",
                     "email": "pmascolo@guardianclaims.com"

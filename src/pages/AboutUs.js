@@ -19,19 +19,17 @@ export default function AboutUs() {
           {whoWeAreParagraphs.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}
-          <div className="signatures">
-            <img src={process.env.PUBLIC_URL + `/images/about-signatures/jd-signature.png`} alt='Josh Dalli Signature' />
-            <img src={process.env.PUBLIC_URL + `/images/about-signatures/pm-signature.png`} alt='Phil Mascolo Signature' />
-          </div>
+
         </div>
 
         <div className="profile-section">
-          <h2>{meetTheTeamHeading}</h2>
           <div className="profile-container">
             {profiles.map((profile, index) => (
               <div className="profile" key={index}>
-                <img src={process.env.PUBLIC_URL + `/images/team-pictures/${profile.image}`} alt={profile.name} />
-                <h2>{profile.name}</h2>
+                <img src={process.env.PUBLIC_URL + `/images/team-pictures/${profile.image}.jpg`} alt={profile.name} className="profile-picture"/>
+                <div className="signatures">
+                  <img src={process.env.PUBLIC_URL + `/images/about-signatures/${profile.image}.png`} alt='Josh Dalli Signature' />
+                </div>
                 <p><span className="bold"><a href={`tel:${profile.phone}`}>{profile.phone}</a></span></p>
                 <p><span className="bold"><a href={`mailto:${profile.email}`}>{profile.email}</a></span></p>
               </div>
