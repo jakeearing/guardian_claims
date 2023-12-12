@@ -45,9 +45,9 @@ export default function Contractors() {
             <h2>{contractorContent.contentOne[0].heading}</h2>
             <p>{contractorContent.contentOne[0].paragraphOne}</p>
             <p>{contractorContent.contentOne[0].paragraphTwo}</p>
-            <Link to={contractorContent.contentThree[0].buttonLink}>
+            <Link to={contractorContent.contentOne[0].buttonLink}>
               <button>
-                {contractorContent.contentThree[0].buttonText}
+                {contractorContent.contentOne[0].buttonText}
               </button>
             </Link>
           </div>
@@ -59,9 +59,9 @@ export default function Contractors() {
             <h2>{contractorContent.contentTwo[0].heading}</h2>
             <p>{contractorContent.contentTwo[0].paragraphOne}</p>
             <p>{contractorContent.contentTwo[0].paragraphTwo}</p>
-            <Link to={contractorContent.contentThree[0].buttonLink}>
+            <Link to={contractorContent.contentTwo[0].buttonLink}>
               <button>
-                {contractorContent.contentThree[0].buttonText}
+                {contractorContent.contentTwo[0].buttonText}
               </button>
             </Link>
           </div>
