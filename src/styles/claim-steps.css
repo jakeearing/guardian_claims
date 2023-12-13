@@ -1,23 +1,28 @@
 .claim-steps-wrapper {
-  max-width: 60%;
   margin: 0 auto;
-  padding: 20px;
 }
 
-.claim-steps-wrapper h1 {
+.claim-steps-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.claim-steps-text h1 {
   font-weight: lighter;
 }
 
 .claim-steps-content {
-  display: grid;
-  margin-top: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding-top: 40px;
   gap: 20px;
 }
 
 .claim-step-box {
-  display: flex;
-  flex-direction: column;
+  flex: 1 0 calc(33.33% - 10px);
+  max-width: 350px;
   align-items: center;
   text-align: center;
   background-image: linear-gradient(to top, black, #000F3C);
@@ -50,24 +55,35 @@
 @media screen and (max-width: 768px) {
   .claim-steps-wrapper {
     max-width: 80%;
+    padding-top: 0px;
   }
 
-  .claim-steps-wrapper h1 {
+  .claim-steps-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .claim-steps-text h1 {
     font-size: 3vh;
     margin-bottom: 20px;
   }
 
-  .claim-steps-wrapper h3 {
+  .claim-steps-text h3 {
     font-size: 2vh;
     margin-bottom: 20px;
   }
 
   .claim-steps-content {
     grid-template-columns: 1fr;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
   }
 
   .claim-step-box {
     margin-bottom: 20px;
+    flex: none;
+    max-width: 300px;
   }
 
   .claim-step-box h2 {

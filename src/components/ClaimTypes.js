@@ -13,13 +13,15 @@ export default function ClaimTypes() {
 
   return (
     <div className="claim-types-wrapper">
-      <h1>
-        <span className="thin">{content.claimTypes.headingThin}</span>
-        {content.claimTypes.headingBold}
-      </h1>
-      <h3>
-        {content.claimTypes.description}
-      </h3>
+      <div className="claim-types-text">
+        <h1>
+          <span className="thin">{content.claimTypes.headingThin}</span>
+          {content.claimTypes.headingBold}
+        </h1>
+        <h3>
+          {content.claimTypes.description}
+        </h3>
+      </div>
       <div className="claim-types-content">
         {content.claimTypes.claimCategories.map((category, index) => (
           <div className="claims-box" key={index}>

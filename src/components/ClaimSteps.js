@@ -14,14 +14,16 @@ export default function ClaimSteps() {
 
   return (
     <div className="claim-steps-wrapper">
-      <h1>
-        {content.claimSteps.headingThinOne}{' '}
-        <span className="bold">{content.claimSteps.headingBold}</span>{' '}
-        {content.claimSteps.headingThinTwo}
-      </h1>
-      <h3>
-        {content.claimSteps.description}
-      </h3>
+      <div className="claim-steps-text">
+        <h1>
+          {content.claimSteps.headingThinOne}{' '}
+          <span className="bold">{content.claimSteps.headingBold}</span>{' '}
+          {content.claimSteps.headingThinTwo}
+        </h1>
+        <h3>
+          {content.claimSteps.description}
+        </h3>
+      </div>
       <div className="claim-steps-content">
         {content.claimSteps.boxes.map((box, index) => (
           <div className="claim-step-box" key={index}>
