@@ -32,11 +32,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .splash-container {
-    height: auto;
-    min-height: 100vh;
-    padding-bottom: 40px;
-  }
 
   .claimtypes-container {
     display: none;

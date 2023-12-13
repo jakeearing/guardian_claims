@@ -1,6 +1,7 @@
 .claim-types-wrapper {
   margin: 0 auto;
   padding-bottom: 80px;
+  justify-content: center;
 }
 
 .claim-types-text {
@@ -10,9 +11,9 @@
 
 .claim-types-content {
   padding-top: 40px;
-  max-width: 60%;
+  width: fit-content;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(4, minmax(250px, 1fr));
   margin: 0 auto;
   gap: 20px;
 }
@@ -70,6 +71,12 @@
   margin: 0;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1300px) {
+  .claim-types-content {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
 }
 
 @media screen and (max-width: 900px) {

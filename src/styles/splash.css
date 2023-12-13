@@ -21,7 +21,7 @@
   }
   
   .splash-wrapper p:last-child {
-    font-size: 2vh;
+    font-size: 2.1vh;
     margin: 40px 0 0 0;
   }
 
@@ -49,12 +49,12 @@
     }
   
     .splash-wrapper p:nth-child(2) {
-      font-size: 2.3vh;
+      font-size: 2vh;
       margin: 20px;
     }
   
     .splash-wrapper p:last-child {
-      font-size: 2.3vh;
+      font-size: 1.9vh;
       margin-top: 20px;
       margin-bottom: 0;
     }
