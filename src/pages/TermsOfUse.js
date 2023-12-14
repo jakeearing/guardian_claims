@@ -12,10 +12,10 @@ export default function TermsOfUse() {
       <Header />
         <div className="terms-privacy-container">
           <div className="terms-privacy-content">
-            <h1>Terms of Use</h1>
-            <p>{termsOfUseContent.sections[0].content}</p>
+            <h1>{termsOfUseContent.title}</h1>
+            <p>{termsOfUseContent.content}</p>
             <ol>
-              {termsOfUseContent.sections.slice(1).map((section, index) => (
+              {termsOfUseContent.sections.map((section, index) => (
                 <li key={index}>
                   <h2>{section.title}</h2>
                   {section.sections ? (

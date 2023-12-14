@@ -13,11 +13,10 @@ export default function PrivacyPolicy() {
       <div className="container">
         <div className="terms-privacy-container">
           <div className="terms-privacy-content">
-            <h1>Privacy Policy</h1>
-            <p>{privacyPolicyContent.sections[0].content}</p>
-
+            <h1>{privacyPolicyContent.title}</h1>
+            <p>{privacyPolicyContent.content}</p>
             <ol>
-              {privacyPolicyContent.sections.slice(1).map((section, index) => (
+              {privacyPolicyContent.sections.map((section, index) => (
                 <li key={index}>
                   <h2>{section.title}</h2>
                   <p>{section.content}</p>

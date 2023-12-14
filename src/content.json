@@ -7,6 +7,7 @@
         "footerText": "Insurance companies are well-represented, and you should be too!"
     },
     "claimSteps": {
+        "_comment (internal use only)": "If you no longer want a word bolded below, or change the text, leave headingThinOne and headingBold empty, and simply put all of your text in headingThinTwo. Any text that is placed in headingBold will be bolded.",
         "headingThinOne": "At ",
         "headingBold": "GuardianClaims",
         "headingThinTwo": "we navigate you through the complicated and confusing insurance claims process.",
@@ -217,16 +218,29 @@
     },
     "whatWeDo": {
         "heading": "5-Steps to Success",
-        "iconOne": "one.svg",
-        "iconOneText": "1. Free Claim Review",
-        "iconTwo": "two.svg",
-        "iconTwoText": "2. Build Your Case",
-        "iconThree": "three.svg",
-        "iconThreeText": "3. Negotiate With Insurance",
-        "iconFour": "four.svg",
-        "iconFourText": "4. Fair Settlement",
-        "iconFive": "five.svg",
-        "iconFiveText": "5. Get Payment!"
+        "_comment (internal use only)": "whatWeDoContent below is dynamic, meaning that you can add or remove items as you please. It is not recommended to go above 5 items however. The Icons used here are found in public/images/svg-icons/what-we-do and can be replaced and updated as you wish, just be sure to keep the names the same.",
+        "whatWeDoContent": [
+            {
+                "icon": "one.svg",
+                "text": "1. Free Claim Review"
+            },
+            {
+                "icon": "two.svg",
+                "text": "2. Build Your Case"
+            },
+            {
+                "icon": "three.svg",
+                "text": "3. Negotiate With Insurance"
+            },
+            {
+                "icon": "four.svg",
+                "text": "4. Fair Settlement"
+            },
+            {
+                "icon": "five.svg",
+                "text": "5. Get Payment!"
+            }
+        ]
     },
     "testimonialsResidential": {
         "icon": "testimonial-icon.svg",
@@ -308,11 +322,10 @@
         }
     },
     "termsOfUse": {
-        "_comment (internal use only)": "This page is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
+        "title": "Terms of Use",
+        "content": "Please read these Terms of Use (\"Terms\") carefully before using [guardianclaims.com] (the \"Website\"). These Terms govern your access to and use of the Website. By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use the Website.",
+        "_comment (internal use only)": "The following is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
-            {
-                "content": "Please read these Terms of Use (\"Terms\") carefully before using [guardianclaims.com] (the \"Website\"). These Terms govern your access to and use of the Website. By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use the Website."
-            },
             {
                 "title": "Intellectual Property",
                 "sections": [
@@ -358,12 +371,10 @@
         ]
     },
     "privacyPolicy": {
-        "_comment (internal use only)": "This page is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
+        "title": "Privacy Policy",
+        "content": "This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website [guardianclaims.com] (the 'Website'). Please read this Privacy Policy carefully to understand our practices regarding your personal information and how we will treat it. By using or accessing the Website, you agree to the terms of this Privacy Policy.",
+        "_comment (internal use only)": "The following is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
-            {
-                "title": "Privacy Policy",
-                "content": "This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website [guardianclaims.com] (the 'Website'). Please read this Privacy Policy carefully to understand our practices regarding your personal information and how we will treat it. By using or accessing the Website, you agree to the terms of this Privacy Policy."
-            },
             {
                 "title": "Information We Collect",
                 "sections": [
