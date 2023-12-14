@@ -281,6 +281,7 @@
         "heading": "About Us",
         "whoWeAre": {
             "heading": "Who We Are",
+            "_comment (internal use only)": "The paragraphs below are completely dynamic, this means that you add or remove any of the paragraphs and the page will handle it automatically.",
             "paragraphs": [
                 "GuardianClaims is a family-owned and operated business serving the communities of North Carolina and South Carolina. Our founders grew up in the contracting, roofing, and public adjusting space, spending over a decade witnessing what damage and disappointment do to families and businesses.",
                 "Insurance companies always have the best negotiators and take advantage of every situation to minimize the claims they pay. So, who advocates for families and businesses? We learned about public adjusters and their role in processing and settling claims for the insured, and our mission became clear. GuardianClaims was founded to help families and businesses stand up to insurance companies and spread the word about public adjusters.",
@@ -292,13 +293,13 @@
             "heading": "Meet The Team",
             "profiles": [
                 {
-                    "image": "josh-dalli.jpg",
+                    "image": "josh-dalli",
                     "name": "Josh Dalli",
                     "phone": "(704)-516-5336",
                     "email": "jdalli@guardianclaims.com"
                 },
                 {
-                    "image": "phil-mascolo.png",
+                    "image": "phil-mascolo",
                     "name": "Phil Mascolo",
                     "phone": "(704)-858-7892",
                     "email": "pmascolo@guardianclaims.com"
@@ -307,6 +308,7 @@
         }
     },
     "termsOfUse": {
+        "_comment (internal use only)": "This page is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
             {
                 "content": "Please read these Terms of Use (\"Terms\") carefully before using [guardianclaims.com] (the \"Website\"). These Terms govern your access to and use of the Website. By accessing or using the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use the Website."
@@ -356,6 +358,7 @@
         ]
     },
     "privacyPolicy": {
+        "_comment (internal use only)": "This page is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
             {
                 "title": "Privacy Policy",
