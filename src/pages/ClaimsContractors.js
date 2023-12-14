@@ -15,7 +15,13 @@ export default function ClaimsContractors() {
         </div>
         <div className="claims-content">
           <div className="left-column">
-            <h3><span className="thin">{content.claims.leftColumnText}</span></h3>
+          <h3><span className="thin">{content.claimsContractors.leftColumnText}</span></h3>
+            <h2>{content.claimsContractors.leftColumnListTitle}</h2>
+            <ol>
+              {content.claimsContractors.leftColumnListItems.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ol>
           </div>
           <div className="right-column">
             <div className="claims-form">
@@ -24,7 +30,7 @@ export default function ClaimsContractors() {
           </div>
         </div>
         <h3 className="last-h3">
-          <span className="thin">{content.claims.lastSectionText}</span>
+          <span className="thin">{content.claimsContractors.lastSectionText}</span>
         </h3>
       </div>
     </div>

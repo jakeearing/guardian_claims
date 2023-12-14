@@ -254,10 +254,26 @@
     "claims": {
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
         "leftColumnListTitle": "Here's what we do:",
-        "leftColumnListItem1": "Review your insurance policy",
-        "leftColumnListItem2": "Document your property damage and all contents",
-        "leftColumnListItem3": "Schedule meetings and handle ALL communication with your insurance company",
-        "leftColumnListItem4": "Finalize your settlement faster",
+        "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
+        "leftColumnListItems": [
+            "Review your insurance policy",
+            "Document your property damage and all contents",
+            "Schedule meetings and handle ALL communication with your insurance company",
+            "Finalize your settlement faster"
+        ],
+        "rightColumnText": "Mattis ullamcorper velit sed ullamcorper. Libero nunc consequat interdum varius sit amet mattis vulputate. Accumsan tortor posuere ac ut consequat semper. Et tortor at risus viverra adipiscing at in tellus integer. Ultrices dui sapien eget mi proin. Tincidunt vitae semper quis lectus nulla at.",
+        "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
+    },
+    "claimsContractors": {
+        "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
+        "leftColumnListTitle": "Here's what we do:",
+        "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
+        "leftColumnListItems": [
+            "Review your insurance policy",
+            "Document your property damage and all contents",
+            "Schedule meetings and handle ALL communication with your insurance company",
+            "Finalize your settlement faster"
+        ],
         "rightColumnText": "Mattis ullamcorper velit sed ullamcorper. Libero nunc consequat interdum varius sit amet mattis vulputate. Accumsan tortor posuere ac ut consequat semper. Et tortor at risus viverra adipiscing at in tellus integer. Ultrices dui sapien eget mi proin. Tincidunt vitae semper quis lectus nulla at.",
         "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
     },
