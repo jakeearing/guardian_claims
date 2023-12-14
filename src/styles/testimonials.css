@@ -11,12 +11,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px;
+  padding: 20px;
 }
 
 .testimonials-contractor-logo-wrapper img {
   margin: 50px;
-  height: 180px;
+  height: 120px;
 }
 
 .testimonial-icon-container {
