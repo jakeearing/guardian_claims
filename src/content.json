@@ -245,12 +245,11 @@
         "company": "Contractor Connection"
     },
     "testimonialsContractors": {
-        "icon": "testimonial-icon.svg",
-        "icon-text": "Testimonials",
-        "heading": "Hear From Our Clients",
-        "text": "\"Got the opportunity to work with these guys on 4 different claims. They are very knowledgeable and a pleasure to work with.\"",
-        "author": "Blake Grissom",
-        "company": "Contractor Connection"
+        "_comment (internal use only)": "The logos in this section are dynamic, this means that you can add or remove logos as you wish and the page will handle it automatically. The logos MUST be added to /public/images/contractor-testimonials first as .png ONLY (case sensitive), then you can simply add them to 'logos' below (without the .png), refer to the current logos as an example.",
+        "logos": [
+            "iink-logo",
+            "UCP-logo"
+        ]
     },
     "claims": {
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
