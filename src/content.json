@@ -93,7 +93,9 @@
                 "image": "residential1.jpg",
                 "heading": "It Starts With Your Free Claim Review",
                 "paragraphOne": "GuardianClaims licensed public adjusters will reach out to begin building your case.",
-                "paragraphTwo": "We will review your policy and documents to confirm coverage for your damages. Experienced adjusters and experts will inspect your property and prepare a visual report supporting a fair settlement for you and your family."
+                "paragraphTwo": "We will review your policy and documents to confirm coverage for your damages. Experienced adjusters and experts will inspect your property and prepare a visual report supporting a fair settlement for you and your family.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/network"
             }
         ],
         "contentTwo": [
@@ -101,7 +103,9 @@
                 "image": "residential2.jpg",
                 "heading": "We Handle Insurance Companies, So You Don't Have To",
                 "paragraphOne": "Homeowners often find negotiations frustrating– the process can drag on for months or years if mishandled. Most policyholders make the mistake of trusting their insurance company's assessment and find themselves short of restoring their loss and income.",
-                "paragraphTwo": "GuardianClaims adjusters negotiate with your insurance companies to reach a fair settlement that will make you whole again."
+                "paragraphTwo": "GuardianClaims adjusters negotiate with your insurance companies to reach a fair settlement that will make you whole again.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/network"
             }
         ],
         "contentThree": [
@@ -137,7 +141,9 @@
                 "image": "commercial1.jpg",
                 "heading": "Our Commercial Property Process",
                 "paragraphOne": "Your business loss generated a lot of paperwork on top of all the headaches. GuardianClaims commercial public adjusters take over the process and pay attention to the details that streamline claims. Our commercial process starts with a thorough policy review to confirm coverage and build a case. Our comprehensive document review, property inspection, and visual report ensure that your insurance company has no choice but a fair settlement.",
-                "paragraphTwo": ""
+                "paragraphTwo": "",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/network"
             }
         ],
         "contentTwo": [
@@ -145,7 +151,9 @@
                 "image": "commercial2.jpg",
                 "heading": "Submission & Negotiation - Your Clearscope Report",
                 "paragraphOne": "Insurance companies are well-represented, and GuardianClaims' commercial division will ensure you are, too! Once your documents, inspections, and photo loss report are compiled, a GuardianClaims Clearscope report is prepared to account for all damages and entitlements. Our comprehensive Clearscope report captures evident and underlying damages so nothing is overlooked and ensures your restoration plan is thorough. We include measures to mitigate further losses, which are often overlooked and a necessary step on your part. GuardianClaims Clearscope report serves as a settlement roadmap for your business's restoration and recovery and focuses your insurance company on a fair resolution of your claim.",
-           "paragraphTwo":  ""
+                "paragraphTwo": "",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/network"
             }
         ],
         "contentThree": [
@@ -181,7 +189,9 @@
                 "image": "contractor1.jpg",
                 "heading": "Contractors",
                 "paragraphOne": "You are experts at restoration and renovation- with a deep understanding of construction, material costs, labor, and project timelines. At GuardianClaims, we are experts in dealing with insurance companies- with a deep understanding of policies, negotiating strategies, and fair settlements. Together, we create a synergy with the client's best interest at heart, making them whole again.",
-                "paragraphTwo": ""
+                "paragraphTwo": "",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/network"
             }
         ],
         "contentTwo": [
@@ -189,7 +199,9 @@
                 "image": "contractor2.jpg",
                 "heading": "HOA, COA, & POA",
                 "paragraphOne": "GuardianClaims ensures homeowner associations, condo associations, and property owner associations are well-represented, just like the insurance companies. You encounter unique hurdles when handling insurance claims- from navigating complex policies to understanding the rights of unit owners, and the claims process can be daunting.",
-                "paragraphTwo": "Often, oversights or errors are made by those trying their best, resulting in undervalued claims, extended settlement durations, and issues with neighbors. GuardianClaims specializes in handling it all for you- providing clarity and direction to ensure your community gets the swift and fair settlement it deserves."
+                "paragraphTwo": "Often, oversights or errors are made by those trying their best, resulting in undervalued claims, extended settlement durations, and issues with neighbors. GuardianClaims specializes in handling it all for you- providing clarity and direction to ensure your community gets the swift and fair settlement it deserves.",
+                "buttonText": "Submit a Claim",
+                "buttonLink": "/network"
             }
         ],
         "contentThree": [
@@ -259,7 +271,6 @@
                 "Insurance companies always have the best negotiators and take advantage of every situation to minimize the claims they pay. So, who advocates for families and businesses? We learned about public adjusters and their role in processing and settling claims for the insured, and our mission became clear. GuardianClaims was founded to help families and businesses stand up to insurance companies and spread the word about public adjusters.",
                 "GuardianClaims staff understand and navigate the complex claims process, so you don't have to. We ensure our clients receive the compensation they deserve with transparency and communication- hallmarks of our firm. We work closely with clients to understand their unique circumstances, provide the personal attention they deserve, and ensure a fair and accurate settlement.",
                 "Thank you for trusting GuardianClaims with your residential and commercial insurance claims. We look forward to meeting you, advocating for you, and getting you the settlement you deserve so life can return to the way it was."
-                
             ]
         },
         "meetTheTeam": {
