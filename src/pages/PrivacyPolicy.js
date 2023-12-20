@@ -33,6 +33,26 @@ export default function PrivacyPolicy() {
                 </li>
               ))}
             </ol>
+            <div className="contact-info">
+              <div className="contact-section">
+                {content.contactUsTermsPrivacy.mailingAddress.map((info, index) => (
+                  <p key={index}>{info}</p>
+                ))}
+              </div>
+              <div className="contact-section">
+                {content.contactUsTermsPrivacy.emailAddress.map((info, index) => (
+                  <p key={index}>{info}</p>
+                ))}
+              </div>
+              <div className="contact-section">
+                {content.contactUsTermsPrivacy.phoneNumber.map((info, index) => (
+                  <p key={index}>{info}</p>
+                ))}
+              </div>
+              <div className="contact-section">
+                <p>{content.contactUsTermsPrivacy.effectiveDate}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

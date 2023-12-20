@@ -365,8 +365,8 @@
                 "content": "You agree to indemnify, defend, and hold harmless GuardianClaims and its officers, directors, employees, and agents from and against any and all claims, liabilities, damages, losses, costs, or expenses, including reasonable attorneys' fees, arising out of or in connection with your use of the Website or any violation of these Terms."
             },
             {
-                "title": "Governing Law and Jurisdiction",
-                "content": "These Terms shall be governed by and construed in accordance with the laws of [Your Country/State/Region]. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts located in [Your Jurisdiction]."
+                "title": "Contact Us",
+                "content": "GuardianClaims welcomes your questions or comments regarding the Terms:"
             }
         ]
     },
@@ -431,10 +431,28 @@
                 "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We encourage you to review this Privacy Policy periodically. Your continued use of the Website after any modifications constitutes your acceptance of the revised Privacy Policy."
             },
             {
-                "title": "Contact Us",
-                "content": "If you have any questions or concerns about this Privacy Policy, please contact us at [claims@guardianclaims.com]."
+                "title": "Contact Information",
+                "content": "GuardianClaims welcomes your questions or comments regarding this Statement of Privacy. If you believe that GuardianClaims has not adhered to this Statement, please contact GuardianClaims at:"
             }
         ]
+    },
+        "contactUsTermsPrivacy":{
+            "_comment (internal use only)": "This is a shared contact us section for the terms of use and the privacy policy",
+            "mailingAddress": [
+                "GuardianClaims",
+                "PO Box 29753",
+                "Charlotte, North Carolina 28229"
+            ],
+            "emailAddress": [
+                "Email Address:",
+                "claims@guardianclaims.com"
+            ],
+            "phoneNumber": [
+                "Telephone number:",
+                "7045165336"
+            ],
+            "effectiveDate": "Effective as of December 27, 2023"
+        
     },
     "copyright": "Copyright \u00A9 2023 GuardianClaims - All Rights Reserved"
 }

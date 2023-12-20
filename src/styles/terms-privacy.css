@@ -19,3 +19,16 @@
 .terms-privacy-content h1 {
     text-align: center;
 }
+
+.contact-info {
+    margin-left: 40px;
+}
+
+.contact-section {
+    margin-top: 10px;
+}
+
+.contact-section p{
+    margin: 0px;
+    padding: 0px;
+}
