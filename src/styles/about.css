@@ -2,10 +2,16 @@
     position: relative;
     height: fit-content;
     overflow: hidden;
-    color: black;
+    color: white;
     text-align: center;
-    margin-top: 75px;
     justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../../public/images/splash-screens/about-background.jpg');
+    background-size: auto;
+}
+
+.about-content-wrapper {
+    margin-top: 125px;
+    margin-bottom: 75px;
 }
 
 .about-header {
@@ -59,7 +65,7 @@
 
 .profile a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 500;
 }
 

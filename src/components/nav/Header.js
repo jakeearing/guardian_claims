@@ -36,7 +36,8 @@ export default function Header() {
       location.pathname === '/' ||
       location.pathname === '/residential' ||
       location.pathname === '/commercial' ||
-      location.pathname === '/contractors'
+      location.pathname === '/contractors' ||
+      location.pathname === '/about-us'
     );
 
     // Preload logos
