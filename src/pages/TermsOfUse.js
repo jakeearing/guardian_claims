@@ -18,17 +18,15 @@ export default function TermsOfUse() {
             {termsOfUseContent.sections.map((section, index) => (
               <li key={index}>
                 <h2>{section.title}</h2>
-                {section.sections ? (
+                <p>{section.content}</p>
+                {section.bullets && (
                   <ul>
-                    {section.sections.map((subsection, subIndex) => (
+                    {section.bullets.map((bullet, subIndex) => (
                       <li key={subIndex}>
-                        <h3>{subsection.title}</h3>
-                        <p>{subsection.content}</p>
+                        <p>{bullet.content}</p>
                       </li>
                     ))}
                   </ul>
-                ) : (
-                  <p>{section.content}</p>
                 )}
                 {section.subParagraphs && (
                   <div>

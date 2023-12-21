@@ -431,7 +431,7 @@
             {
                 "title": "Collection of Personal Information",
                 "content": "In order to better provide you with products and services offered, GuardianClaims may collect personally identifiable information, such as your:",
-                "sections": [
+                "bullets": [
                     {
                         "content": "First and Last Name"
                     },
@@ -479,7 +479,7 @@
             {
                 "title": "Right to Deletion",
                 "content": "Subject to certain exceptions set out below, on receipt of a verifiable request from you, we will:",
-                "sections": [
+                "bullets": [
                     {
                         "content": "Delete your personal information from our records; and"
                     },

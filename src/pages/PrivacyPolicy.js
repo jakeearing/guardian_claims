@@ -20,12 +20,11 @@ export default function PrivacyPolicy() {
                 <li key={index}>
                   <h2>{section.title}</h2>
                   <p>{section.content}</p>
-                  {section.sections && (
+                  {section.bullets && (
                     <ul>
-                      {section.sections.map((subsection, subIndex) => (
+                      {section.bullets.map((bullet, subIndex) => (
                         <li key={subIndex}>
-                          <h3>{subsection.title}</h3>
-                          <p>{subsection.content}</p>
+                          <p>{bullet.content}</p>
                         </li>
                       ))}
                     </ul>
