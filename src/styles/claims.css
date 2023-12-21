@@ -6,14 +6,36 @@
   min-height: 100vh;
 }
 
+.claims-form-splash {
+  height: 60vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/claims-splash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .logo-wrapper {
   display: flex;
   justify-content: center;
 }
 
 .logo-wrapper img {
-  max-width: 500px;
+  height: 150px;
+  margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.claims-splash-text {
+  padding-left: 200px;
+}
+
+.claims-splash-text p{
+  font-size: 6vh;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  width: fit-content;
 }
 
 .claims-form h1 {
@@ -25,32 +47,36 @@
 .claims-content {
   display: flex;
   justify-content: center;
-  max-width: 1400px;
-  width: 100%;
+  width: 85%;
+  margin: 50px 0 50px 0;
 }
 
 .left-column {
-  width: 25%;
+  width: 50%;
   break-inside: avoid;
 }
 
-.left-column h2{
-  text-align: center;
+.left-column h2 {
+  margin: 10px 0 20px 0;
 }
 
-.left-column li{
+.left-column li {
   font-size: 1.8vh;
 }
 
-.left-column ul {
-  list-style-type: none;
+.left-column h3 {
+  margin: 20px 0 0 0;
+}
+
+.left-column p {
+  margin: 0;
 }
 
 .right-column {
-  width: fit-content;
   break-inside: avoid;
   display: flex;
-  justify-content: center;
+  margin-left: 40px;
+  align-items: center;
 }
 
 .last-h3 {
@@ -60,12 +86,15 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .logo-wrapper img {
-    width: 100%;
+  .claims-splash-text {
+    padding-left: 0px;
+  }
+
+  .claims-splash-text p{
+    margin: 0 auto;
   }
 
   .claims-form-wrapper {
-    margin-top: 60px;
     margin-bottom: 40px;
     max-width: 100%;
   }

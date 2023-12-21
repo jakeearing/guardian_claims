@@ -266,27 +266,55 @@
         ]
     },
     "claims": {
+        "headerOne": "Cultivate your potential.",
+        "headerTwo": "Cultivate your purpose.",
+        "leftColumnTitle": "Learn the skills you need to grow in the $80 billion industry of roofs",
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
-        "leftColumnListTitle": "Here's what we do:",
         "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
         "leftColumnListItems": [
-            "Review your insurance policy",
-            "Document your property damage and all contents",
-            "Schedule meetings and handle ALL communication with your insurance company",
-            "Finalize your settlement faster"
+            {
+                "itemTitle": "Review your insurance policy",
+                "itemText": "this is the text that shows up here this is the text that shows up here"
+            },
+            {
+                "itemTitle": "Document your property damage and all contents",
+                "itemText": "this is the text that shows up here this is the text that shows up here"
+            },
+            {
+                "itemTitle": "Schedule meetings and handle ALL communication with your insurance company",
+                "itemText": "this is the text that shows up here this is the text that shows up here"
+            },
+            {
+                "itemTitle": "Finalize your settlement faster",
+                "itemText": "this is the text that shows up here this is the text that shows up here"
+            }
         ],
         "rightColumnText": "Mattis ullamcorper velit sed ullamcorper. Libero nunc consequat interdum varius sit amet mattis vulputate. Accumsan tortor posuere ac ut consequat semper. Et tortor at risus viverra adipiscing at in tellus integer. Ultrices dui sapien eget mi proin. Tincidunt vitae semper quis lectus nulla at.",
         "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
     },
     "claimsContractors": {
+        "headerOne": "Cultivate your potential.",
+        "headerTwo": "Cultivate your purpose.",
+        "leftColumnTitle": "Learn the skills you need to grow in the $80 billion industry of roofs",
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
-        "leftColumnListTitle": "Here's what we do:",
         "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
         "leftColumnListItems": [
-            "Review your insurance policy",
-            "Document your property damage and all contents",
-            "Schedule meetings and handle ALL communication with your insurance company",
-            "Finalize your settlement faster"
+            {
+                "itemTitle": "Review your insurance policy",
+                "itemText": "this is the text that shows up here this is the text that shows up here"
+            },
+            {
+                "itemTitle": "Document your property damage and all contents",
+                "itemText": "this is the text that shows up here this is the text that shows up here"
+            },
+            {
+                "itemTitle": "Schedule meetings and handle ALL communication with your insurance company",
+                "itemText": "this is the text that shows up here this is the text that shows up here"
+            },
+            {
+                "itemTitle": "Finalize your settlement faster",
+                "itemText": "this is the text that shows up here this is the text that shows up here"
+            }
         ],
         "rightColumnText": "Mattis ullamcorper velit sed ullamcorper. Libero nunc consequat interdum varius sit amet mattis vulputate. Accumsan tortor posuere ac ut consequat semper. Et tortor at risus viverra adipiscing at in tellus integer. Ultrices dui sapien eget mi proin. Tincidunt vitae semper quis lectus nulla at.",
         "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."

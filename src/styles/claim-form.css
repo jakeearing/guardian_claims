@@ -1,6 +1,5 @@
 .form-container {
-    width: 80%;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
@@ -46,6 +45,12 @@
 
   .form-container p{
     font-size: 1.1vh;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form-container h3 {
+    margin: 10px 0 20px 15px;
   }
 
   @media screen and (max-width: 768px) {
