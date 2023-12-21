@@ -56,7 +56,7 @@ export default function ClaimForm() {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-      <h3>Start your journey with GuardianClaims</h3>
+      <h3>{content.claims.formText}</h3>
         <div className="form-row">
           <div className="form-column">
             <div className="form-group">
