@@ -30,6 +30,13 @@ export default function PrivacyPolicy() {
                       ))}
                     </ul>
                   )}
+                  {section.subParagraphs && (
+                    <div>
+                      {section.subParagraphs.map((subParagraph, subIndex) => (
+                        <p key={subIndex}>{subParagraph.content}</p>
+                      ))}
+                    </div>
+                  )}
                 </li>
               ))}
             </ol>

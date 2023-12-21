@@ -408,7 +408,9 @@
                     },
                     {
                         "content": "Phone Number"
-                    },
+                    }
+                ],
+                "subParagraphs": [
                     {
                         "content": "We do not collect any personal information about you unless you voluntarily provide it to us."
                     }

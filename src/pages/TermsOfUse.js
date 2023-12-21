@@ -30,6 +30,13 @@ export default function TermsOfUse() {
                 ) : (
                   <p>{section.content}</p>
                 )}
+                {section.subParagraphs && (
+                  <div>
+                    {section.subParagraphs.map((subParagraph, subIndex) => (
+                      <p key={subIndex}>{subParagraph.content}</p>
+                    ))}
+                  </div>
+                )}
               </li>
             ))}
           </ol>
