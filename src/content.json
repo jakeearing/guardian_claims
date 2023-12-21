@@ -399,66 +399,54 @@
     ]
 },
     "privacyPolicy": {
-        "title": "Privacy Policy",
-        "content": "This Privacy Policy outlines how we collect, use, disclose, and safeguard your personal information when you visit our website [guardianclaims.com] (the 'Website'). Please read this Privacy Policy carefully to understand our practices regarding your personal information and how we will treat it. By using or accessing the Website, you agree to the terms of this Privacy Policy.",
-        "_comment (internal use only)": "The following is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
-        "sections": [
-            {
-                "title": "Information We Collect",
-                "sections": [
-                    {
-                        "title": "Personal Information",
-                        "content": "We may collect personal information that you voluntarily provide to us when you interact with the Website. This may include your name, email address, contact information, and any other information you choose to provide."
-                    },
-                    {
-                        "title": "Non-Personal Information",
-                        "content": "We may collect non-personal information about you automatically when you visit the Website. This may include your IP address, browser type, operating system, referring website, pages viewed, and other usage information. This information is used to analyze trends, administer the Website, and gather demographic information about our user base as a whole."
-                    }
-                ]
-            },
-            {
-                "title": "Use of Information",
-                "sections": [
-                    {
-                        "title": "Personal Information",
-                        "content": "We may use your personal information to: Provide, maintain, and improve the Website and our services. Respond to your inquiries, requests, and feedback. Send you administrative and promotional communications, such as updates, newsletters, and marketing materials. Personalize your experience on the Website. Protect the security and integrity of the Website. Comply with applicable laws, regulations, and legal processes."
-                    },
-                    {
-                        "title": "Non-Personal Information",
-                        "content": "We may collect non-personal information about you automatically when you visit the Website. This may include your IP address, browser type, operating system, referring website, pages viewed, and other usage information. This information is used to analyze trends, administer the Website, and gather demographic information about our user base as a whole."
-                    }
-                ]
-            },
-            {
-                "title": "Disclosure of Information",
-                "sections": [
-                    {
-                        "title": "Service Providers",
-                        "content": "We may share your information with trusted third-party service providers who assist us in operating our business, providing the Website, and delivering services to you. These service providers are bound by confidentiality obligations and are not permitted to use or disclose your information for any purpose other than providing services to us."
-                    },
-                    {
-                        "title": "Legal Requirements",
-                        "content": "We may disclose your information if required to do so by law or in the good faith belief that such action is necessary to comply with applicable laws, regulations, legal processes, or enforceable governmental requests."
-                    },
-                    {
-                        "title": "Business Transfers",
-                        "content": "In the event of a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred or acquired by a third party as part of the transaction. You acknowledge and agree that such transfers may occur and that any acquirer of our assets may continue to use your personal information as set forth in this Privacy Policy."
-                    }
-                ]
-            },
-            {
-                "title": "Data Security",
-                "content": "We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, please note that no data transmission or storage system can be guaranteed to be 100% secure. Therefore, while we strive to protect your information, we cannot guarantee its absolute security."
-            },
-            {
-                "title": "Your Choices",
-                "content": "You may opt out of receiving promotional communications from us by following the instructions in those communications or by contacting us directly. Please note that even if you opt out of receiving promotional communications, we may still send you non-promotional emails related to your use of the Website."
-            },
-            {
-                "title": "Changes to This Privacy Policy",
-                "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We encourage you to review this Privacy Policy periodically. Your continued use of the Website after any modifications constitutes your acceptance of the revised Privacy Policy."
-            },
-            {
+        {
+  "title": "Privacy Policy",
+  "content": "Protecting your private information is our priority. This Statement of Privacy applies to www.guardianclaims.com, and GuardianClaims and governs data collection and usage. By using the GuardianClaims website, you consent to the data practices described in this statement.",
+  "sections": [
+    {
+      "title": "Collection of Personal Information",
+      "content": "In order to better provide you with products and services offered, GuardianClaims may collect personally identifiable information, such as your:",
+      "list": [
+        "First and Last Name",
+        "Mailing Address",
+        "E-mail Address",
+        "Phone Number"
+      ],
+      "note": "We do not collect any personal information about you unless you voluntarily provide it to us."
+    },
+    {
+      "title": "Use of Personal Information",
+      "content": "GuardianClaims collects and uses your personal information to operate and deliver the services you have requested. It may also be used to inform you of other products or services available from GuardianClaims and its affiliates."
+    },
+    {
+      "title": "Sharing Information with Third Parties",
+      "content": "GuardianClaims does not sell, rent, or lease its customer lists to third parties. It may share data with trusted partners to perform statistical analysis, send communications, provide customer support, or arrange for deliveries. Such third parties are prohibited from using your personal information for purposes other than providing services to GuardianClaims."
+    },
+    {
+      "title": "Disclosure of Personal Information",
+      "content": "GuardianClaims may disclose your personal information, without notice, if required to do so by law or in the good faith belief that such action is necessary to: (a) conform to the edicts of the law or comply with legal process served on GuardianClaims or the site; (b) protect and defend the rights or property of GuardianClaims; and/or (c) act under exigent circumstances to protect the personal safety of users of GuardianClaims, or the public."
+    },
+    {
+      "title": "Automatically Collected Information",
+      "content": "Information about your computer hardware and software may be automatically collected by GuardianClaims. This information includes your IP address, browser type, domain names, access times, and referring website addresses. It is used for the operation of the service, to maintain service quality, and to provide general statistics regarding the use of the GuardianClaims website."
+    },
+    {
+      "title": "Right to Deletion",
+      "content": "Subject to certain exceptions, on receipt of a verifiable request from you, GuardianClaims will delete your personal information from its records. Please note that GuardianClaims may not be able to comply with deletion requests in certain circumstances."
+    },
+    {
+      "title": "Children Under Thirteen",
+      "content": "GuardianClaims does not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must ask your parent or guardian for permission to use this website."
+    },
+    {
+      "title": "E-mail Communications",
+      "content": "From time to time, GuardianClaims may contact you via email for the purpose of providing announcements, promotional offers, alerts, confirmations, surveys, and/or other general communication."
+    },
+    {
+      "title": "Changes to this Statement",
+      "content": "GuardianClaims reserves the right to change this Privacy Policy from time to time. Significant changes will be notified to you through email or a prominent notice on the website. Your continued use of the website and/or services after such modifications will constitute your acknowledgment and agreement to abide by the modified Privacy Policy."
+    },
+    {
                 "title": "Contact Information",
                 "content": "GuardianClaims welcomes your questions or comments regarding this Statement of Privacy. If you believe that GuardianClaims has not adhered to this Statement, please contact GuardianClaims at:"
             }
