@@ -19,14 +19,14 @@ export default function TermsOfUse() {
               <li key={index}>
                 <h2>{section.title}</h2>
                 {section.sections ? (
-                  <ol>
+                  <ul>
                     {section.sections.map((subsection, subIndex) => (
                       <li key={subIndex}>
                         <h3>{subsection.title}</h3>
                         <p>{subsection.content}</p>
                       </li>
                     ))}
-                  </ol>
+                  </ul>
                 ) : (
                   <p>{section.content}</p>
                 )}

@@ -396,13 +396,23 @@
             {
                 "title": "Collection of Personal Information",
                 "content": "In order to better provide you with products and services offered, GuardianClaims may collect personally identifiable information, such as your:",
-                "list": [
-                    "First and Last Name",
-                    "Mailing Address",
-                    "E-mail Address",
-                    "Phone Number"
-                ],
-                "note": "We do not collect any personal information about you unless you voluntarily provide it to us."
+                "sections": [
+                    {
+                        "content": "First and Last Name"
+                    },
+                    {
+                        "content": "Mailing Address"
+                    },
+                    {
+                        "content": "E-mail Address"
+                    },
+                    {
+                        "content": "Phone Number"
+                    },
+                    {
+                        "content": "We do not collect any personal information about you unless you voluntarily provide it to us."
+                    }
+                ]
             },
             {
                 "title": "Use of Personal Information",
