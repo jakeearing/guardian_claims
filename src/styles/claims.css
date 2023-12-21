@@ -9,7 +9,7 @@
 .claims-form-splash {
   height: 60vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/claims-splash.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), #008FDA), url('../../public/images/splash-screens/claims-splash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -30,7 +30,7 @@
   padding-left: 200px;
 }
 
-.claims-splash-text p{
+.claims-splash-text p {
   font-size: 6vh;
   font-weight: bold;
   color: white;
@@ -48,11 +48,12 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-image: url('../../public/images/splash-screens/claims-body-background.jpg');
+  background-color: #008FDA;
   background-blend-mode: multiply;
   background-position: top;
   background-repeat: no-repeat;
   color: white;
+  padding-bottom: 40px;
 }
 
 .claims-content {
@@ -101,7 +102,7 @@
     padding-left: 0px;
   }
 
-  .claims-splash-text p{
+  .claims-splash-text p {
     margin: 0 auto;
   }
 
