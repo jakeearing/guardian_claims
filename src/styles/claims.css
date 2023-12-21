@@ -12,7 +12,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../../public/images/splash-screens/claims-splash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 
 .logo-wrapper {
@@ -42,6 +42,17 @@
   margin: 0px 0px 20px 0px;
   font-weight: 400;
   text-align: center;
+}
+
+.claims-content-background {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url('../../public/images/splash-screens/claims-body-background.jpg');
+  background-blend-mode: multiply;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 .claims-content {

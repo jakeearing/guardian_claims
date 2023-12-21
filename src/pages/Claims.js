@@ -20,22 +20,24 @@ export default function Claims() {
             <p>{content.claims.headerTwo}</p>
           </div>
         </div>
-        <div className="claims-content">
-          <div className="left-column">
-          <h2>{content.claims.leftColumnTitle}</h2>
-            <h3><span className="thin">{content.claims.leftColumnText}</span></h3>
-            <ul>
-              {content.claims.leftColumnListItems.map((item, index) => (
-                <li key={index}>
-                  <h3>{item.itemTitle}</h3>
-                  <p>{item.itemText}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="right-column">
-            <div className="claims-form">
-              <ClaimForm />
+        <div className="claims-content-background">
+          <div className="claims-content">
+            <div className="left-column">
+              <h2>{content.claims.leftColumnTitle}</h2>
+              <h3><span className="thin">{content.claims.leftColumnText}</span></h3>
+              <ul>
+                {content.claims.leftColumnListItems.map((item, index) => (
+                  <li key={index}>
+                    <h3>{item.itemTitle}</h3>
+                    <p>{item.itemText}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="right-column">
+              <div className="claims-form">
+                <ClaimForm />
+              </div>
             </div>
           </div>
         </div>
