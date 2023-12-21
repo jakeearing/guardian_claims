@@ -37,6 +37,15 @@ export default function TermsOfUse() {
                     ))}
                   </div>
                 )}
+                {section.subBullets && (
+                  <ul>
+                    {section.subBullets.map((subBullet, subIndex) => (
+                      <li key={subIndex}>
+                        <p>{subBullet.content}</p>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </li>
             ))}
           </ol>
