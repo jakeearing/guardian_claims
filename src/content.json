@@ -266,8 +266,8 @@
         ]
     },
     "claims": {
-        "headerOne": "Advocate. Adjust. Achieve.",
-        "headerTwo": "",
+        "headerOne": "",
+        "headerTwo": "Guarding Your Claims.",
         "leftColumnTitle": "We deal with your insurance company, so you don't have to!",
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
         "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
