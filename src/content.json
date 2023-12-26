@@ -268,25 +268,22 @@
     "claims": {
         "headerOne": "Cultivate your potential.",
         "headerTwo": "Cultivate your purpose.",
-        "leftColumnTitle": "Learn the skills you need to grow in the $80 billion industry of roofs",
+        "leftColumnTitle": "We deal with your insurance company, so you don't have to!",
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
         "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
         "leftColumnListItems": [
             {
-                "itemTitle": "Review your insurance policy",
-                "itemText": "this is the text that shows up here this is the text that shows up here"
+                "itemTitle": "Residential Claims",
+                "itemText": "GuardianClaims alleviates the frustration of navigating insurance policies and dealing with intricate processes. Our public adjusters specialize in negotiating claims for various damages, such as fire, water, and storms. With a focus on personalized service, we are dedicated to restoring you and your family to a complete and whole state."
             },
             {
-                "itemTitle": "Document your property damage and all contents",
-                "itemText": "this is the text that shows up here this is the text that shows up here"
+                "itemTitle": "Commercial Claims",
+                "itemText": "We delegate the hassle of handling your business loss and insurance claim to GuardianClaims commercial public adjusters. Focus on running your business and making money while we work to settle your claim and restore your financial well-being."
             },
             {
-                "itemTitle": "Schedule meetings and handle ALL communication with your insurance company",
-                "itemText": "this is the text that shows up here this is the text that shows up here"
-            },
-            {
-                "itemTitle": "Finalize your settlement faster",
-                "itemText": "this is the text that shows up here this is the text that shows up here"
+                "itemTitle": "Contractors & Associations",
+                "itemText": "You can count on GuardianClaims to negotiate fair settlements for your clients and insureds. Our expertise in handling complex insurance policies and claims ensures attention to detail that others may lack. Let us handle the fight for you, removing one more task from your plate."
+           
             }
         ],
         "formText": "Start your journey with GuardianClaims",
