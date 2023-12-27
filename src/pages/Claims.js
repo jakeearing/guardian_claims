@@ -16,8 +16,8 @@ export default function Claims() {
             </Link>
           </div>
           <div className="claims-splash-text">
-            <p>{content.claims.headerOne}</p>
-            <p>{content.claims.headerTwo}</p>
+            <p className="claims-header-one">{content.claims.headerOne}</p>
+            <p className="claims-header-two">{content.claims.headerTwo}</p>
           </div>
         </div>
         <div className="claims-content-background">

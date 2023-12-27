@@ -2,10 +2,10 @@
     position: relative;
     height: fit-content;
     overflow: hidden;
-    color: white;
+    color: black;
     text-align: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('../../public/images/splash-screens/about-background.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.50)), url('../../public/images/splash-screens/about-background.jpg');
     background-size: auto;
 }
 
@@ -28,7 +28,7 @@
 .content-text p {
     font-size: 2.2vh;
     padding-top: 20px;
-    font-weight: 200;
+    font-weight: 400;
     margin: 0px auto 20px;
     text-align: left;
     width: 55%;
@@ -56,6 +56,7 @@
     width: fit-content;
     text-align: center;
     border-radius: 20px;
+    margin-bottom: 40px;
 }
 
 .meet-the-team-text {
@@ -65,8 +66,8 @@
 
 .profile a {
     text-decoration: none;
-    color: white;
-    font-weight: 500;
+    color: black;
+    font-weight: 600;
 }
 
 .profile p {
@@ -86,5 +87,9 @@
         font-size: 2.5vh;
         width: 80%;
         margin: 0 auto 20px auto;
+    }
+
+    .about-content-wrapper {
+        margin-bottom: 0px;
     }
 }
