@@ -107,10 +107,6 @@
     margin: 0 auto;
   }
 
-  .claims-header-two {
-    width: 370px;
-  }
-
   .claims-form-wrapper {
     max-width: 100%;
   }
@@ -137,5 +133,12 @@
 
   .last-h3 {
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .claims-header-one,
+  .claims-header-two {
+    width: 370px;
   }
 }
