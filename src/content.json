@@ -268,7 +268,7 @@
     "claims": {
         "headerOne": "Our Expertise,",
         "headerTwo": "Your Peace of Mind.",
-        "leftColumnTitle": "We deal with your insurance company, so you don't have to!",
+        "leftColumnTitle": "We deal with the insurance company, so you don't have to!",
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
         "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
         "leftColumnListItems": [
@@ -291,9 +291,9 @@
         "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
     },
     "claimsContractors": {
-        "headerOne": "Cultivate your potential.",
-        "headerTwo": "Cultivate your purpose.",
-        "leftColumnTitle": "We handle your insurance company so you don't have to",
+        "headerOne": "Our Experpertise,",
+        "headerTwo": "Your Peace of Mind.",
+        "leftColumnTitle": "We handle the insurance company so you don't have to",
         "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
         "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
         "leftColumnListItems": [
