@@ -79,7 +79,7 @@ header nav li:last-child {
 
 header nav li:not(.wrap-text) a {
   text-align: center;
-  padding: 10px 5px 0 0px;
+  padding: 10px 7px 0 0px;
   height: fit-content;
 }
 
