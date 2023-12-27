@@ -291,23 +291,23 @@
         "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
     },
     "claimsContractors": {
-        "headerOne": "Our Experpertise,",
+        "headerOne": "Our Expertise,",
         "headerTwo": "Your Peace of Mind.",
-        "leftColumnTitle": "We handle the insurance company so you don't have to!",
-        "leftColumnText": "We understand what it feels like to be in your position and look forward to connecting with you. Your story, and your time,  is important to us. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
+        "leftColumnTitle": "Your customers rely on you. You can rely on GuardianClaims.",
+        "leftColumnText": "Picking up materials, supervising job-sites, collecting checks, a day in the life of a contractor can be hectic - Let us help. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
         "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
         "leftColumnListItems": [
             {
                 "itemTitle": "Residential Claims",
-                "itemText": "GuardianClaims alleviates the frustration of navigating insurance policies and dealing with intricate processes. Our public adjusters specialize in negotiating claims for various damages, such as fire, water, and storms. With a focus on personalized service, we are dedicated to restoring you and your family to a complete and whole state."
+                "itemText": "GuardianClaims removes the frustration of navigating insurance policies and dealing with unethical claims practices. Our public adjusters specialize in negotiating claims for various damages, such as fire, water, and storms. With a focus on personalized service, we are dedicated to restoring you and your family to a complete and whole state."
             },
             {
                 "itemTitle": "Commercial Claims",
-                "itemText": "Delegate the hassle of handling your business loss and insurance claim to GuardianClaims commercial public adjusters. Focus on running your business and making money while we work to settle your claim and restore your financial well-being."
+                "itemText": "Delegate the hassle of handling your business loss and insurance claim to GuardianClaims. Focus on running your business and making money while we work to settle your claim and restore your financial well-being."
             },
             {
                 "itemTitle": "Contractors & Associations",
-                "itemText": "Count on GuardianClaims to negotiate fair settlements for your clients and insureds. Our expertise in handling complex insurance policies and claims ensures attention to detail that others may lack. Let us handle the fight for you, removing one more task from your plate."
+                "itemText": "You can count on GuardianClaims to negotiate fair settlements for your clients and tenants. Our expertise in handling complex insurance claims ensures attention to detail that others may lack. You already have a lot on your plate, let us handle the fight for you."
             
             }
         ],
