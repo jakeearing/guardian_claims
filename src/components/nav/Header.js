@@ -90,7 +90,7 @@ export default function Header() {
                 </li>
                 <li>
                   <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
-                    Claims
+                    Claim Portal
                   </Link>
                 </li>
                 <li>
@@ -132,7 +132,7 @@ export default function Header() {
               </li>
               <li>
                 <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
-                  Claims
+                  Claim Portal
                 </Link>
               </li>
               <li>

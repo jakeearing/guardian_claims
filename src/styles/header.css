@@ -68,7 +68,7 @@ header nav a {
 
 header nav li.wrap-text a {
   white-space: normal;
-  width: 135px;
+  width: 128px;
   display: block;
 }
 
@@ -79,7 +79,7 @@ header nav li:last-child {
 
 header nav li:not(.wrap-text) a {
   text-align: center;
-  padding: 10px 0 0 10px;
+  padding: 10px 5px 0 0px;
   height: fit-content;
 }
 
