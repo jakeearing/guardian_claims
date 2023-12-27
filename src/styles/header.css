@@ -70,6 +70,8 @@ header nav li.wrap-text a {
   white-space: normal;
   width: 128px;
   display: block;
+  margin-left: -2px;
+  margin-right: 2px;
 }
 
 header nav li:last-child {
