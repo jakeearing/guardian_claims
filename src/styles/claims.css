@@ -9,7 +9,6 @@
 .claims-form-splash {
   height: 60vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50), #008FDA), url('../../public/images/splash-screens/claims-splash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import ContractorForm from '../components/ContractorForm.js';
 import Footer from '../components/nav/Footer.js';
 import '../styles/claims.css';
+import '../styles/claims-contractors-splash.css';
 import content from '../content.json';
 
 export default function ClaimsContractors() {
@@ -16,8 +17,8 @@ export default function ClaimsContractors() {
             </Link>
           </div>
           <div className="claims-splash-text">
-            <p>{content.claimsContractors.headerOne}</p>
-            <p>{content.claimsContractors.headerTwo}</p>
+            <p className="claims-header-one">{content.claimsContractors.headerOne}</p>
+            <p className="claims-header-two">{content.claimsContractors.headerTwo}</p>
           </div>
         </div>
         <div className="claims-content-background">

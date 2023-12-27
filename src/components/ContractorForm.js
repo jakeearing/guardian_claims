@@ -50,6 +50,7 @@ export default function ContractorForm() {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
+      <h3>{content.claimsContractors.formText}</h3>
         <div className="form-row">
           <div className="form-column">
             <div className="form-group">

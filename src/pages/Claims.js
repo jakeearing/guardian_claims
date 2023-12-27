@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import ClaimForm from '../components/ClaimForm.js';
 import Footer from '../components/nav/Footer.js';
 import '../styles/claims.css';
+import '../styles/claims-splash.css';
+
 import content from '../content.json';
 
 export default function Claims() {
