@@ -19,7 +19,7 @@ export default function Footer() {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/contractors">Contractors</Link></li>
               <li><Link to="/residential">Residential</Link></li>
-              <li><Link to="/claim">Claim Portal</Link></li>
+              <li><Link to="/claim">Claims Portal</Link></li>
               <li><Link to="/commercial">Commercial</Link></li>
               <li><Link to="/about-us">About Us</Link></li>
             </ul>
