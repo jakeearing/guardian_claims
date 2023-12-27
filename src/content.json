@@ -1,7 +1,7 @@
 {
     "splash": {
         "heading": "Are you struggling with your insurance claim?",
-        "description": "GuardianClaims is a public adjusting firm that works with your insurance company to get you a fair settlement and make you whole again. We're only compensated when you get the settlement you deserve and are ready to handle all residential, business, and commercial property insurance loss claims.",
+        "description": "GuardianClaims is a public adjusting firm that works with your insurance company to get you a fair settlement and make you whole again. We are ready to handle all your residential, business, and commerical property insurance loss claims and we're only compensated when you get the settlement you deserve.",
         "buttonText": "Free Claim Review",
         "buttonLink": "/claim",
         "footerText": "Insurance companies are well-represented, and you should be too!"
@@ -11,7 +11,7 @@
         "headingThinOne": "At ",
         "headingBold": "GuardianClaims",
         "headingThinTwo": "we navigate you through the complicated and confusing insurance claims process.",
-        "description": "When life throws you storm, water, fire, or smoke damage, we help your family or business restore life and income to the way it was.",
+        "description": "When storm, water, fire, or smoke damage occurs, we help you restore your life and your income.",
         "contactHeading": "Contact us today!",
         "boxes": [
             {
@@ -24,7 +24,7 @@
             {
                 "image": "connect.jpg",
                 "title": "Connect with Us",
-                "description": "Communication and education are key parts of our process, and licensed public adjusters will provide personal service from the free claim review through the entire settlement process."
+                "description": "Communication and education are key parts of our approach, and our licensed public adjusters will provide personal service from the free claim review through the entire settlement process."
             },
             {
                 "image": "receive-settlement.jpg",
@@ -84,7 +84,7 @@
         "residentialSecondary": [
             {
                 "heading": "Residential Claims",
-                "paragraph": "It's frustrating to read your policy and deal with insurance companies. Their business model is designed to confuse and minimize the claims they pay. That's where GuardainClaims comes in: Our public adjusters negotiate all claims for fire, water, storm, and other damages. We focus on personal service to you and your family, making you whole again.",
+                "paragraph": "It's frustrating to read your policy and deal with insurance companies. Their business model is designed to confuse and minimize the claims they pay. That's where GuardianClaims comes in: Our public adjusters negotiate all claims for fire, water, storm, and other damages. We focus on personal service to you and your family, we've seen a thing or two, so we know a thing or two.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
             }
