@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 import ContractorForm from '../components/ContractorForm.js';
 import Footer from '../components/nav/Footer.js';
 import '../styles/claims.css';
-import '../styles/claims-contractors-splash.css';
 import content from '../content.json';
 
 export default function ClaimsContractors() {
   return (
     <div>
       <div className="claims-form-wrapper">
-        <div className="claims-form-splash">
+        <div className="claims-contractors-form-splash">
           <div className="logo-wrapper">
             <Link to="/">
               <img src={process.env.PUBLIC_URL + '/images/logos/logo-top.png'} alt="Guardian Claim Logo" />
