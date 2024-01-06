@@ -47,10 +47,10 @@ export default function ClaimForm() {
     })
       .then((response) => {
         if (response.ok) {
-          alert('Form submitted successfully! We\'ll get back to you in 24-48 hours.');
+          alert(content.formStatus.success);
           console.log('Email sent!');
         } else {
-          alert('Error submitting form.');
+          alert(content.formStatus.fail);
           console.log('Error sending email');
         }
       })

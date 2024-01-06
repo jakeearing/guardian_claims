@@ -581,5 +581,9 @@
         ],
         "effectiveDate": "Effective as of December 27, 2023"
     },
+    "formStatus": {
+        "success": "Form submitted successfully! We\\'ll get back to you in 24-48 hours.",
+        "fail": "Error submitting form."
+    },
     "copyright": "Copyright \u00A9 2023 GuardianClaims - All Rights Reserved"
 }
