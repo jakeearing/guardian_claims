@@ -57,7 +57,7 @@ app.post('/api/send-email', (req, res) => {
   // Define the email options
   const mailOptions = {
     from: process.env.EMAIL_USER,
-    to: process.env.EMAIL_USER,
+    to: `${process.env.EMAIL_USER}, ${process.env.EMAIL_USER_2}`,
     // Set the email subject based on the form type
     subject: emailSubject, 
     text: emailMessage,
