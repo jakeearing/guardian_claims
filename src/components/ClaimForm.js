@@ -50,6 +50,7 @@ export default function ClaimForm() {
           alert('Form submitted successfully! We\'ll get back to you in 24-48 hours.');
           console.log('Email sent!');
         } else {
+          alert('Error submitting form.');
           console.log('Error sending email');
         }
       })
