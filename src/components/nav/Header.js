@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import logoWhite from './logo-left.png';
 import logoGrey from './logo-left-grey.png';
 import '../../styles/header.css';
-import '../../content.json';
+import content from '../../content.json';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -70,32 +70,32 @@ export default function Header() {
               <ul>
                 <li>
                   <Link to="/" className={isSplashPage ? 'active' : ''}>
-                    Home
+                    {content.header.linkOneText}
                   </Link>
                 </li>
                 <li>
                   <Link to="/residential" className={!isSplashPage ? 'active' : ''}>
-                    Residential
+                  {content.header.linkTwoText}
                   </Link>
                 </li>
                 <li>
                   <Link to="/commercial" className={!isSplashPage ? 'active' : ''}>
-                    Commercial
+                  {content.header.linkThreeText}
                   </Link>
                 </li>
                 <li>
                   <Link to="/contractors" className={!isSplashPage ? 'active' : ''}>
-                    Contractors & Associations
+                  {content.header.linkFourText}
                   </Link>
                 </li>
                 <li>
                   <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
-                    Claims Portal
+                  {content.header.linkFiveText}
                   </Link>
                 </li>
                 <li>
                   <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
-                    About
+                  {content.header.linkSixText}
                   </Link>
                 </li>
                 <div>
@@ -112,32 +112,32 @@ export default function Header() {
             <ul>
               <li>
                 <Link to="/" className={isSplashPage ? 'active' : ''}>
-                  Home
+                {content.header.linkOneText}
                 </Link>
               </li>
               <li>
                 <Link to="/residential" className={!isSplashPage ? 'active' : ''}>
-                  Residential
+                {content.header.linkTwoText}
                 </Link>
               </li>
               <li>
                 <Link to="/commercial" className={!isSplashPage ? 'active' : ''}>
-                  Commercial
+                {content.header.linkThreeText}
                 </Link>
               </li>
               <li className="wrap-text">
                 <Link to="/contractors" className={!isSplashPage ? 'active' : ''}>
-                  Contractors & Associations
+                {content.header.linkFourText}
                 </Link>
               </li>
               <li>
                 <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
-                  Claims Portal
+                {content.header.linkFiveText}
                 </Link>
               </li>
               <li>
                 <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
-                  About
+                {content.header.linkSixText}
                 </Link>
               </li>
             </ul>

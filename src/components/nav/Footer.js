@@ -16,12 +16,12 @@ export default function Footer() {
         <div className="left-nav">
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/contractors">Contractors</Link></li>
-              <li><Link to="/residential">Residential</Link></li>
-              <li><Link to="/claim">Claims Portal</Link></li>
-              <li><Link to="/commercial">Commercial</Link></li>
-              <li><Link to="/about-us">About Us</Link></li>
+              <li><Link to="/">{content.footer.linkOneText}</Link></li>
+              <li><Link to="/contractors">{content.footer.linkTwoText}</Link></li>
+              <li><Link to="/residential">{content.footer.linkThreeText}</Link></li>
+              <li><Link to="/claim">{content.footer.linkFourText}</Link></li>
+              <li><Link to="/commercial">{content.footer.linkFiveText}</Link></li>
+              <li><Link to="/about-us">{content.footer.linkSixText}</Link></li>
             </ul>
           </nav>
         </div>
@@ -37,12 +37,12 @@ export default function Footer() {
               <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
             </div>
             <div className="terms">
-              <Link to="/terms-of-use">Terms of Use</Link>
-              <Link to="/privacy-policy">Privacy Policy</Link>
+              <Link to="/terms-of-use">{content.footer.linkSevenText}</Link>
+              <Link to="/privacy-policy">{content.footer.linkEightText}</Link>
             </div>
           </div>
           <div className="copyright">
-            <p>{content.copyright}</p>
+            <p>{content.footer.copyright}</p>
           </div>
         </div>
       </div>

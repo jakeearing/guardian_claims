@@ -315,6 +315,10 @@
         "rightColumnText": "By submitting this form, you consent to be contacted by GuardianClaims regarding insurance claim information by email, telephone, or text (message & data rates may apply). You retain the right to revoke your consent or modify your contact preferences at any time during your claims process, in accordance with our Privacy Policy.",
         "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
     },
+    "formStatus": {
+        "success": "Form submitted successfully! We\\'ll get back to you in 24-48 hours.",
+        "fail": "Error submitting form."
+    },
     "about": {
         "heading": "About Us",
         "whoWeAre": {
@@ -581,9 +585,23 @@
         ],
         "effectiveDate": "Effective as of December 27, 2023"
     },
-    "formStatus": {
-        "success": "Form submitted successfully! We\\'ll get back to you in 24-48 hours.",
-        "fail": "Error submitting form."
+    "header": {
+        "linkOneText":"Home",
+        "linkTwoText":"Residential",
+        "linkThreeText":"Commercial",
+        "linkFourText":"Contractors & Associations",
+        "linkFiveText":"Claims Portal",
+        "linkSixText":"About"
     },
-    "copyright": "Copyright \u00A9 2023 GuardianClaims - All Rights Reserved"
+    "footer": {
+        "linkOneText":"Home",
+        "linkTwoText":"Residential",
+        "linkThreeText":"Commercial",
+        "linkFourText":"Contractors",
+        "linkFiveText":"Claims Portal",
+        "linkSixText":"About",
+        "linkSevenText":"Terms of Use",
+        "linkEightText":"Privacy Policy",
+        "copyright": "Copyright \u00A9 2023 GuardianClaims - All Rights Reserved"
+    }
 }
