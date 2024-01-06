@@ -33,7 +33,12 @@ export default function ClaimForm() {
       phone: event.target.elements.phone.value,
     };
 
-    fetch('http://localhost:5000/api/send-email', {
+    // Determine the API URL based on the environment
+    const apiUrl = process.env.NODE_ENV === 'development'
+      ? process.env.REACT_APP_API_URL_DEV_EMAIL
+      : process.env.REACT_APP_API_URL_PROD_EMAIL;
+
+    fetch(apiUrl, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -56,7 +61,7 @@ export default function ClaimForm() {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-      <h3>{content.claims.formText}</h3>
+        <h3>{content.claims.formText}</h3>
         <div className="form-row">
           <div className="form-column">
             <div className="form-group">

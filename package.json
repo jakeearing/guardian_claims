@@ -1,6 +1,6 @@
 {
   "name": "guardian_claims",
-  "version": "0.9.9",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
