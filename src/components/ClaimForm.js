@@ -51,11 +51,11 @@ export default function ClaimForm() {
           console.log('Email sent!');
         } else {
           alert(content.formStatus.fail);
-          console.log('Server responded with an error:', response.status);
         }
       })
       .catch((error) => {
         console.log('Error sending email', error);
+        console.log('Server responded with an error:', response.status);
       });
   };
 
