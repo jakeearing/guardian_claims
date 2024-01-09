@@ -50,7 +50,6 @@ export default function ClaimForm() {
           alert(content.formStatus.success);
           console.log('Email sent!');
         } else {
-          console.log('Error sending email', response.status);
           alert(content.formStatus.fail);
         }
       })
