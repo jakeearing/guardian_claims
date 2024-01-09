@@ -41,8 +41,14 @@ export default function ContractorForm() {
     })
       .then((response) => {
         if (response.ok) {
-          alert(content.formStatus.success);
           console.log('Email sent!');
+          // Clear the form after successful submission
+          setClaimType('');
+          setClaimStatus('');
+          setZipCode('');
+          // Reset the form fields
+          event.target.reset();
+          alert(content.formStatus.success);
         } else {
           console.log('Error sending email', response.status);
           alert(content.formStatus.fail);
