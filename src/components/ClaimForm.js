@@ -61,7 +61,6 @@ export default function ClaimForm() {
         }
       })
       .catch((error) => {
-        alert(content.formStatus.fail);
         console.log('Server responded with an error:', response.status);
       });
   };
