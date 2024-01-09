@@ -44,12 +44,13 @@ export default function ContractorForm() {
           alert(content.formStatus.success);
           console.log('Email sent!');
         } else {
+          console.log('Error sending email', response.status);
           alert(content.formStatus.fail);
-          console.log('Error sending email');
         }
       })
       .catch((error) => {
         console.log('Error sending email', error);
+        console.log('Server responded with an error:', response.status);
       });
   };
 
