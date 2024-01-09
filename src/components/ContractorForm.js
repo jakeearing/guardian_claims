@@ -41,6 +41,7 @@ export default function ContractorForm() {
     })
       .then((response) => {
         if (response.ok) {
+          alert(content.formStatus.success);
           console.log('Email sent!');
           // Clear the form after successful submission
           setClaimType('');
@@ -48,14 +49,13 @@ export default function ContractorForm() {
           setZipCode('');
           // Reset the form fields
           event.target.reset();
-          alert(content.formStatus.success);
         } else {
-          console.log('Error sending email', response.status);
           alert(content.formStatus.fail);
+          console.log('Error sending email', response.status);
         }
       })
       .catch((error) => {
-        console.log('Error sending email', error);
+        alert(content.formStatus.fail);
         console.log('Server responded with an error:', response.status);
       });
   };
