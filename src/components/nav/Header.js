@@ -58,7 +58,7 @@ export default function Header() {
       <div className="header-content">
         <div className="logo">
           <Link to="/">
-            <img src={logoSrc} alt="Guardian Claim Logo" />
+            <img src={logoSrc} alt="TrustPro Claims Logo" />
           </Link>
         </div>
         {isMobile && (

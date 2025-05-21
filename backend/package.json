@@ -1,6 +1,6 @@
 {
-  "name": "guardian_claims_backend",
-  "version": "1.0.1",
+  "name": "trustpro_claims_backend",
+  "version": "1.0.2",
   "description": "",
   "main": "server.js",
   "scripts": {

@@ -13,7 +13,7 @@ export default function Claims() {
         <div className="claims-form-splash">
           <div className="logo-wrapper">
             <Link to="/">
-              <img src={process.env.PUBLIC_URL + '/images/logos/logo-top.png'} alt="Guardian Claim Logo" />
+              <img src={process.env.PUBLIC_URL + '/images/logos/logo-top.png'} alt="TrustPro Claims Logo" />
             </Link>
           </div>
           <div className="claims-splash-text">

@@ -27,14 +27,14 @@ export default function Footer() {
         </div>
         <div className="footer-logo">
           <Link to="/">
-            <img src={process.env.PUBLIC_URL + '/images/logos/logo192.png'} alt="GuardianClaims Logo" />
+            <img src={process.env.PUBLIC_URL + '/images/logos/logo192.png'} alt="TrustPro Claims Logo" />
           </Link>
         </div>
         <div className="copyright-right-nav">
           <div className="right-nav">
             <div className="social-media">
-              <a href="https://www.facebook.com/profile.php?id=100090366134522"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
-              <a href="https://www.linkedin.com/company/guardianclaims/about/"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
+              <a href="https://www.facebook.com/TrustProClaims"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/facebook-logo.svg"} alt="Facebook Icon" /></a>
+              <a href="https://www.linkedin.com/company/trustproclaims/about/"><img src={process.env.PUBLIC_URL + "/images/svg-icons/social-media/linkedin-logo.svg"} alt="Linkedin Icon" /></a>
             </div>
             <div className="terms">
               <Link to="/terms-of-use">{content.footer.linkSevenText}</Link>
