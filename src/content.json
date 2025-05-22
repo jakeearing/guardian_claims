@@ -354,11 +354,11 @@
         "_comment (internal use only)": "The following is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
             {
-                "title": "Agreement between User and www.TrustPro Claims.com",
-                "content": "Welcome to www.TrustPro Claims.com. The www.TrustPro Claims.com website (the \"Site\") is comprised of various web pages operated by TrustPro Claims. www.TrustPro Claims.com is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein (the \"Terms\"). Your use of www.TrustPro Claims.com constitutes your agreement to all such Terms. Please read these terms carefully, and keep a copy of them for your reference.",
+                "title": "Agreement between User and www.trustproclaims.com",
+                "content": "Welcome to www.trustproclaims.com. The www.trustproclaims.com website (the \"Site\") is comprised of various web pages operated by TrustPro Claims. www.trustproclaims.com is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein (the \"Terms\"). Your use of www.trustproclaims.com constitutes your agreement to all such Terms. Please read these terms carefully, and keep a copy of them for your reference.",
                 "subParagraphs": [
                     {
-                        "content": "www.TrustPro Claims.com is a News and Information Site."
+                        "content": "www.trustproclaims.com is a News and Information Site."
                     },
                     {
                         "content": "This website is designed to provide information regarding the use of a public adjuster for insurance claims."
@@ -367,28 +367,28 @@
             },
             {
                 "title": "Privacy",
-                "content": "Your use of www.TrustPro Claims.com is subject to TrustPro Claims's Privacy Policy. Please review our Privacy Policy, which also governs the Site and informs users of our data collection practices."
+                "content": "Your use of www.trustproclaims.com is subject to TrustPro Claims's Privacy Policy. Please review our Privacy Policy, which also governs the Site and informs users of our data collection practices."
             },
             {
                 "title": "Electronic Communications",
-                "content": "Visiting www.TrustPro Claims.com or sending emails to TrustPro Claims constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communications be in writing."
+                "content": "Visiting www.trustproclaims.com or sending emails to TrustPro Claims constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communications be in writing."
             },
             {
                 "title": "Children Under Thirteen",
-                "content": "TrustPro Claims does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. If you are under 18, you may use www.TrustPro Claims.com only with permission of a parent or guardian."
+                "content": "TrustPro Claims does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. If you are under 18, you may use www.trustproclaims.com only with permission of a parent or guardian."
             },
             {
                 "title": "Links to Third Party Sites/Third Party Services",
-                "content": "www.TrustPro Claims.com may contain links to other websites (\"Linked Sites\"). The Linked Sites are not under the control of TrustPro Claims and TrustPro Claims is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. TrustPro Claims is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by TrustPro Claims of the site or any association with its operators.",
+                "content": "www.trustproclaims.com may contain links to other websites (\"Linked Sites\"). The Linked Sites are not under the control of TrustPro Claims and TrustPro Claims is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. TrustPro Claims is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by TrustPro Claims of the site or any association with its operators.",
                 "subParagraphs": [
                     {
-                        "content": "Certain services made available via www.TrustPro Claims.com are delivered by third party sites and organizations. By using any product, service or functionality originating from the www.TrustPro Claims.com domain, you hereby acknowledge and consent that TrustPro Claims may share such information and data with any third party with whom TrustPro Claims has a contractual relationship to provide the requested product, service or functionality on behalf of www.TrustPro Claims.com users and customers."
+                        "content": "Certain services made available via www.trustproclaims.com are delivered by third party sites and organizations. By using any product, service or functionality originating from the www.trustproclaims.com domain, you hereby acknowledge and consent that TrustPro Claims may share such information and data with any third party with whom TrustPro Claims has a contractual relationship to provide the requested product, service or functionality on behalf of www.trustproclaims.com users and customers."
                     }
                 ]
             },
             {
                 "title": "No Unlawful or Prohibited Use/Intellectual Property",
-                "content": "You are granted a non-exclusive, non-transferable, revocable license to access and use www.TrustPro Claims.com strictly in accordance with these terms of use. As a condition of your use of the Site, you warrant to TrustPro Claims that you will not use the Site for any purpose that is unlawful or prohibited by these Terms. You may not use the Site in any manner which could damage, disable, overburden, or impair the Site or interfere with any other party's use and enjoyment of the Site. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available or provided for through the Site.",
+                "content": "You are granted a non-exclusive, non-transferable, revocable license to access and use www.trustproclaims.com strictly in accordance with these terms of use. As a condition of your use of the Site, you warrant to TrustPro Claims that you will not use the Site for any purpose that is unlawful or prohibited by these Terms. You may not use the Site in any manner which could damage, disable, overburden, or impair the Site or interfere with any other party's use and enjoyment of the Site. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available or provided for through the Site.",
                 "subParagraphs": [
                     {
                         "content": "All content included as part of the Service, such as text, graphics, logos, images, as well as the compilation thereof, and any software used on the Site, is the property of TrustPro Claims or its suppliers and protected by copyright and other laws that protect intellectual property and proprietary rights. You agree to observe and abide by all copyright and other proprietary notices, legends or other restrictions contained in any such content and will not make any changes thereto."
@@ -400,7 +400,7 @@
             },
             {
                 "title": "International Users",
-                "content": "The Service is controlled, operated and administered by TrustPro Claims from our offices within the USA. If you access the Service from a location outside the USA, you are responsible for compliance with all local laws. You agree that you will not use the TrustPro Claims Content accessed through www.TrustPro Claims.com in any country or in any manner prohibited by any applicable laws, restrictions or regulations."
+                "content": "The Service is controlled, operated and administered by TrustPro Claims from our offices within the USA. If you access the Service from a location outside the USA, you are responsible for compliance with all local laws. You agree that you will not use the TrustPro Claims Content accessed through www.trustproclaims.com in any country or in any manner prohibited by any applicable laws, restrictions or regulations."
             },
             {
                 "title": "Indemnification",
@@ -443,7 +443,7 @@
             },
             {
                 "title": "Changes to Terms",
-                "content": "TrustPro Claims reserves the right, in its sole discretion, to change the Terms under which www.TrustPro Claims.com is offered. The most current version of the Terms will supersede all previous versions. TrustPro Claims encourages you to periodically review the Terms to stay informed of our updates."
+                "content": "TrustPro Claims reserves the right, in its sole discretion, to change the Terms under which www.trustproclaims.com is offered. The most current version of the Terms will supersede all previous versions. TrustPro Claims encourages you to periodically review the Terms to stay informed of our updates."
             },
             {
                 "title": "Contact Us",
@@ -453,7 +453,7 @@
     },
     "privacyPolicy": {
         "title": "Privacy Policy",
-        "content": "Protecting your private information is our priority. This Statement of Privacy applies to www.TrustPro Claims.com, and TrustPro Claims and governs data collection and usage. By using the TrustPro Claims website, you consent to the data practices described in this statement.",
+        "content": "Protecting your private information is our priority. This Statement of Privacy applies to www.trustproclaims.com, and TrustPro Claims and governs data collection and usage. By using the TrustPro Claims website, you consent to the data practices described in this statement.",
         "_comment (internal use only)": "The following is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
             {
