@@ -27,7 +27,7 @@ export default function Footer() {
         </div>
         <div className="footer-logo">
           <Link to="/">
-            <img src={process.env.PUBLIC_URL + '/images/logos/logo192.png'} alt="TrustPro Claims Logo" />
+            <img src={process.env.PUBLIC_URL + '/images/logos/logo192.png'} alt="TrustPro Logo" />
           </Link>
         </div>
         <div className="copyright-right-nav">

@@ -1,4 +1,4 @@
-# TrustPro Claims Website
-Web Application for TrustPro Claims <br />
+# TrustPro Website
+Web Application for TrustPro <br />
 Created by Jake Earing <br />
 https://github.com/jakeearing <br />

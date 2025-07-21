@@ -1,7 +1,7 @@
 {
     "splash": {
         "heading": "Are you struggling with your insurance claim?",
-        "description": "TrustPro Claims is a public adjusting firm that works with your insurance company to get you a fair settlement. We are ready to handle all of your residential, business, and commerical property insurance loss claims. We're only compensated when you get the settlement you deserve.",
+        "description": "TrustPro is a public adjusting firm that works with your insurance company to get you a fair settlement. We are ready to handle all of your residential, business, and commerical property insurance loss claims. We're only compensated when you get the settlement you deserve.",
         "buttonText": "Free Claim Review",
         "buttonLink": "/claim",
         "footerText": "Insurance companies are well-represented, and you should be too!"
@@ -9,7 +9,7 @@
     "claimSteps": {
         "_comment (internal use only)": "If you no longer want a word bolded below, or change the text, leave headingThinOne and headingBold empty, and simply put all of your text in headingThinTwo. Any text that is placed in headingBold will be bolded.",
         "headingThinOne": "At ",
-        "headingBold": "TrustPro Claims",
+        "headingBold": "TrustPro",
         "headingThinTwo": "we navigate you through the complicated and confusing insurance claims process.",
         "description": "When storm, water, fire, or smoke damage occurs, we help you restore your life and your income.",
         "contactHeading": "Contact us today!",
@@ -36,7 +36,7 @@
     "claimTypes": {
         "headingThin": "Your situation is unique  ",
         "headingBold": "and we take it personally.",
-        "description": "TrustPro Claims adjusters are experienced in all facets of residential and commercial insurance losses.",
+        "description": "TrustPro adjusters are experienced in all facets of residential and commercial insurance losses.",
         "claimCategories": [
             {
                 "image": "water-flood.jpg",
@@ -84,7 +84,7 @@
         "residentialSecondary": [
             {
                 "heading": "Residential Claims",
-                "paragraph": "It's frustrating to read your policy and deal with insurance companies. Their business model is designed to confuse and minimize the claims they pay. That's where TrustPro Claims comes in: Our public adjusters negotiate all claims for fire, water, storm, and other damages. We focus on personal service to you and your family, we've seen a thing or two, so we know a thing or two.",
+                "paragraph": "It's frustrating to read your policy and deal with insurance companies. Their business model is designed to confuse and minimize the claims they pay. That's where TrustPro comes in: Our public adjusters negotiate all claims for fire, water, storm, and other damages. We focus on personal service to you and your family, we've seen a thing or two, so we know a thing or two.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
             }
@@ -93,7 +93,7 @@
             {
                 "image": "residential1.jpg",
                 "heading": "It Starts With Your Free Claim Review",
-                "paragraphOne": "TrustPro Claims licensed public adjusters will reach out to discuss your claim in detail.",
+                "paragraphOne": "TrustPro licensed public adjusters will reach out to discuss your claim in detail.",
                 "paragraphTwo": "We will review your policy and documents to confirm coverage for your damages. Assesing current scope value and verifying supporting evidence in order to promote a fair settlement for you and your family.",
                 "buttonText": "Get Started",
                 "buttonLink": "/network"
@@ -104,7 +104,7 @@
                 "image": "residential2.jpg",
                 "heading": "We Handle Insurance Companies, So You Don't Have To",
                 "paragraphOne": "Homeowners often find negotiations frustrating– the process can drag on for months or years if mishandled. Most policyholders make the mistake of trusting their insurance company's initial assessment.",
-                "paragraphTwo": "TrustPro Claims negotiates directly with your insurance company to reach a fair settlement, restoring your property's value and providing you with piece of mind.",
+                "paragraphTwo": "TrustPro negotiates directly with your insurance company to reach a fair settlement, restoring your property's value and providing you with piece of mind.",
                 "buttonText": "Learn More",
                 "buttonLink": "/network"
             }
@@ -114,7 +114,7 @@
                 "image": "residential3.jpg",
                 "heading": "Settlement",
                 "paragraphOne": "After reaching a settlement, we ensure accurate and prompt payment by processing the funding through iink Payments -  a quick and secure way to transfer funds. ",
-                "paragraphTwo": "Allowing TrustPro Claims to guide you through our systematic claim process guarantees a fair and accurate settlement based upon the coverage provided in your policy and the damages sustained to your property. And remember, we only get paid when you do!",
+                "paragraphTwo": "Allowing TrustPro to guide you through our systematic claim process guarantees a fair and accurate settlement based upon the coverage provided in your policy and the damages sustained to your property. And remember, we only get paid when you do!",
                 "buttonText": "Get Info",
                 "buttonLink": "/claim"
             }
@@ -132,7 +132,7 @@
         "commercialSecondary": [
             {
                 "heading": "Commercial Claims",
-                "paragraph": "Your business suffered a loss, distracting you from what you do best- running your business and making money. Your time is valuable, so put TrustPro Claims public adjusters to work to settle your claim and get you back to business.",
+                "paragraph": "Your business suffered a loss, distracting you from what you do best- running your business and making money. Your time is valuable, so put TrustPro public adjusters to work to settle your claim and get you back to business.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/claim"
             }
@@ -141,7 +141,7 @@
             {
                 "image": "commercial1.jpg",
                 "heading": "Our Commercial Property Process",
-                "paragraphOne": "Your business loss generated a lot of paperwork. Angry tenants, grumpy contractors, and unscrupulous insurance adjusters delay the recovery process, adding to the headache. Let TrustPro Claims commercial public adjusters take the reins. Our close attention to detail and commercial expertise help streamline claim resolution.",
+                "paragraphOne": "Your business loss generated a lot of paperwork. Angry tenants, grumpy contractors, and unscrupulous insurance adjusters delay the recovery process, adding to the headache. Let TrustPro commercial public adjusters take the reins. Our close attention to detail and commercial expertise help streamline claim resolution.",
                 "paragraphTwo": "",
                 "buttonText": "Get Started",
                 "buttonLink": "/network"
@@ -161,8 +161,8 @@
             {
                 "image": "commercial3.jpg",
                 "heading": "Settlement",
-                "paragraphOne": "The settlement phase is the most eagerly anticipated part of the process. Oftentimes, insurance companies will try to rush a settlement to undermine the extent of your damages. TrustPro Claims protects your best interests, ensuring a fair and accurate settlement.",
-                "paragraphTwo": "TrustPro Claims processes the funding of your settlement to ensure accurate and prompt payment according to the terms of your policy. And remember, we don't get paid unless you do!",
+                "paragraphOne": "The settlement phase is the most eagerly anticipated part of the process. Oftentimes, insurance companies will try to rush a settlement to undermine the extent of your damages. TrustPro protects your best interests, ensuring a fair and accurate settlement.",
+                "paragraphTwo": "TrustPro processes the funding of your settlement to ensure accurate and prompt payment according to the terms of your policy. And remember, we don't get paid unless you do!",
                 "buttonText": "Contact Us",
                 "buttonLink": "/claim"
             }
@@ -180,7 +180,7 @@
         "contractorSecondary": [
             {
                 "heading": "Contractors & Associations",
-                "paragraph": "Contractors and Property Associations can rely on TrustPro Claims to negotiate fair settlements for their clients and insureds. Your insurance policies and claims are complex and require attention to detail that only TrustPro Claims can provide. Let us fight for you and take one more thing off your plate. Then, let's grab lunch.",
+                "paragraph": "Contractors and Property Associations can rely on TrustPro to negotiate fair settlements for their clients and insureds. Your insurance policies and claims are complex and require attention to detail that only TrustPro can provide. Let us fight for you and take one more thing off your plate. Then, let's grab lunch.",
                 "buttonText": "Connect With Us",
                 "buttonLink": "/claim"
             }
@@ -189,7 +189,7 @@
             {
                 "image": "contractor1.jpg",
                 "heading": "Contractors",
-                "paragraphOne": "You are experts at restoration and renovation- with a deep understanding of construction, material costs, labor, and project timelines. At TrustPro Claims, we are experts in dealing with insurance companies- with a deep understanding of policies, negotiating strategies, and fair settlements. Together, we create a synergy with the client's best interest at heart, making them whole again.",
+                "paragraphOne": "You are experts at restoration and renovation- with a deep understanding of construction, material costs, labor, and project timelines. At TrustPro, we are experts in dealing with insurance companies- with a deep understanding of policies, negotiating strategies, and fair settlements. Together, we create a synergy with the client's best interest at heart, making them whole again.",
                 "paragraphTwo": "",
                 "buttonText": "Get Started",
                 "buttonLink": "/network"
@@ -199,8 +199,8 @@
             {
                 "image": "contractor2.jpg",
                 "heading": "HOA, COA, & POA",
-                "paragraphOne": "TrustPro Claims ensures homeowner associations, condo associations, and property owner associations are well-represented, just like the insurance companies. You encounter unique hurdles when handling insurance claims- from navigating complex policies to understanding the rights of unit owners, and the claims process can be daunting.",
-                "paragraphTwo": "Often, oversights or errors are made by those trying their best, resulting in undervalued claims, extended settlement durations, and issues with neighbors. TrustPro Claims specializes in handling it all for you- providing clarity and direction to ensure your community gets the swift and fair settlement it deserves.",
+                "paragraphOne": "TrustPro ensures homeowner associations, condo associations, and property owner associations are well-represented, just like the insurance companies. You encounter unique hurdles when handling insurance claims- from navigating complex policies to understanding the rights of unit owners, and the claims process can be daunting.",
+                "paragraphTwo": "Often, oversights or errors are made by those trying their best, resulting in undervalued claims, extended settlement durations, and issues with neighbors. TrustPro specializes in handling it all for you- providing clarity and direction to ensure your community gets the swift and fair settlement it deserves.",
                 "buttonText": "Submit a Claim",
                 "buttonLink": "/network"
             }
@@ -209,8 +209,8 @@
             {
                 "image": "contractor3.jpg",
                 "heading": "Affiliations",
-                "paragraphOne": "TrustPro Claims uses iink payment processing to manage all settlements, eliminating delays and streamlining your payments. Our commitment to a seamless, secure, and efficient payment ensures your payment is hassle-free and timely, leading to a quicker restoration process.",
-                "paragraphTwo": "TrustPro Claims is excited to join United Claims Professionals (UCP), the newest organization for public adjusters and industry experts. Our affiliation with UCP signifies our dedication to upholding the highest standards of professionalism. The relationship bolsters our ability to provide top-notch services and demonstrate our commitment to you, the insured.",
+                "paragraphOne": "TrustPro uses iink payment processing to manage all settlements, eliminating delays and streamlining your payments. Our commitment to a seamless, secure, and efficient payment ensures your payment is hassle-free and timely, leading to a quicker restoration process.",
+                "paragraphTwo": "TrustPro is excited to join United Claims Professionals (UCP), the newest organization for public adjusters and industry experts. Our affiliation with UCP signifies our dedication to upholding the highest standards of professionalism. The relationship bolsters our ability to provide top-notch services and demonstrate our commitment to you, the insured.",
                 "buttonText": "Learn More",
                 "buttonLink": "/network"
             }
@@ -254,7 +254,7 @@
         "icon": "testimonial-icon.svg",
         "icon-text": "Testimonials",
         "heading": "Hear From Our Clients",
-        "text": "\"I had the opportunity to work with TrustPro Claims on 4 different claims. They are very knowledgeable and a pleasure to work with.\"",
+        "text": "\"I had the opportunity to work with TrustPro on 4 different claims. They are very knowledgeable and a pleasure to work with.\"",
         "author": "Blake Grissom",
         "company": "Contractor Connection"
     },
@@ -274,45 +274,45 @@
         "leftColumnListItems": [
             {
                 "itemTitle": "Residential Claims",
-                "itemText": "TrustPro Claims removes the frustration of navigating insurance policies and dealing with unethical claims practices. Our public adjusters specialize in negotiating claims for various damages, such as fire, water, and storms. With a focus on personalized service, we are dedicated to restoring you and your family to a complete and whole state."
+                "itemText": "TrustPro removes the frustration of navigating insurance policies and dealing with unethical claims practices. Our public adjusters specialize in negotiating claims for various damages, such as fire, water, and storms. With a focus on personalized service, we are dedicated to restoring you and your family to a complete and whole state."
             },
             {
                 "itemTitle": "Commercial Claims",
-                "itemText": "Delegate the hassle of handling your business loss and insurance claim to TrustPro Claims. Focus on running your business and making money while we work to settle your claim and restore your financial well-being."
+                "itemText": "Delegate the hassle of handling your business loss and insurance claim to TrustPro. Focus on running your business and making money while we work to settle your claim and restore your financial well-being."
             },
             {
                 "itemTitle": "Contractors & Associations",
-                "itemText": "You can count on TrustPro Claims to negotiate fair settlements for your clients and tenants. Our expertise in handling complex insurance claims ensures attention to detail that others may lack. You already have a lot on your plate, let us handle the fight for you."
+                "itemText": "You can count on TrustPro to negotiate fair settlements for your clients and tenants. Our expertise in handling complex insurance claims ensures attention to detail that others may lack. You already have a lot on your plate, let us handle the fight for you."
            
             }
         ],
-        "formText": "Get started today with TrustPro Claims!",
-        "rightColumnText": "By submitting this form, you consent to be contacted by TrustPro Claims regarding insurance claim information by email, telephone, or text (message & data rates may apply). You retain the right to revoke your consent or modify your contact preferences at any time during your claims submission process, in accordance with our Privacy Policy.",
+        "formText": "Get started today with TrustPro!",
+        "rightColumnText": "By submitting this form, you consent to be contacted by TrustPro regarding insurance claim information by email, telephone, or text (message & data rates may apply). You retain the right to revoke your consent or modify your contact preferences at any time during your claims submission process, in accordance with our Privacy Policy.",
         "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
     },
     "claimsContractors": {
         "headerOne": "Our Expertise,",
         "headerTwo": "Your Peace of Mind.",
-        "leftColumnTitle": "Your customers rely on you. You can rely on TrustPro Claims.",
+        "leftColumnTitle": "Your customers rely on you. You can rely on TrustPro.",
         "leftColumnText": "Picking up materials, supervising job-sites, collecting checks, a day in the life of a contractor can be hectic - Let us help. Getting the details right on each individual claim allows us to determine if we’re a good fit, and if not, we’ll refer you to someone who is. It’s a win-win!",
         "_comment (internal use only)": "The list items below are dynamic, meaning that you can add or remove them as you please, any amount of list items will work.",
         "leftColumnListItems": [
             {
                 "itemTitle": "Residential Claims",
-                "itemText": "TrustPro Claims removes the frustration of navigating insurance policies and dealing with unethical claims practices. Our public adjusters specialize in negotiating claims for various damages, such as fire, water, and storms. With a focus on personalized service, we are dedicated to restoring you and your family to a complete and whole state."
+                "itemText": "TrustPro removes the frustration of navigating insurance policies and dealing with unethical claims practices. Our public adjusters specialize in negotiating claims for various damages, such as fire, water, and storms. With a focus on personalized service, we are dedicated to restoring you and your family to a complete and whole state."
             },
             {
                 "itemTitle": "Commercial Claims",
-                "itemText": "Delegate the hassle of handling your business loss and insurance claim to TrustPro Claims. Focus on running your business and making money while we work to settle your claim and restore your financial well-being."
+                "itemText": "Delegate the hassle of handling your business loss and insurance claim to TrustPro. Focus on running your business and making money while we work to settle your claim and restore your financial well-being."
             },
             {
                 "itemTitle": "Contractors & Associations",
-                "itemText": "You can count on TrustPro Claims to negotiate fair settlements for your clients and tenants. Our expertise in handling complex insurance claims ensures attention to detail that others may lack. You already have a lot on your plate, let us handle the fight for you."
+                "itemText": "You can count on TrustPro to negotiate fair settlements for your clients and tenants. Our expertise in handling complex insurance claims ensures attention to detail that others may lack. You already have a lot on your plate, let us handle the fight for you."
             
             }
         ],
         "formText": "Connect with us today!",
-        "rightColumnText": "By submitting this form, you consent to be contacted by TrustPro Claims regarding insurance claim information by email, telephone, or text (message & data rates may apply). You retain the right to revoke your consent or modify your contact preferences at any time during your claims process, in accordance with our Privacy Policy.",
+        "rightColumnText": "By submitting this form, you consent to be contacted by TrustPro regarding insurance claim information by email, telephone, or text (message & data rates may apply). You retain the right to revoke your consent or modify your contact preferences at any time during your claims process, in accordance with our Privacy Policy.",
         "lastSectionText": "Our team is always available; call us now for a free NO OBLIGATION review of your situation."
     },
     "formStatus": {
@@ -325,10 +325,10 @@
             "heading": "Who We Are",
             "_comment (internal use only)": "The paragraphs below are completely dynamic, this means that you add or remove any of the paragraphs and the page will handle it automatically.",
             "paragraphs": [
-                "TrustPro Claims is a family-owned and operated business serving the communities of North Carolina and South Carolina. Our founders grew up in the contracting, roofing, and public adjusting space, spending over a decade witnessing what damage and disappointment do to families and businesses.",
-                "Insurance companies always have the best negotiators and take advantage of every situation to minimize the claims they pay. So, who advocates for families and businesses? We learned about public adjusters and their role in processing and settling claims for the insured, and our mission became clear. TrustPro Claims was founded to help families and businesses stand up to insurance companies and spread the word about public adjusters.",
-                "TrustPro Claims staff understand and navigate the complex claims process, so you don't have to. We ensure our clients receive the compensation they deserve with transparency and communication- hallmarks of our firm. We work closely with clients to understand their unique circumstances, provide the personal attention they deserve, and ensure a fair and accurate settlement.",
-                "Thank you for trusting TrustPro Claims with your residential and commercial insurance claims. We look forward to meeting you, advocating for you, and getting you the settlement you deserve so life can return to the way it was."
+                "TrustPro is a family-owned and operated business serving the communities of North Carolina and South Carolina. Our founders grew up in the contracting, roofing, and public adjusting space, spending over a decade witnessing what damage and disappointment do to families and businesses.",
+                "Insurance companies always have the best negotiators and take advantage of every situation to minimize the claims they pay. So, who advocates for families and businesses? We learned about public adjusters and their role in processing and settling claims for the insured, and our mission became clear. TrustPro was founded to help families and businesses stand up to insurance companies and spread the word about public adjusters.",
+                "TrustPro staff understand and navigate the complex claims process, so you don't have to. We ensure our clients receive the compensation they deserve with transparency and communication- hallmarks of our firm. We work closely with clients to understand their unique circumstances, provide the personal attention they deserve, and ensure a fair and accurate settlement.",
+                "Thank you for trusting TrustPro with your residential and commercial insurance claims. We look forward to meeting you, advocating for you, and getting you the settlement you deserve so life can return to the way it was."
             ]
         },
         "meetTheTeam": {
@@ -355,7 +355,7 @@
         "sections": [
             {
                 "title": "Agreement between User and www.trustproclaims.com",
-                "content": "Welcome to www.trustproclaims.com. The www.trustproclaims.com website (the \"Site\") is comprised of various web pages operated by TrustPro Claims. www.trustproclaims.com is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein (the \"Terms\"). Your use of www.trustproclaims.com constitutes your agreement to all such Terms. Please read these terms carefully, and keep a copy of them for your reference.",
+                "content": "Welcome to www.trustproclaims.com. The www.trustproclaims.com website (the \"Site\") is comprised of various web pages operated by TrustPro. www.trustproclaims.com is offered to you conditioned on your acceptance without modification of the terms, conditions, and notices contained herein (the \"Terms\"). Your use of www.trustproclaims.com constitutes your agreement to all such Terms. Please read these terms carefully, and keep a copy of them for your reference.",
                 "subParagraphs": [
                     {
                         "content": "www.trustproclaims.com is a News and Information Site."
@@ -367,44 +367,44 @@
             },
             {
                 "title": "Privacy",
-                "content": "Your use of www.trustproclaims.com is subject to TrustPro Claims's Privacy Policy. Please review our Privacy Policy, which also governs the Site and informs users of our data collection practices."
+                "content": "Your use of www.trustproclaims.com is subject to TrustPro's Privacy Policy. Please review our Privacy Policy, which also governs the Site and informs users of our data collection practices."
             },
             {
                 "title": "Electronic Communications",
-                "content": "Visiting www.trustproclaims.com or sending emails to TrustPro Claims constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communications be in writing."
+                "content": "Visiting www.trustproclaims.com or sending emails to TrustPro constitutes electronic communications. You consent to receive electronic communications and you agree that all agreements, notices, disclosures and other communications that we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communications be in writing."
             },
             {
                 "title": "Children Under Thirteen",
-                "content": "TrustPro Claims does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. If you are under 18, you may use www.trustproclaims.com only with permission of a parent or guardian."
+                "content": "TrustPro does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. If you are under 18, you may use www.trustproclaims.com only with permission of a parent or guardian."
             },
             {
                 "title": "Links to Third Party Sites/Third Party Services",
-                "content": "www.trustproclaims.com may contain links to other websites (\"Linked Sites\"). The Linked Sites are not under the control of TrustPro Claims and TrustPro Claims is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. TrustPro Claims is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by TrustPro Claims of the site or any association with its operators.",
+                "content": "www.trustproclaims.com may contain links to other websites (\"Linked Sites\"). The Linked Sites are not under the control of TrustPro and TrustPro is not responsible for the contents of any Linked Site, including without limitation any link contained in a Linked Site, or any changes or updates to a Linked Site. TrustPro is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement by TrustPro of the site or any association with its operators.",
                 "subParagraphs": [
                     {
-                        "content": "Certain services made available via www.trustproclaims.com are delivered by third party sites and organizations. By using any product, service or functionality originating from the www.trustproclaims.com domain, you hereby acknowledge and consent that TrustPro Claims may share such information and data with any third party with whom TrustPro Claims has a contractual relationship to provide the requested product, service or functionality on behalf of www.trustproclaims.com users and customers."
+                        "content": "Certain services made available via www.trustproclaims.com are delivered by third party sites and organizations. By using any product, service or functionality originating from the www.trustproclaims.com domain, you hereby acknowledge and consent that TrustPro may share such information and data with any third party with whom TrustPro has a contractual relationship to provide the requested product, service or functionality on behalf of www.trustproclaims.com users and customers."
                     }
                 ]
             },
             {
                 "title": "No Unlawful or Prohibited Use/Intellectual Property",
-                "content": "You are granted a non-exclusive, non-transferable, revocable license to access and use www.trustproclaims.com strictly in accordance with these terms of use. As a condition of your use of the Site, you warrant to TrustPro Claims that you will not use the Site for any purpose that is unlawful or prohibited by these Terms. You may not use the Site in any manner which could damage, disable, overburden, or impair the Site or interfere with any other party's use and enjoyment of the Site. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available or provided for through the Site.",
+                "content": "You are granted a non-exclusive, non-transferable, revocable license to access and use www.trustproclaims.com strictly in accordance with these terms of use. As a condition of your use of the Site, you warrant to TrustPro that you will not use the Site for any purpose that is unlawful or prohibited by these Terms. You may not use the Site in any manner which could damage, disable, overburden, or impair the Site or interfere with any other party's use and enjoyment of the Site. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available or provided for through the Site.",
                 "subParagraphs": [
                     {
-                        "content": "All content included as part of the Service, such as text, graphics, logos, images, as well as the compilation thereof, and any software used on the Site, is the property of TrustPro Claims or its suppliers and protected by copyright and other laws that protect intellectual property and proprietary rights. You agree to observe and abide by all copyright and other proprietary notices, legends or other restrictions contained in any such content and will not make any changes thereto."
+                        "content": "All content included as part of the Service, such as text, graphics, logos, images, as well as the compilation thereof, and any software used on the Site, is the property of TrustPro or its suppliers and protected by copyright and other laws that protect intellectual property and proprietary rights. You agree to observe and abide by all copyright and other proprietary notices, legends or other restrictions contained in any such content and will not make any changes thereto."
                     },
                     {
-                        "content": "You will not modify, publish, transmit, reverse engineer, participate in the transfer or sale, create derivative works, or in any way exploit any of the content, in whole or in part, found on the Site. TrustPro Claims content is not for resale. Your use of the Site does not entitle you to make any unauthorized use of any protected content, and in particular you will not delete or alter any proprietary rights or attribution notices in any content. You will use protected content solely for your personal use, and will make no other use of the content without the express written permission of TrustPro Claims and the copyright owner. You agree that you do not acquire any ownership rights in any protected content. We do not grant you any licenses, express or implied, to the intellectual property of TrustPro Claims or our licensors except as expressly authorized by these Terms."
+                        "content": "You will not modify, publish, transmit, reverse engineer, participate in the transfer or sale, create derivative works, or in any way exploit any of the content, in whole or in part, found on the Site. TrustPro content is not for resale. Your use of the Site does not entitle you to make any unauthorized use of any protected content, and in particular you will not delete or alter any proprietary rights or attribution notices in any content. You will use protected content solely for your personal use, and will make no other use of the content without the express written permission of TrustPro and the copyright owner. You agree that you do not acquire any ownership rights in any protected content. We do not grant you any licenses, express or implied, to the intellectual property of TrustPro or our licensors except as expressly authorized by these Terms."
                     }
                 ]
             },
             {
                 "title": "International Users",
-                "content": "The Service is controlled, operated and administered by TrustPro Claims from our offices within the USA. If you access the Service from a location outside the USA, you are responsible for compliance with all local laws. You agree that you will not use the TrustPro Claims Content accessed through www.trustproclaims.com in any country or in any manner prohibited by any applicable laws, restrictions or regulations."
+                "content": "The Service is controlled, operated and administered by TrustPro from our offices within the USA. If you access the Service from a location outside the USA, you are responsible for compliance with all local laws. You agree that you will not use the TrustPro Content accessed through www.trustproclaims.com in any country or in any manner prohibited by any applicable laws, restrictions or regulations."
             },
             {
                 "title": "Indemnification",
-                "content": "You agree to indemnify, defend and hold harmless TrustPro Claims, its officers, directors, employees, agents and third parties, for any losses, costs, liabilities and expenses (including reasonable attorney's fees) relating to or arising out of your use of or inability to use the Site or services, any user postings made by you, your violation of any terms of this Agreement or your violation of any rights of a third party, or your violation of any applicable laws, rules or regulations. TrustPro Claims reserves the right, at its own cost, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will fully cooperate with TrustPro Claims in asserting any available defenses."
+                "content": "You agree to indemnify, defend and hold harmless TrustPro, its officers, directors, employees, agents and third parties, for any losses, costs, liabilities and expenses (including reasonable attorney's fees) relating to or arising out of your use of or inability to use the Site or services, any user postings made by you, your violation of any terms of this Agreement or your violation of any rights of a third party, or your violation of any applicable laws, rules or regulations. TrustPro reserves the right, at its own cost, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will fully cooperate with TrustPro in asserting any available defenses."
             },
             {
                 "title": "Arbitration",
@@ -412,53 +412,53 @@
             },
             {
                 "title": "Class Action Waiver",
-                "content": "Any arbitration under these Terms and Conditions will take place on an individual basis; class arbitrations and class/representative/collective actions are not permitted. THE PARTIES AGREE THAT A PARTY MAY BRING CLAIMS AGAINST THE OTHER ONLY IN EACH'S INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PUTATIVE CLASS, COLLECTIVE AND/ OR REPRESENTATIVE PROCEEDING, SUCH AS IN THE FORM OF A PRIVATE ATTORNEY GENERAL ACTION AGAINST THE OTHER. Further, unless both you and TrustPro Claims agree otherwise, the arbitrator may not consolidate more than one person's claims, and may not otherwise preside over any form of a representative or class proceeding."
+                "content": "Any arbitration under these Terms and Conditions will take place on an individual basis; class arbitrations and class/representative/collective actions are not permitted. THE PARTIES AGREE THAT A PARTY MAY BRING CLAIMS AGAINST THE OTHER ONLY IN EACH'S INDIVIDUAL CAPACITY, AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PUTATIVE CLASS, COLLECTIVE AND/ OR REPRESENTATIVE PROCEEDING, SUCH AS IN THE FORM OF A PRIVATE ATTORNEY GENERAL ACTION AGAINST THE OTHER. Further, unless both you and TrustPro agree otherwise, the arbitrator may not consolidate more than one person's claims, and may not otherwise preside over any form of a representative or class proceeding."
             },
             {
                 "title": "Liability Disclaimer",
-                "content": "THE INFORMATION, SOFTWARE, PRODUCTS, AND SERVICES INCLUDED IN OR AVAILABLE THROUGH THE SITE MAY INCLUDE INACCURACIES OR TYPOGRAPHICAL ERRORS. CHANGES ARE PERIODICALLY ADDED TO THE INFORMATION HEREIN. TrustPro Claims AND/OR ITS SUPPLIERS MAY MAKE IMPROVEMENTS AND/OR CHANGES IN THE SITE AT ANY TIME.",
+                "content": "THE INFORMATION, SOFTWARE, PRODUCTS, AND SERVICES INCLUDED IN OR AVAILABLE THROUGH THE SITE MAY INCLUDE INACCURACIES OR TYPOGRAPHICAL ERRORS. CHANGES ARE PERIODICALLY ADDED TO THE INFORMATION HEREIN. TrustPro AND/OR ITS SUPPLIERS MAY MAKE IMPROVEMENTS AND/OR CHANGES IN THE SITE AT ANY TIME.",
                 "subParagraphs": [
                     {
-                        "content": "TrustPro Claims AND/OR ITS SUPPLIERS MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY, RELIABILITY, AVAILABILITY, TIMELINESS, AND ACCURACY OF THE INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS CONTAINED ON THE SITE FOR ANY PURPOSE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ALL SUCH INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS ARE PROVIDED \"AS IS\" WITHOUT WARRANTY OR CONDITION OF ANY KIND. TrustPro Claims AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THIS INFORMATION,"
+                        "content": "TrustPro AND/OR ITS SUPPLIERS MAKE NO REPRESENTATIONS ABOUT THE SUITABILITY, RELIABILITY, AVAILABILITY, TIMELINESS, AND ACCURACY OF THE INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS CONTAINED ON THE SITE FOR ANY PURPOSE. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ALL SUCH INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS ARE PROVIDED \"AS IS\" WITHOUT WARRANTY OR CONDITION OF ANY KIND. TrustPro AND/OR ITS SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THIS INFORMATION,"
                     },
                     {
                         "content": "SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS, INCLUDING ALL IMPLIED WARRANTIES OR CONDITIONS OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT."
                     },
                     {
-                        "content": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL TrustPro Claims AND/OR ITS SUPPLIERS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF USE, DATA OR PROFITS, ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OR PERFORMANCE OF THE SITE, WITH THE DELAY OR INABILITY TO USE THE SITE OR RELATED SERVICES, THE PROVISION OF OR FAILURE TO PROVIDE SERVICES, OR FOR ANY INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS OBTAINED THROUGH THE SITE, OR OTHERWISE ARISING OUT OF THE USE OF THE SITE, WHETHER BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE, EVEN IF TrustPro Claims OR ANY OF ITS SUPPLIERS HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. IF YOU ARE DISSATISFIED WITH ANY PORTION OF THE SITE, OR WITH ANY OF THESE TERMS OF USE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING THE SITE."
+                        "content": "TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL TrustPro AND/OR ITS SUPPLIERS BE LIABLE FOR ANY DIRECT, INDIRECT, PUNITIVE, INCIDENTAL, SPECIAL, CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF USE, DATA OR PROFITS, ARISING OUT OF OR IN ANY WAY CONNECTED WITH THE USE OR PERFORMANCE OF THE SITE, WITH THE DELAY OR INABILITY TO USE THE SITE OR RELATED SERVICES, THE PROVISION OF OR FAILURE TO PROVIDE SERVICES, OR FOR ANY INFORMATION, SOFTWARE, PRODUCTS, SERVICES AND RELATED GRAPHICS OBTAINED THROUGH THE SITE, OR OTHERWISE ARISING OUT OF THE USE OF THE SITE, WHETHER BASED ON CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE, EVEN IF TrustPro OR ANY OF ITS SUPPLIERS HAS BEEN ADVISED OF THE POSSIBILITY OF DAMAGES. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU. IF YOU ARE DISSATISFIED WITH ANY PORTION OF THE SITE, OR WITH ANY OF THESE TERMS OF USE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE USING THE SITE."
                     }
                 ]
             },
             {
                 "title": "Termination/Access Restriction",
-                "content": "TrustPro Claims reserves the right, in its sole discretion, to terminate your access to the Site and the related services or any portion thereof at any time, without notice. To the maximum extent permitted by law, this agreement is governed by the laws of the State of North Carolina and you hereby consent to the exclusive jurisdiction and venue of courts in North Carolina in all disputes arising out of or relating to the use of the Site. Use of the Site is unauthorized in any jurisdiction that does not give effect to all provisions of these Terms, including, without limitation, this section.",
+                "content": "TrustPro reserves the right, in its sole discretion, to terminate your access to the Site and the related services or any portion thereof at any time, without notice. To the maximum extent permitted by law, this agreement is governed by the laws of the State of North Carolina and you hereby consent to the exclusive jurisdiction and venue of courts in North Carolina in all disputes arising out of or relating to the use of the Site. Use of the Site is unauthorized in any jurisdiction that does not give effect to all provisions of these Terms, including, without limitation, this section.",
                 "subParagraphs": [
                     {
-                        "content": "You agree that no joint venture, partnership, employment, or agency relationship exists between you and TrustPro Claims as a result of this agreement or use of the Site. TrustPro Claims's performance of this agreement is subject to existing laws and legal process, and nothing contained in this agreement is in derogation of TrustPro Claims's right to comply with governmental, court and law enforcement requests or requirements relating to your use of the Site or information provided to or gathered by TrustPro Claims with respect to such use. If any part of this agreement is determined to be invalid or unenforceable pursuant to applicable law including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of the agreement shall continue in effect."
+                        "content": "You agree that no joint venture, partnership, employment, or agency relationship exists between you and TrustPro as a result of this agreement or use of the Site. TrustPro's performance of this agreement is subject to existing laws and legal process, and nothing contained in this agreement is in derogation of TrustPro's right to comply with governmental, court and law enforcement requests or requirements relating to your use of the Site or information provided to or gathered by TrustPro with respect to such use. If any part of this agreement is determined to be invalid or unenforceable pursuant to applicable law including, but not limited to, the warranty disclaimers and liability limitations set forth above, then the invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision and the remainder of the agreement shall continue in effect."
                     },
                     {
-                        "content": "Unless otherwise specified herein, this agreement constitutes the entire agreement between the user and TrustPro Claims with respect to the Site and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral or written, between the user and TrustPro Claims with respect to the Site. A printed version of this agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. It is the express wish to the parties that this agreement and all related documents be written in English."
+                        "content": "Unless otherwise specified herein, this agreement constitutes the entire agreement between the user and TrustPro with respect to the Site and it supersedes all prior or contemporaneous communications and proposals, whether electronic, oral or written, between the user and TrustPro with respect to the Site. A printed version of this agreement and of any notice given in electronic form shall be admissible in judicial or administrative proceedings based upon or relating to this agreement to the same extent and subject to the same conditions as other business documents and records originally generated and maintained in printed form. It is the express wish to the parties that this agreement and all related documents be written in English."
                     }
                 ]
             },
             {
                 "title": "Changes to Terms",
-                "content": "TrustPro Claims reserves the right, in its sole discretion, to change the Terms under which www.trustproclaims.com is offered. The most current version of the Terms will supersede all previous versions. TrustPro Claims encourages you to periodically review the Terms to stay informed of our updates."
+                "content": "TrustPro reserves the right, in its sole discretion, to change the Terms under which www.trustproclaims.com is offered. The most current version of the Terms will supersede all previous versions. TrustPro encourages you to periodically review the Terms to stay informed of our updates."
             },
             {
                 "title": "Contact Us",
-                "content": "TrustPro Claims welcomes your questions or comments regarding the Terms:"
+                "content": "TrustPro welcomes your questions or comments regarding the Terms:"
             }
         ]
     },
     "privacyPolicy": {
         "title": "Privacy Policy",
-        "content": "Protecting your private information is our priority. This Statement of Privacy applies to www.trustproclaims.com, and TrustPro Claims and governs data collection and usage. By using the TrustPro Claims website, you consent to the data practices described in this statement.",
+        "content": "Protecting your private information is our priority. This Statement of Privacy applies to www.trustproclaims.com, and TrustPro and governs data collection and usage. By using the TrustPro website, you consent to the data practices described in this statement.",
         "_comment (internal use only)": "The following is completely dynamic, this means that you can add and remove sections, titles and content as you please and the page will handle it automatically.",
         "sections": [
             {
                 "title": "Collection of Personal Information",
-                "content": "In order to better provide you with products and services offered, TrustPro Claims may collect personally identifiable information, such as your:",
+                "content": "In order to better provide you with products and services offered, TrustPro may collect personally identifiable information, such as your:",
                 "bullets": [
                     {
                         "content": "First and Last Name"
@@ -481,28 +481,28 @@
             },
             {
                 "title": "Use of Personal Information",
-                "content": "TrustPro Claims collects and uses your personal information to operate and deliver the services you have requested.",
+                "content": "TrustPro collects and uses your personal information to operate and deliver the services you have requested.",
                 "subParagraphs": [
                     {
-                        "content": "TrustPro Claims may also use your personally identifiable information to inform you of other products or services available from TrustPro Claims and its affiliates."
+                        "content": "TrustPro may also use your personally identifiable information to inform you of other products or services available from TrustPro and its affiliates."
                     }
                 ]
             },
             {
                 "title": "Sharing Information with Third Parties",
-                "content": "TrustPro Claims does not sell, rent, or lease its customer lists to third parties.",
+                "content": "TrustPro does not sell, rent, or lease its customer lists to third parties.",
                 "subParagraphs": [
                     {
-                        "content": "TrustPro Claims may share data with trusted partners to help perform statistical analysis, send you email or postal mail, provide customer support, or arrange for deliveries. All such third parties are prohibited from using your personal information except to provide these services to TrustPro Claims, and they are required to maintain the confidentiality of your information."
+                        "content": "TrustPro may share data with trusted partners to help perform statistical analysis, send you email or postal mail, provide customer support, or arrange for deliveries. All such third parties are prohibited from using your personal information except to provide these services to TrustPro, and they are required to maintain the confidentiality of your information."
                     },
                     {
-                        "content": "TrustPro Claims may disclose your personal information, without notice, if required to do so by law or in the good faith belief that such action is necessary to: (a) conform to the edicts of the law or comply with legal process served on TrustPro Claims or the site; (b) protect and defend the rights or property of TrustPro Claims; and/or (c) act under exigent circumstances to protect the personal safety of users of TrustPro Claims, or the public."
+                        "content": "TrustPro may disclose your personal information, without notice, if required to do so by law or in the good faith belief that such action is necessary to: (a) conform to the edicts of the law or comply with legal process served on TrustPro or the site; (b) protect and defend the rights or property of TrustPro; and/or (c) act under exigent circumstances to protect the personal safety of users of TrustPro, or the public."
                     }
                 ]
             },
             {
                 "title": "Automatically Collected Information",
-                "content": "Information about your computer hardware and software may be automatically collected by TrustPro Claims. This information includes your IP address, browser type, domain names, access times, and referring website addresses. It is used for the operation of the service, to maintain service quality, and to provide general statistics regarding the use of the TrustPro Claims website."
+                "content": "Information about your computer hardware and software may be automatically collected by TrustPro. This information includes your IP address, browser type, domain names, access times, and referring website addresses. It is used for the operation of the service, to maintain service quality, and to provide general statistics regarding the use of the TrustPro website."
             },
             {
                 "title": "Right to Deletion",
@@ -552,26 +552,26 @@
             },
             {
                 "title": "Children Under Thirteen",
-                "content": "TrustPro Claims does not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must ask your parent or guardian for permission to use this website."
+                "content": "TrustPro does not knowingly collect personally identifiable information from children under the age of thirteen. If you are under the age of thirteen, you must ask your parent or guardian for permission to use this website."
             },
             {
                 "title": "E-mail Communications",
-                "content": "From time to time, TrustPro Claims may contact you via email for the purpose of providing announcements, promotional offers, alerts, confirmations, surveys, and/or other general communication."
+                "content": "From time to time, TrustPro may contact you via email for the purpose of providing announcements, promotional offers, alerts, confirmations, surveys, and/or other general communication."
             },
             {
                 "title": "Changes to this Statement",
-                "content": "TrustPro Claims reserves the right to change this Privacy Policy from time to time. Significant changes will be notified to you through email or a prominent notice on the website. Your continued use of the website and/or services after such modifications will constitute your acknowledgment and agreement to abide by the modified Privacy Policy."
+                "content": "TrustPro reserves the right to change this Privacy Policy from time to time. Significant changes will be notified to you through email or a prominent notice on the website. Your continued use of the website and/or services after such modifications will constitute your acknowledgment and agreement to abide by the modified Privacy Policy."
             },
             {
                 "title": "Contact Information",
-                "content": "TrustPro Claims welcomes your questions or comments regarding this Statement of Privacy. If you believe that TrustPro Claims has not adhered to this Statement, please contact TrustPro Claims at:"
+                "content": "TrustPro welcomes your questions or comments regarding this Statement of Privacy. If you believe that TrustPro has not adhered to this Statement, please contact TrustPro at:"
             }
         ]
     },
     "contactUsTermsPrivacy": {
         "_comment (internal use only)": "This is a shared contact us section for the terms of use and the privacy policy",
         "mailingAddress": [
-            "TrustPro Claims",
+            "TrustPro",
             "PO Box 29753",
             "Charlotte, North Carolina 28229"
         ],
@@ -602,6 +602,6 @@
         "linkSixText":"About",
         "linkSevenText":"Terms of Use",
         "linkEightText":"Privacy Policy",
-        "copyright": "Copyright \u00A9 2023 TrustPro Claims - All Rights Reserved"
+        "copyright": "Copyright \u00A9 2023 TrustPro - All Rights Reserved"
     }
 }

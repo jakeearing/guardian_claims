@@ -19,7 +19,7 @@ export default function Header() {
     };
 
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1000);
+      setIsMobile(window.innerWidth <= 1200);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -58,7 +58,7 @@ export default function Header() {
       <div className="header-content">
         <div className="logo">
           <Link to="/">
-            <img src={logoSrc} alt="TrustPro Claims Logo" />
+            <img src={logoSrc} alt="TrustPro Logo" />
           </Link>
         </div>
         {isMobile && (
