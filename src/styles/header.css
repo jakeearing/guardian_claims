@@ -97,10 +97,6 @@ header nav li:not(.wrap-text) a {
 
 
 @media screen and (max-width: 1300px) {
-  .header {
-    height: 55px;
-  }
-
   .header-content {
     flex-direction: column;
     align-items: center;
@@ -167,7 +163,7 @@ header nav li:not(.wrap-text) a {
     height: fit-content;
     width: fit-content;
     right: 18px;
-    top: 18px;
+    top: 28px;
     background-color: transparent;
     border: none;
   }
