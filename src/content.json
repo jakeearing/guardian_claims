@@ -590,7 +590,7 @@
         "linkTwoText":"Residential",
         "linkThreeText":"Commercial",
         "linkFourText":"Contractors & Associations",
-        "linkFiveText":"Claims Portal",
+        "linkFiveText":"Contact Us",
         "linkSixText":"About"
     },
     "footer": {
@@ -598,7 +598,7 @@
         "linkTwoText":"Residential",
         "linkThreeText":"Commercial",
         "linkFourText":"Contractors",
-        "linkFiveText":"Claims Portal",
+        "linkFiveText":"Contact Us",
         "linkSixText":"About",
         "linkSevenText":"Terms of Use",
         "linkEightText":"Privacy Policy",
