@@ -89,7 +89,7 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
+                  <Link to="/contact-us" className={!isSplashPage ? 'active' : ''}>
                   {content.header.linkFiveText}
                   </Link>
                 </li>
@@ -131,7 +131,7 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link to="/claim" className={!isSplashPage ? 'active' : ''}>
+                <Link to="/contact-us" className={!isSplashPage ? 'active' : ''}>
                 {content.header.linkFiveText}
                 </Link>
               </li>
