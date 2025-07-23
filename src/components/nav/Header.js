@@ -89,13 +89,13 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/contact-us" className={!isSplashPage ? 'active' : ''}>
-                  {content.header.linkFiveText}
+                  <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
+                  {content.header.linkSixText}
                   </Link>
                 </li>
                 <li>
-                  <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
-                  {content.header.linkSixText}
+                  <Link to="/contact-us" className={!isSplashPage ? 'active' : ''}>
+                  {content.header.linkFiveText}
                   </Link>
                 </li>
                 <div>
@@ -131,13 +131,13 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link to="/contact-us" className={!isSplashPage ? 'active' : ''}>
-                {content.header.linkFiveText}
+                <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
+                {content.header.linkSixText}
                 </Link>
               </li>
               <li>
-                <Link to="/about-us" className={!isSplashPage ? 'active' : ''}>
-                {content.header.linkSixText}
+                <Link to="/contact-us" className={!isSplashPage ? 'active' : ''}>
+                {content.header.linkFiveText}
                 </Link>
               </li>
             </ul>

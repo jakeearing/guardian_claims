@@ -19,9 +19,9 @@ export default function Footer() {
               <li><Link to="/">{content.footer.linkOneText}</Link></li>
               <li><Link to="/contractors">{content.footer.linkTwoText}</Link></li>
               <li><Link to="/residential">{content.footer.linkThreeText}</Link></li>
-              <li><Link to="/contact-us">{content.footer.linkFourText}</Link></li>
               <li><Link to="/commercial">{content.footer.linkFiveText}</Link></li>
               <li><Link to="/about-us">{content.footer.linkSixText}</Link></li>
+              <li><Link to="/contact-us">{content.footer.linkFourText}</Link></li>
             </ul>
           </nav>
         </div>
